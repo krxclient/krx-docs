@@ -14,15 +14,15 @@ layout:
     visible: true
 ---
 
-# Welcome  
+# Добро пожаловать 
 
-Welcome to the official **KRX Client** wiki!  
+Добро пожаловать в официальную вики **KRX Client**!
+  
+## О программе 
 
-## About  
+**KRX Client** — Это ваш незаменимый инструмент, созданный для улучшения игрового опыта. В этом руководстве вы найдете описание всех функций и настроек, которые помогут вам извлечь максимальную пользу из каждой версии KRX — **Free**, **Premium** и **Ultimate**.
 
-**KRX Client** your ultimate tool designed to enhance your gaming experience. These docs will walk you through all the features and settings to get most out of each version of KRX - **Free**, **Premium** and **Ultimate**  
-
-### Jump right in
+### Начнем!
 
 <table data-view="cards">
   <thead>
