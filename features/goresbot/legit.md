@@ -9,7 +9,7 @@ The **Legit** bot in KRX Client focuses on providing assistance while maintainin
 ---
 
 ## **Screenshot**
-![Legit Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/legit-menu.png)
+![Legit Menu - Recommended Settings](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/legit-menu.png)
 
 ---
 

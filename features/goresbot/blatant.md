@@ -9,7 +9,7 @@ The **Blatant** Gores bot in KRX Client is expertly designed to help you tackle 
 ---
 
 ## **Screenshot**
-![Blatant Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/blatant-menu.png)
+![Blatant Menu - Recommended Settings](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/blatant-menu.png)
 
 ---
 
