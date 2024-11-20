@@ -4,7 +4,7 @@ icon: eye
 
 # Legit ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
 The **Legit** bot in KRX Client focuses on providing assistance while maintaining a natural playstyle, perfect for users who prefer subtle enhancements.  
-*Note: When using avoid bots, please use a higher `cl_prediction_margin` refer to [settings](settings.md) and choose pred margin based on ping*
+*Note: When using avoid bots, please use a higher `cl_prediction_margin` refer to [settings](../settings.md) and choose pred margin based on ping*
 
 ---
 
