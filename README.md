@@ -1,4 +1,18 @@
 ---
+icon: crosshairs
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
 
 # Hoş geldiniz  
 
