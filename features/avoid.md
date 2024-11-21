@@ -4,51 +4,49 @@ icon: shield
 
 # Gores Bot
 
-The **Avoid** tab, exclusive to the Ultimate version of KRX Client, provides advanced versions of Gores Bots to help you avoid freezing.  
-*Note: When using avoid bots, please use a higher `cl_prediction_margin` refer to [settings](settings.md) and choose pred margin based on ping*
+La pestaña **Avoid**, exclusiva de la versión Ultimate del cliente KRX, ofrece versiones avanzadas de Gores Bots para ayudarte a evitar el freeze.  
+*Nota: Al usar bots de avoid, por favor usa un valor mayor de `cl_prediction_margin`. Consulta [settings](settings.md) para elegir el margen de predicción adecuado según tu ping.*
 
 ---
 
-## **Screenshot**
-![Avoid Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/avoid-menu.png)
+## **Captura de pantalla**
+![Menú Avoid](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/avoid-menu.png)
 
 ---
 
-## **Gores Bot Types**
-In KRX, there are 4 types of Gores Bots, each working a little differently from the others:
-1. **Basic**  
+## **Tipos de Gores Bot**
+En KRX, existen 4 tipos de Gores Bots, cada uno funciona de manera ligeramente diferente:
+1. **Básico**  
 2. **[Legit](goresbot/legit.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
 3. **[Blatant](goresbot/blatant.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
 4. **[Fentbot](goresbot/fentbot.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
 
 ---
 
-## **Basic Gores Bot**
-The basic Gores Bot included with the free and premium version has no configurable settings and only uses directional keys for movement.  
-Overall, it’s a simple bot meant for basic use.
+## **Gores Bot Básico**
+El Gores Bot básico, incluido en las versiones gratuita y premium, no tiene configuraciones y solo utiliza las teclas de dirección para moverse.  
+En general, es un bot simple diseñado para uso básico.
 
 ---
 
-## **Legit Gores Bot** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The Legit Bot is best for players who want to look legit while avoiding freeze. It avoids freezing with minimal changes to your inputs and allows for some configuration.  
-This bot can fail and partially depends on the skill of the user, which is part of what makes it "legit." However, it may cause a drop in FPS on some systems.  
+## **Gores Bot Legit** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+El Legit Bot es ideal para jugadores que quieren parecer legítimos mientras evitan el freeze. Evita el freeze con cambios mínimos en tus inputs y permite algunas configuraciones.  
+Este bot puede fallar y depende parcialmente de la habilidad del usuario, lo que lo hace "legítimo". Sin embargo, puede causar una disminución de FPS en algunos sistemas.  
 
-For more details, see [Legit Gores Bot](goresbot/legit.md).
+Para más detalles, consulta [Legit Gores Bot](goresbot/legit.md).
 
 ---
 
-## **Blatant Gores Bot** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The Blatant Gores Bot is perfect for anyone who doesn’t want to fail and wants to easily complete even the hardest Gores maps. It’s very easy to configure.  
-One of the advantages of the Blatant Bot is that it keeps your tee safe above everything else. You can configure settings like aiming, limiting inputs, and how much the bot predicts based on your preferences.  
+## **Gores Bot Blatant** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+El Gores Bot Blatant es perfecto para quienes no quieren fallar y buscan completar fácilmente incluso los mapas de Gores más difíciles. Es muy fácil de configurar.  
+Una de las ventajas del Blatant Bot es que prioriza mantener a tu tee seguro sobre cualquier otra cosa. Puedes configurar opciones como la puntería, limitar inputs y cuánto predice el bot según tus preferencias.  
 
-For more details, see [Blatant Gores Bot](goresbot/blatant.md).
+Para más detalles, consulta [Blatant Gores Bot](goresbot/blatant.md).
 
 ---
 
 ## **Fentbot** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The Fentbot (fentanyl-themed bot) is best for advanced users. It’s a kind of auto-TAS bot that finds inputs using pathfinding to complete maps.  
-This bot focuses solely on following its path, so it might fail or perform sub-optimal moves at times. It is highly configurable and runs asynchronously, so while you play the map this bot finds inputs to complete it. It’s best used on KoG maps.  
+El Fentbot (bot temático de fentanilo) es ideal para usuarios avanzados. Es un tipo de auto-TAS bot que encuentra inputs usando pathfinding para completar mapas.  
+Este bot se enfoca únicamente en seguir su camino, por lo que podría fallar o realizar movimientos subóptimos en ocasiones. Es altamente configurable y funciona de manera asincrónica, por lo que mientras juegas el mapa, este bot encuentra inputs para completarlo. Es mejor utilizarlo en mapas de KoG.  
 
-For more details, see [Fentbot](goresbot/fentbot.md).
-
----
+Para más detalles, consulta [Fentbot](goresbot/fentbot.md).
