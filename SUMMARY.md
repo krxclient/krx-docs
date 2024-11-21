@@ -3,7 +3,7 @@
 * [Bienvenido](README.md)
 * [Preguntas Frecuentes (FAQ)](faq.md)
 
-## Empezando
+## Empezar
 
 * [Guía rápida](getting-started/quickstart.md)
 * [Instalación](getting-started/installation.md)
