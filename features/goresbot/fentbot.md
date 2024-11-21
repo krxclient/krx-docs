@@ -3,44 +3,44 @@ icon: robot
 ---
 
 # Fent Bot ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The **Fent Bot** tab in KRX Client provides advanced tool for automating via pathfinding and tunneling.  
-*Note: When using avoid bots, please use a higher `cl_prediction_margin` refer to [settings](../settings.md) and choose pred margin based on ping*
+La pestaña **Fent Bot** en KRX Client ofrece una herramienta avanzada para automatizar mediante búsqueda de caminos y túneles.  
+*Nota: Al usar bots de evitación, por favor utiliza un `cl_prediction_margin` más alto. Consulta [configuración](../settings.md) y elige el margen de predicción según tu ping.*
 
 ---
 
-## **Screenshot**
+## **Captura de pantalla**
 ![Fent Bot Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/fentbot-menu.png)
 
 ---
 
-## **Avoid**
-- **Player Prediction**: Enables prediction of other players movements.
-- **Advanced Settings**: Unlocks advanced customization options for the bot's behavior.
-- **Use Skibidiforce**: Activates the Skibidiforce algorithm for advanced pathfinding.
-  - **Skibidiforce Depth**: Configures the depth of Skibidiforce calculations.
-- **Fent Ticks**: Defines the tick duration for fent-based pathfinding.
-- **Tweaker Inputs**: Number of tweaker inputs.
-- **Tweaker Ticks**: Adjusts the tick duration for tweaker inputs.
-- **Inject Fent**: A one-click action to start scanning.  
+## **Evitación**
+- **Predicción de Jugadores**: Habilita la predicción de los movimientos de otros jugadores.
+- **Configuraciones Avanzadas**: Desbloquea opciones avanzadas de personalización para el comportamiento del bot.
+- **Usar Skibidiforce**: Activa el algoritmo Skibidiforce para una búsqueda de caminos avanzada.
+  - **Profundidad de Skibidiforce**: Configura la profundidad de los cálculos de Skibidiforce.
+- **Fent Ticks**: Define la duración del tick para la búsqueda de caminos basada en fent.
+- **Entradas de Tweaker**: Número de entradas de tweaker.
+- **Tweaker Ticks**: Ajusta la duración del tick para las entradas de tweaker.
+- **Inyectar Fent**: Una acción de un solo clic para comenzar el escaneo.
 
-## **Misc**
-- **Skibidiforce Aim Points**: Configures the number of aim points used by Skibidiforce.
-- **Render Path**: Displays the calculated path visually.
-- **Render Tunnels**: Highlights tunnels used for pathfinding.
-- **Spectate Scan**: Allows spectating the progress scan during scanning.  
-- **Tunnel Editor**: Provides a UI for customizing tunnels manually.
-- **Auto Tunnels**: Automatically generates tunnels for optimized movement from a loaded replay.
-- **Tunnel Width**: Adjusts the width of auto-generated tunnels.
-- **Clear Tunnels**: Removes all tunnels.
+## **Varios**
+- **Puntos de Apunte Skibidiforce**: Configura el número de puntos de apunte utilizados por Skibidiforce.
+- **Renderizar Camino**: Muestra visualmente el camino calculado.
+- **Renderizar Túneles**: Destaca los túneles utilizados para la búsqueda de caminos.
+- **Escanear en Espectador**: Permite observar el progreso del escaneo durante el proceso de escaneo.
+- **Editor de Túneles**: Proporciona una interfaz para personalizar túneles manualmente.
+- **Túneles Automáticos**: Genera automáticamente túneles para movimiento optimizado desde un replay cargado.
+- **Ancho de Túneles**: Ajusta el ancho de los túneles generados automáticamente.
+- **Borrar Túneles**: Elimina todos los túneles.
 
 ---
 
-## **Configuration**
-- Most times using the default settings provided by KRX is enough. Here's a possible configuration for more advanced users with good CPUs:
-- **Player Prediction**: OFF
-- **Advanced Settings**: ON
-- **Use Skibidiforce**: ON
-- **Skibidiforce Depth**: 4
+## **Configuración**
+- En la mayoría de los casos, usar la configuración predeterminada proporcionada por KRX es suficiente. Aquí tienes una configuración posible para usuarios más avanzados con buenos CPUs:
+- **Predicción de Jugadores**: DESACTIVADO
+- **Configuraciones Avanzadas**: ACTIVADO
+- **Usar Skibidiforce**: ACTIVADO
+- **Profundidad de Skibidiforce**: 4
 - **Fent Ticks**: 1000
-- **Tweaker Inputs**: maximum
+- **Entradas de Tweaker**: máximo
 - **Tweaker Ticks**: 4-8
