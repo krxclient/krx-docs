@@ -42,13 +42,13 @@ No ejecutaste el comando `/showall`. Ejecútalo en la consola del juego.
 
 ## Solución de Problemas
 
-### **Why do I fail with a blatant config?**
+### **¿Por qué fallo con una configuración blatant?**
 Asegúrate de que tu configuración coincida con los ajustes recomendados. Si el problema persiste:
 1. Usa el comando `cl_prediction_margin 20`.
 2. Aumenta gradualmente el valor hasta 300 según tu ping.
 
 ### **¿Cómo puedo evitar bans?**
-Evita usar configuraciones flagrantes. Usa configuraciones legítimas compartidas por miembros en Discord. Ajusta las configuraciones según tu estilo de juego.
+Evita usar configuraciones blatant. Usa configuraciones legítimas compartidas por miembros en Discord. Ajusta las configuraciones según tu estilo de juego.
 
 ---
 
