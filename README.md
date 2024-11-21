@@ -29,7 +29,7 @@ layout:
     <tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>Comenzando</strong></td><td>Guía rápida</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr>
+    <tr><td><strong>Comenzar</strong></td><td>Guía rápida</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr>
     <tr><td><strong>Características</strong></td><td>Explora las características principales</td><td></td><td></td><td><a href="features/aimbot.md">aimbot.md</a></td></tr>
   </tbody>
 </table>
