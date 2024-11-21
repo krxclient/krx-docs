@@ -2,97 +2,97 @@
 icon: stopwatch
 ---
 
-# TAS (Tool-Assisted Speedrun) ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+# TAS (Скоростное прохождение с помощью инструментов) ![Максимум](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
 
-The **TAS** tab in the KRX Client Ultimate version is a beta feature designed for advanced tool-assisted gameplay, enabling precise and repeatable inputs.  
-For the smoothest TAS experience, we recommend using the `/showall` command upon joining a server.  
-*Note: This feature is currently under rework, and its functionality may change in the future.*
+Вкладка **TAS** в версии KRX Клиента Максимум — это бета-функция, разработанная для расширенного игрового процесса с использованием инструментов, обеспечивающая точные и повторяемые вводы.
+Для максимально плавного использования TAS мы рекомендуем использовать команду `/showall` при присоединении к серверу.
+*Примечание: эта функция в настоящее время находится в стадии переработки, и ее функциональность может измениться в будущем.*
 
 ---
 
-## **Screenshot**
-![TAS Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/tas-menu.png)
+## **Скриншот**
+![TAS Меню](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/tas-menu.png)
 
 ---
 ## **TAS**
-- **Enable**: Activates TAS and teleports you to the TAS world.  
-- **TPS (Ticks Per Second)**: Adjusts the tick rate for tool-assisted inputs (default TPS for Teeworlds: 50).  
-- **Dummy Replay**: Enables dummy support in TAS mode.  
-- **Player Prediction**: Adds other players to the TAS world.  
-- **Ignore Start Warnings**: Suppresses warning messages at the beginning of TAS.  
-- **Stop Mouse When Paused**: Disables mouse input when TAS is paused, allowing for legitimate runs.  
-- **Use Rewind Input**: Sets mouse input to match rewinded input for more realistic replays.  
-- **Show Real Aim**: Displays the actual aiming direction during TAS replay.
+- **Enable**: Активирует ТАС и телепортирует вас в мир ТАС.  
+- **TPS (Тики в секунду)**: Регулирует частоту тиков для ввода с помощью инструментов (значение TPS по умолчанию для Teeworlds: 50).  
+- **Dummy Replay**: Включает поддержку фиктивных устройств в режиме TAS.  
+- **Player Prediction**: Добавляет других игроков в мир TAS.  
+- **Ignore Start Warnings**: Игнорирует предупреждающие сообщения в начале TAS.  
+- **Stop Mouse When Paused**: Отключает ввод с помощью мыши, когда TAS приостановлен, что позволяет выполнять легитные прохождения.  
+- **Use Rewind Input**: Устанавливает ввод мыши в соответствии с перемоткой для более реалистичных повторов.  
+- **Show Real Aim**: Отображает настоящее направление прицеливания во время воспроизведения TAS.
 
 ---
 
-## **Tools**
-- **Auto Rewind**: Automatically rewinds to the last safe tick before freezing.  
-- **Auto Forward**: Automatically forwards to the first tick before unfreezing.  
-- **Rewind Ticks**: Sets the number of ticks to rewind (default: 1 tick).  
-- **Forward Ticks**: Sets the number of ticks to forward (default: 1 tick).  
-- **Pause**: Pauses TAS after auto-rewinding or auto-forwarding.  
-- **Step**: Rewinds or forwards by exactly one tick, enabling precise movement selection for each tick.
+## **Инструменты**
+- **Auto Rewind**: Автоматически перематывает на последний безопасный тик перед заморозкой.  
+- **Auto Forward**: Автоматически переходит к первому тику перед разморозкой.  
+- **Rewind Ticks**: Устанавливает количество тактов для перемотки (по умолчанию: 1 тик).  
+- **Forward Ticks**: Устанавливает количество тактов для пересылки (по умолчанию: 1 тик).  
+- **Pause**: Приостанавливает TAS после автоматической перемотки назад или вперед.  
+- **Step**: Перематывает назад или вперед ровно на один тик, позволяя точно выбирать движение для каждого тика.
 
 ---
 
-## **Fake Aim**
-- **Enable**: Activates fake aim mode for deceptive targeting.  
-- **Mode**: Selects the type of fake aim (e.g., Robot Aim).
+## **Фейк Аим**
+- **Enable**: Активирует режим ложного прицеливания для обманного наведения.  
+- **Mode**: Выбирает тип ложного прицеливания (например, «Robot Aim»).
 
 ---
 
-## **Auto Replay**
-- **Enable**: Automatically loads and restarts replays.  
-- **Reset on Freeze**: Restarts the replay when freezing occurs.  
-- **Kill on Reset**: Kills the player when the replay ends.
+## **Авто Перезапуск**
+- **Enable**: Автоматически загружает и перезапускает повторы.  
+- **Reset on Freeze**: Перезапускает воспроизведение при возникновении зависания.  
+- **Kill on Reset**: Убивает игрока по окончании повтора.
 
 ---
 
-## **God Mode**
-- **Super**: Toggles the RCON command `super` in the TAS world.  
-- **Weapon**: Allows you to give yourself a weapon (except Ninja due to known issues).  
-- **Give Weapon**: Grants the selected weapon.
+## **Режим Бога**
+- **Super**: Переключает команду RCON `super` в мире TAS.  
+- **Weapon**: Позволяет вам дать себе оружие (кроме Ниндзя из-за неизвестных проблем).  
+- **Give Weapon**: Предоставляет выбранное оружие.
 
 ---
 
 ## **Hotkeys**
-- **Enable TAS**: Assigns a key to activate TAS.  
-- **Record Replay**: Assigns a key to start recording a replay.  
-- **Load Replay**: Assigns a key to load a replay.  
-- **Respawn TAS**: Assigns a key to respawn in TAS mode.  
-- **Pause TAS**: Assigns a key to pause TAS.  
-- **Rewind TAS**: Assigns a key to rewind during TAS.  
-- **Forward TAS**: Assigns a key to forward during TAS.
+- **Enable TAS**: Назначает клавишу для активации TAS.  
+- **Record Replay**: Назначает клавишу для начала записи повтора.  
+- **Load Replay**: Назначает клавишу для загрузки повтора.  
+- **Respawn TAS**: Назначает клавишу для возрождения в режиме TAS.  
+- **Pause TAS**: Назначает клавишу для приостановки TAS.  
+- **Rewind TAS**: Назначает клавишу для перемотки назад во время TAS.  
+- **Forward TAS**: Назначает клавишу для пересылки во время TAS.
 
 ---
 
-## **Additional Options**
-- **Replays Folder**: Opens the folder where TAS replays are stored.  
-- **Load/Save**: Loads or saves replays.  
-- **Continue**: Resumes playback from the last tick of a selected replay.  
-- **Custom Name Field**: Saves replays with a custom name (e.g., `my_tas`).  
+## **Прочие функции**
+- **Replays Folder**: Открывает папку, в которой хранятся повторы TAS.  
+- **Load/Save**: Загружает или сохраняет повторы.  
+- **Continue**: Возобновляет воспроизведение с последнего тика выбранного повтора.  
+- **Custom Name Field**: Сохраняет повторы под пользовательским именем (например, `my_tas`). 
 
 ---
 
-## **FAQ**
-1. **Q: Why don’t I see weapons in TAS?**  
-   **A:** You didn’t run the command `/showall`.  
+## **Руководство**
+1. **В: Почему я не вижу оружия в TAS?**
+**A:** Вы не выполнили команду `/showall`.
 
-2. **Q: Why can’t I continue my run after a map change?**  
-   **A:** Unfortunately, continuing is not supported across map changes. Stop recording, join the map on a different server, and continue from there.  
+2. **В: Почему я не могу продолжить прохождение после смены карты?**
+**A:** К сожалению, продолжение не поддерживается при смене карты. Остановите запись, присоединитесь к карте на другом сервере и продолжите оттуда.
 
-3. **Q: What are these warnings like `Verify TAS Integrity failed...`?**  
-   **A:** These warnings ensure smooth TAS runs. You can usually ignore them, but they help with debugging issues—please share them with us if you encounter problems.  
+3. **В: Что это за предупреждения типа `Verify TAS Integrity failed...`?**
+**A:** Эти предупреждения обеспечивают плавный запуск TAS. Обычно их можно игнорировать, но они помогают в решении проблем отладки — пожалуйста, поделитесь ими с нами, если у вас возникнут проблемы.
 
-4. **Q: Why did my TAS fail mid-run?**  
-   **A:** TAS failures usually occur due to lag. Use the appropriate `cl_prediction_margin` setting and restart the replay from the correct starting position. Contact support if the issue persists.  
+4. **В: Почему мой TAS дал сбой во время прогона?**
+**A:** Сбои TAS обычно происходят из-за задержек. Используйте соответствующую настройку `cl_prediction_margin` и перезапустите воспроизведение с правильной начальной позиции. Обратитесь в службу поддержки, если проблема не исчезнет.
 
-5. **Q: Why can’t I move in TAS?**  
-   **A:** Most likely, TAS is paused or `krx_tasrespawn` is set to 1. Unpause TAS or run `krx_tasrespawn 0` in the console to fix this.  
+5. **В: Почему я не могу двигаться в TAS?**
+**A:** Скорее всего, TAS приостановлен или `krx_tasrespawn` установлен на 1. Снимите TAS с паузы или запустите `krx_tasrespawn 0` в консоли, чтобы исправить это.
 
-6. **Q: Why don’t I see anything when entering TAS?**  
-   **A:** You need to respawn. Use the Respawn hotkey to resolve this.  
+6. **В: Почему я ничего не вижу при входе в TAS?**
+**A:** Вам нужно возродиться. Используйте горячую клавишу возрождения, чтобы решить эту проблему.
 
-7. **Q: Why can’t I rewind or forward?**  
-   **A:** You need to start recording in TAS to use rewind or forward. If step rewind/forward is enabled, the changes may be too subtle to notice—disable it if needed.  
+7. **В: Почему я не могу перемотать назад или вперед?**
+**A:** Вам нужно начать запись в TAS, чтобы использовать перемотку назад или вперед. Если включена пошаговая перемотка назад/вперед, изменения могут быть слишком незначительными, чтобы их заметить — отключите ее, если необходимо.

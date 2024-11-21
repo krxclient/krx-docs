@@ -1,21 +1,21 @@
 # Table of contents
 
-* [Welcome](README.md)
-* [FAQ](faq.md)
+* [Добро пожаловать](README.md)
+* [Руководство](faq.md)
 
-## Getting Started
+## Начало
 
-* [Quickstart](getting-started/quickstart.md)
-* [Installation](getting-started/installation.md)
+* [Ознакомление](getting-started/quickstart.md)
+* [Установка](getting-started/installation.md)
 
 ## Features
 
-* [Aimbot](features/aimbot.md)
-* [Misc](features/misc.md)
-* [Visuals & HUD](features/visuals-hud.md)
-* [Settings](features/settings.md)
+* [Аимбот](features/aimbot.md)
+* [Прочее](features/misc.md)
+* [Визуалы & Эффекты на экране](features/visuals-hud.md)
+* [Настройки](features/settings.md)
 
-## Ultimate Features
+## Функции Ultimate
 
 * [Gores Bot](features/avoid.md)
     * [Legit](features/goresbot/legit.md)

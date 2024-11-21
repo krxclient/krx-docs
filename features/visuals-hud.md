@@ -2,67 +2,67 @@
 icon: eye
 ---
 
-# Visuals & HUD
+# Визуалы & Интерфейс
 
-The **Visuals & HUD** tab in the KRX Client allows you to enhance the visual elements of your game and customize the user interface (HUD) for better clarity, style, and gameplay precision.
-
----
-
-## **Screenshot**
-![Visuals & HUD Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/visuals-hud-menu.png)
+Вкладка **Визуальные элементы и HUD** в клиенте KRX позволяет улучшить визуальные элементы игры и настроить пользовательский интерфейс (HUD) для большей ясности, стиля и точности игрового процесса.
 
 ---
 
-## **HUD**
-- **Features HUD**: Displays a HUD with enabled features for better gameplay awareness.
-- **Avoid HUD**: Displays HUD elements with ticks, useful for debugging. ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-- **TAS HUD**: Displays a HUD with useful information for TAS (e.g., input, reload timer, jumps left, etc.). ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-
-## **Miscellaneous**
-- **Rainbow Tee**: Adds a rainbow-colored effect to your tee.
-- **Rainbow Hook**: Adds a rainbow-colored effect to your hook.
-- **Smoke Trail**: Adds a smoke trail effect behind your tee when using grenades.
-- **Rainbow Menu**: Gives the menu interface a rainbow-colored theme.
-- **Custom Theme**: Enables a custom theme for the client.
-- **Fall Prediction**: Displays a prediction line showing where the tee will land.
-
-## **KoG**
-- **Show Frozen HUD**: Displays additional HUD information about the freeze status of tees in your team.
-- **Show Ping Circle Next to Names**: Displays a ping indicator next to player names.
-- **Use Skins Instead of Ninja Tees**: Displays custom skins instead of default ninja tees (when frozen).
-- **Only Show After Joining a Team**: Displays the frozen HUD only after you’ve joined a team.
-- **Max Rows**: Adjusts the maximum number of rows shown in the HUD.
-- **Tee Size**: Adjusts the size of tee icons in the HUD.
-- **Tees Right Alive Text**: Displays the number of alive tees.
-- **Show When You Are Last**: Displays a message when you or someone from your team is the last alive.
-- **Show Cursor in Free Spectate**: Displays your cursor while in free spectate mode.
-
-## **Aim Lines**
-- **Draw Aim Lines**: Displays aim assist lines for various weapons.
-- **Self Only**: Limits aim lines to your own tee.
-- **Pistol**: Displays aim lines for pistols.
-- **Shotgun**: Displays aim lines for shotguns.
-- **Grenade**: Displays aim lines for grenades.
-- **Laser**: Displays aim lines for laser weapons.
-- **Alpha**: Adjusts the transparency of the aim lines.
-
-## **Bullet Lines**
-- **Draw Bullet Lines**: Displays bullet trajectory lines.
-- **Self Only**: Limits bullet trajectory lines to your tee.
-- **Pistol**: Displays bullet lines for pistols.
-- **Shotgun**: Displays bullet lines for shotguns.
-- **Grenade**: Displays bullet lines for grenades.
-- **Alpha**: Adjusts the transparency of the bullet lines.
+## **Скриншот**
+![Визуалы & Интерфейс](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/visuals-hud-menu.png)
 
 ---
 
-## **Configuration**
+## **Интерфейс**
+- **Features HUD**: Отображает интерфейс с включенными функциями для лучшего понимания игрового процесса.
+- **Avoid HUD**: Отображает элементы интерфейс с галочками, полезно для отладки. ![Максимум](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+- **TAS HUD**: Отображает интерфейс с полезной информацией для TAS (например, ввод, таймер перезарядки, прыжки влево и т. д.). ![Максимум](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
 
-1. Open the **Visuals & HUD** tab in the client.
-2. Customize the settings. Here are some **recommended settings**:
-   - **Features HUD**: A very useful feature to display key features that greatly impact your gameplay. **Recommended: On**.
-   - **TAS HUD**: Displays vital information when making a TAS. **Recommended: On**.
-   - **Smoke Trail**: A fun and unique visual feature. It might be distracting during casual play, but for rendering demos, it’s highly recommended. **Use as needed**.
-   - **Custom Theme**: Slightly adjusts menu colors, creating a significant visual effect. **Recommended: On** and tweak the settings for the best experience.
-   - **KoG**: For KoG gameplay, most options in this section are incredibly useful. **Recommended: Enable most settings**, then adjust according to your preferences.
-   - **Aim/Bullet Lines**: While not necessary for casual play, these are very useful for TAS or when making precise shots with weapons. **Recommended: Off for casual play**, **On for TAS or tight shots**.
+## **Прочее**
+- **Rainbow Tee**: Придает вашей футболке эффект радуги..
+- **Rainbow Hook**: Придает вашему крючку радужный эффект.
+- **Smoke Trail**: Добавляет эффект дымового следа за вашей футболкой при использовании гранат.
+- **Rainbow Menu**: Придает интерфейсу меню радужную тему.
+- **Custom Theme**: Позволяет использовать индивидуальную тему для клиента.
+- **Fall Prediction**: Отображает линию прогноза, показывающую, куда приземлится игрок.
+
+## **КоГ**
+- **Show Frozen HUD**: Отображает дополнительную информацию интерфейс о статусе заморозки игрока в вашей команде.
+- **Show Ping Circle Next to Names**: Отображает индикатор пинга рядом с именами игроков.
+- **Use Skins Instead of Ninja Tees**: Отображает пользовательские скины вместо стандартных ниндзя ти (игроки в замороженном виде).
+- **Only Show After Joining a Team**: Отображает замороженный интерфейс только после присоединения к команде.
+- **Max Rows**: Регулирует максимальное количество строк, отображаемых в интерфейсе.
+- **Tee Size**: Изменяет размер иконок игроков в интерфейс.
+- **Tees Right Alive Text**: Отображает количество активных игроков.
+- **Show When You Are Last**: Отображает сообщение, когда вы или кто-то из вашей команды остаетесь последними в живых.
+- **Show Cursor in Free Spectate**: Отображает ваш курсор в режиме свободного наблюдателя.
+
+## **Линии Аима**
+- **Draw Aim Lines**: Отображает линии помощи при прицеливании для различных видов оружия.
+- **Self Only**: Ограничивает линии прицеливания вашей собственной линией.
+- **Pistol**: Отображает линии прицеливания для пистолетов.
+- **Shotgun**: Отображает линии прицеливания для дробовиков.
+- **Grenade**: Отображает линии прицеливания для гранат.
+- **Laser**: Отображает линии прицеливания для лазерного оружия.
+- **Alpha**: Регулирует прозрачность линий прицеливания.
+
+## **Линии Пуль**
+- **Draw Bullet Lines**: Отображает линии траектории полета пули.
+- **Self Only**: Ограничивает траекторию полета пули вашей линией.
+- **Pistol**: Отображает линии пуль для пистолетов.
+- **Shotgun**: Отображает линии пуль для дробовиков.
+- **Grenade**: Отображает линии пуль для гранат.
+- **Alpha**: Регулирует прозрачность линий.
+
+---
+
+## **Конфигурация**
+
+1. Откройте вкладку **Эффекты и Интерфейс** в клиенте.
+2. Настройте параметры. Вот некоторые **рекомендуемые настройки**:
+   - **Features HUD**: Очень полезная функция для отображения ключевых особенностей, которые существенно влияют на ваш игровой процесс. **Рекомендуется: Вкл.**.
+   - **TAS HUD**: Отображает важную информацию при создании TAS. **Рекомендуется: Вкл.**.
+   - **Smoke Trail**: Забавная и уникальная визуальная функция. Она может отвлекать во время обычной игры, но для рендеринга демонстраций она настоятельно рекомендуется. **Используйте по мере необходимости**.
+   - **Custom Theme**: Слегка регулирует цвета меню, создавая значительный визуальный эффект. **Рекомендуется: Вкл.** и настройте параметры для наилучшего восприятия.
+   - **KoG**: Для игрового процесса KoG большинство опций в этом разделе невероятно полезны. **Рекомендуется: включить большинство настроек**, а затем настроить в соответствии со своими предпочтениями.
+   - **Aim/Bullet Lines**: Хотя они не являются необходимыми для повседневной игры, они очень полезны для TAS или при выполнении точных выстрелов из оружия. **Рекомендуется: выкл. для повседневной игры**, **вкл. для TAS или точных выстрелов**.

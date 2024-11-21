@@ -2,48 +2,48 @@
 icon: eye
 ---
 
-# Legit ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The **Legit** bot in KRX Client focuses on providing assistance while maintaining a natural playstyle, perfect for users who prefer subtle enhancements.  
-*Note: When using avoid bots, please use a higher `cl_prediction_margin` refer to [settings](../settings.md) and choose pred margin based on ping*
+# Легит ![Максимальная](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+**Легит** бот в KRX Клиенте фокусируется на предоставлении помощи, сохраняя при этом естественный стиль игры, идеально подходящий для пользователей, которые предпочитают тонкие улучшения.
+*Примечание: при использовании избегающих ботов используйте более высокий `cl_prediction_margin`, см. [настройки](../settings.md) и выберите pred margin на основе пинга*
 
 ---
 
-## **Screenshot**
-![Legit Menu - Recommended Settings](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/legit-menu.png)
+## **Скриншот**
+![Легитное Меню - Рекомендованные настройки](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/legit-menu.png)
 
 ---
 
-## **Avoid**
-- **Enable**: Enables avoid.
-- **Player Prediction**: Predicts the movements of other players for better avoidance.
-- **Better Unhook**: Enhances unhooking mechanics such that it also checks for direction + hook not just hook.
-- **Drag Support**: Prevents aimbot from aiming at directions that could lead to freezing.
-- **Afk Protection**: Automatically disables the bot after the specified **Afk Time** if inactivity is detected.
-  - **Afk Time**: Adjustable in seconds.
+## **Избегание**
+- **Enable**: Включает избегание.
+- **Player Prediction**: Предсказывает движения других игроков для лучшего уклонения.
+- **Better Unhook**: Улучшает механику отцепления, так что теперь она также проверяет направление + зацеп, а не только зацеп.
+- **Drag Support**: Не позволяет аимботу наводиться в направлениях, которые могут привести к зависанию.
+- **Afk Protection**: Автоматически отключает бота по истечении указанного **времени бездействия**, если обнаружено бездействие.
+  - **Afk Time**: Настраивается за считанные секунды.
 
 ---
 
-## **Settings**
-- **Hook Assistance**: Activates hook inputs for the Gores bot.
-- **Direction Assistance**: Activates directional inputs for the Gores bot.
-- **Check Ticks**: Specifies how far into the future legit scans predict.
+## **Настройки**
+- **Hook Assistance**: Активирует входные сигналы крючка для бота Gores.
+- **Direction Assistance**: Активирует направленные входы для бота Gores.
+- **Check Ticks**: Указывает, насколько далеко в будущем предсказывает легитные сканирования.
 
 ---
 
-## **Priority**
-- **Quality**: Adjusts the quality of the bot's decisions(the bigger the better).
-- **Randomness**: Adds variability to the bot's actions to maintain a natural appearance.
-- **Direction Priority**: Adjusts the priority to follow current direction.
-- **Hook Priority**: Adjusts the priority to follow current hook.
-- **Life Priority**: Adjusts the priority of the bot to live.
+## **Приоритет**
+- **Quality**: Регулирует качество решений бота (чем больше, тем лучше).
+- **Randomness**: Добавляет вариативности действиям бота для сохранения естественного вида.
+- **Direction Priority**: Изменяет приоритет для следования текущему направлению.
+- **Hook Priority**: Регулирует приоритет для отслеживания текущего хука.
+- **Life Priority**: Настраивает приоритет бота на жизнь.
 
 ---
 
-## **Tiles**
-- **Teles**: Avoids teleport tiles when enabled.
-- **Death**: Avoids death tiles when enabled.
-- **Unfreeze**: Actively avoids unfreeze tiles.
-  - **Unfreeze Ticks**: Adjusts the duration for unfreeze checks.
+## **Тайлы (Плитки)**
+- **Teles**: При включении избегает телепортационных плиток.
+- **Death**: При включении позволяет избегать плиток смерти.
+- **Unfreeze**: Активно предотвращает размораживание плиток.
+  - **Unfreeze Ticks**: Регулирует продолжительность проверок разморозки.
 
-## **Configuration**
-- We don't have a recommendation for this bot, you will need to find and tweak the settings yourself. This bot is very settings and playstyle dependant.
+## **Конфигурация**
+- У нас нет рекомендаций для этого бота, вам нужно будет найти и настроить параметры самостоятельно. Этот бот очень зависит от настроек и стиля игры.

@@ -2,78 +2,78 @@
 icon: fire
 ---
 
-# Blatant ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The **Blatant** Gores bot in KRX Client is expertly designed to help you tackle Gores maps of all kinds, from easy to extreme.  
-*Note: When using avoid bots, please use a higher `cl_prediction_margin` refer to [settings](../settings.md) and choose pred margin based on ping*
+# Палевный ![Максимум](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+**Палевный** Бот Gores в клиенте KRX разработан экспертами, чтобы помочь вам справиться с картами Gores всех видов, от простых до экстремальных.
+*Примечание: при использовании ботов Avoid, пожалуйста, используйте более высокий `cl_prediction_margin`, см. [настройки](../settings.md) и выберите pred margin на основе пинга*
 
 ---
 
-## **Screenshot**
-![Blatant Menu - Recommended Settings](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/blatant-menu.png)
+## **Скриншот**
+![Палевное Меню - Рекомендованные настройки](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/blatant-menu.png)
 
 ---
 
-## **Avoid**
-- **Enable**: Activates the avoid functionality.
-- **Player Prediction**: Predicts the movements of other players.
-- **NSIF**: An advanced feature that tracks previous input sequences and switches to NSIF when the current blatant input does not persist long enough.
-- **Afk Protection**: Automatically disables the Gores bot when the user is detected as AFK after the specified **Afk Time**.
+## **Избегание**
+- **Enable**: Активирует функцию избегания заморозки.
+- **Player Prediction**: Предсказывает движения других игроков.
+- **NSIF**: Расширенная функция, которая отслеживает предыдущие последовательности ввода и переключается на NSIF, когда текущий явный ввод не сопротивляется достаточно долго.
+- **Afk Protection**: Автоматически отключает бота Gores, если пользователь обнаруживается как AFK после указанного **времени AFK**.
   - **Afk Time**: Configurable in seconds.
 
-## **Settings**
-- **Hook Assistance**: Activates hook inputs for the Gores bot.
-- **Direction Assistance**: Enables directional input for the Gores bot.
-- **Check Ticks**: Specifies how far into the future blatant scans predict.
-- **Kick in Ticks**: Determines the minimum lifespan of the current input for blatant not to activate.
-- **Action Ticks**: Similar to check ticks but applied to individual actions during blatant scans.
+## **Настройки**
+- **Hook Assistance**: Активирует помощник крючка для бота Gores.
+- **Direction Assistance**: Включает направленный ввод для бота Gores.
+- **Check Ticks**: Указывает, насколько далеко в будущее можно прогнозировать с помощью явного сканирования.
+- **Kick in Ticks**: Определяет минимальный срок службы текущего входа, при котором палевный бот не активируется.
+- **Action Ticks**: Аналогично тикам, но применяется к отдельным действиям во время явных сканирований.
 
-## **Ratelimiting**
-- **Enable**: Enables rate-limiting for various actions.
-- **Hook/Unhook**: Limits the frequency of hook and unhook actions.
-- **Direction/No Direction**: Controls direction-related rate-limiting.
-- **Hook Check**: Applies direction limits only when not hooking.
-  - **Hook Ticks**: Sets the duration of hook rate-limiting in ticks.
-  - **Unhook Ticks**: Defines the duration of unhook rate-limiting in ticks.
-  - **Move Ticks**: Configures rate-limiting duration for directional movement.
-  - **Stand Ticks**: Adjusts rate-limiting duration for stationary actions.
+## **Ограничение Скорости**
+- **Enable**: Позволяет ограничить скорость выполнения различных действий.
+- **Hook/Unhook**: Ограничивает частоту действий по прицеплению и отцеплению.
+- **Direction/No Direction**: Контролирует ограничение скорости в зависимости от направления.
+- **Hook Check**: Применяет ограничения направления только при отсутствии зацепа.
+  - **Hook Ticks**: Устанавливает длительность ограничения скорости срабатывания крючка в тиках.
+  - **Unhook Ticks**: Определяет длительность ограничения скорости отсоединения в тиках.
+  - **Move Ticks**: Настраивает длительность ограничения скорости для направленного движения.
+  - **Stand Ticks**: Регулирует длительность ограничения скорости для стационарных действий.
 
-## **Misc**
-- **Drag Support**: Provides additional data to the aimbot, helping avoid directions that could lead to freezing your tee.
-- **Track Point**: Tracks the current direction and, if hookable, targets it for the entire scan duration.
-- **Rehook Action**: Considers rehooking scenarios in the blatant scan.
-- **Safe Aim Tracking**: Ensures tracking only if the tracked direction remains valid for the entire scan duration.
-- **Tile Distance**: Adjusts the size of avoided tiles, designed to make blatant actions appear more legitimate.
+## **Прочее**
+- **Drag Support**: Предоставляет дополнительные данные для аимбота, помогая избегать направлений, которые могут привести к замораживанию мяча.
+- **Track Point**: Отслеживает текущее направление и, если возможно, выбирает его на протяжении всего сканирования.
+- **Rehook Action**: Рассматривает сценарии повторного подключения при явном сканировании.
+- **Safe Aim Tracking**: Обеспечивает отслеживание только в том случае, если отслеживаемое направление остается действительным в течение всего времени сканирования.
+- **Tile Distance**: Изменяет размер избегаемых плиток, чтобы явные действия выглядели более законными.
 
-## **Tiles**
-- **Teles**: Avoids teleport tiles.
-- **Unfreeze**: Avoids unfreeze tiles.
-  - **Ticks**: Configurable check duration for unfreeze tiles.
-- **Death**: Avoids death tiles.
+## **Тайлы (Плитки)**
+- **Teles**: Избегает телепортационных плиток.
+- **Unfreeze**: Избегает размораживания плиток.
+  - **Ticks**: Настраиваемая продолжительность проверки для размораживания плиток.
+- **Death**: Избегает плиток смерти.
 
-## **Aimbot**
-- **Enable**: Activates the avoid aimbot.
-- **Auto Aim**: Scans all directions and selects the longest viable one.
-- **Aim Assist**: Targets the direction closest to your mouse that remains valid the longest.
-- **Upward Aim**: Prioritizes upward directions that persist the longest.
-- **Points**: Specifies the number of points to evaluate per segment.
-- **Segments**: Defines the number of segments to scan.
-- **FOV**: Configurable field of view for targeting.
-- **Check Ticks**: Adjusts the duration of scans for aimbot calculations.
+## **Аимбот**
+- **Enable**: Активирует функцию избегания прицеливания.
+- **Auto Aim**: Сканирует все направления и выбирает наиболее длинное из возможных.
+- **Aim Assist**: Выбирает направление, ближайшее к вашей мыши, которое остается актуальным дольше всего..
+- **Upward Aim**: Отдает приоритет восходящим направлениям, которые сохраняются дольше всего
+- **Points**: Указывает количество поинтов для оценки каждого сегмента.
+- **Segments**: Определяет количество сегментов для сканирования.
+- **FOV**: Настраиваемое поле зрения для наведения.
+- **Check Ticks**: Регулирует длительность сканирования для расчетов аимбота.
 
-## **Visuals**
-- **Track Point**: Displays tracked points visually.
-- **Aimbot**: Highlights aimbot target points.
-- **Path**: Shows the current path followed by the bot.
+## **Визуалы**
+- **Track Point**: Визуально отображает отслеживаемые точки
+- **Aimbot**: Подсвечивает точки прицеливания аимбота.
+- **Path**: Показывает текущий путь, пройденный ботом.
 
-## **Configuration**
-- Configuring this bot is not trivial, you need to experiment with each of these settings, here's some basic configuration to start you off:
-- **NSIF**: ON
-- **Hook Assistance**: ON
-- **Direction Assistance**: ON
+## **Конфигурация**
+- Настройка этого бота нетривиальна, вам нужно поэкспериментировать с каждым из этих параметров. Вот некоторые базовые настройки, с которых можно начать:
+- **NSIF**: ВКЛ
+- **Hook Assistance**: ВКЛ
+- **Direction Assistance**: ВКЛ
 - **Check Ticks**: 26
 - **Kick in Ticks**: 20
 - **Action Ticks**: 26
-- **Drag Support**: ON
-- **Track Point**: ON
-- **Rehook Action**: ON
-- **Safe Aim Tracking**: For maximum safety ON, otherwise OFF
+- **Drag Support**: ВКЛ
+- **Track Point**: ВКЛ
+- **Rehook Action**: ВКЛ
+- **Safe Aim Tracking**: Для максимальной безопасности ВКЛ, в противном случае ВЫКЛ
