@@ -1,21 +1,21 @@
-# Table of contents
+# Tabla de contenidos
 
-* [Welcome](README.md)
-* [FAQ](faq.md)
+* [Bienvenido](README.md)
+* [Preguntas Frecuentes (FAQ)](faq.md)
 
-## Getting Started
+## Empezar
 
-* [Quickstart](getting-started/quickstart.md)
-* [Installation](getting-started/installation.md)
+* [Guía rápida](getting-started/quickstart.md)
+* [Instalación](getting-started/installation.md)
 
-## Features
+## Características
 
 * [Aimbot](features/aimbot.md)
 * [Misc](features/misc.md)
 * [Visuals & HUD](features/visuals-hud.md)
 * [Settings](features/settings.md)
 
-## Ultimate Features
+## Características Ultimate
 
 * [Gores Bot](features/avoid.md)
     * [Legit](features/goresbot/legit.md)

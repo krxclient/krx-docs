@@ -4,50 +4,50 @@ icon: bullseye-arrow
 
 # Aimbot
 
-The **Aimbot** tab in KRX Client is designed to give you a competitive edge in Teeworlds by offering precise targeting and extensive customization options.   
-Starting from the **Premium** tier, the Aimbot provides functionality for all weapons, edge hook mechanics, and advanced settings, such as grenade move prediction, edge accuracy, and adjustable shooting delays.
+La pestaña **Aimbot** en KRX Client está diseñada para brindarte una ventaja competitiva en Teeworlds ofreciendo una puntería precisa y amplias opciones de personalización.  
+A partir del nivel **Premium**, el Aimbot ofrece funcionalidad para todas las armas, mecánicas de gancho en los bordes y configuraciones avanzadas, como la predicción del movimiento de las granadas, precisión en los bordes y retrasos ajustables al disparar.
 
 ---
 
-## **Screenshot**
+## **Captura de pantalla**
 ![Aimbot Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/aimbot-menu.png)
 
 ---
 
-## **Features**
+## **Características**
 
-- **Enable**: Toggles the Aimbot on or off.
-- **Draw FOV**: Displays the Field of View (FOV) circle, showing the Aimbot's range.
-- **FOV Slider**: Adjusts the FOV radius to fine-tune targeting accuracy.`.
-- **Target Priority**: Determines the method for selecting targets:
-  - **Closest to Crosshair**: Targets based on the distance from your crosshair. This option ensures more precise identification but may struggle with hammer aimbot in some scenarios.
-  - **Closest to Player**: Targets the nearest player to you. Ideal for HvH scenarios or more aggressive playstyles.
-- **Silent**: Makes Aimbot adjustments invisible on your screen while remaining visible to others.
-- **Ignore Friends**: Prevents the Aimbot from targeting friends or teammates.
-- **Target Box**: Highlights targets with boxes (red for hook, orange for weapon). Useful for PvP modes but may be distracting in casual play.
-- **Target Glow**: Adds a glow effect to targets. Note: This does not work with tees that have a solid black color.
-- **Advanced Settings**: Unlocks additional control over Aimbot behavior. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-- **Grenade Move Prediction**: Anticipates target movements to improve grenade accuracy. **Note:** This is CPU-intensive and not recommended for low-end PCs. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-- **Edge Accuracy**: Adjusts edge hook precision: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-  - **Lower Values**: Increases the chance of missing but makes movements look more legitimate. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-  - **Higher Values**: Improves accuracy for difficult hooks, even in challenging scenarios. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-- **Min/Max Shoot Delay**: Simulates holding the shoot button. Delay is measured in ticks (1 tick = 20ms). For HvH play, set both to the minimum to maximize shooting speed. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+- **Enable**: Activa o desactiva el Aimbot.
+- **Draw FOV**: Muestra el círculo del Field of View (FOV), mostrando el alcance del Aimbot.
+- **FOV Slider**: Ajusta el radio del FOV para afinar la precisión del objetivo.
+- **Target Priority**: Determina el método para seleccionar los objetivos:
+  - **Closest to Crosshair**: Apunta basado en la distancia desde tu mira. Esta opción asegura una identificación más precisa pero puede tener problemas con el hammer aimbot en algunos escenarios.
+  - **Closest to Player**: Apunta al jugador más cercano a ti. Ideal para escenarios de HvH o estilos de juego más agresivos.
+- **Silent**: Hace que los ajustes del Aimbot sean invisibles en tu pantalla, mientras que siguen siendo visibles para los demás.
+- **Ignore Friends**: Impide que el Aimbot apunte a amigos o compañeros de equipo.
+- **Target Box**: Destaca los objetivos con cajas (rojas para gancho, naranjas para arma). Útil para modos PvP pero puede ser una distracción en juego casual.
+- **Target Glow**: Añade un efecto de resplandor a los objetivos. Nota: Esto no funciona con tees de color negro sólido.
+- **Advanced Settings**: Desbloquea control adicional sobre el comportamiento del Aimbot. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+- **Grenade Move Prediction**: Anticipa los movimientos del objetivo para mejorar la precisión de las granadas. **Nota:** Esto es intensivo para el CPU y no se recomienda para PCs de gama baja. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+- **Edge Accuracy**: Ajusta la precisión del gancho en los bordes: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+  - **Lower Values**: Aumenta la probabilidad de fallar, pero hace que los movimientos se vean más legítimos. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+  - **Higher Values**: Mejora la precisión para ganchos difíciles, incluso en escenarios desafiantes. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+- **Min/Max Shoot Delay**: Simula mantener presionado el botón de disparo. El retraso se mide en ticks (1 tick = 20ms). Para jugar HvH, establece ambos al mínimo para maximizar la velocidad de disparo. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
 
 ---
 
-## **Configuration**
+## **Configuración**
 
-1. Open the **Aimbot** tab in the client.
-2. Customize the settings. Here are the **recommended settings for semi-legit daily play**:
-   - **Enable**: On (bind to a key, e.g. `LCTRL`).
-   - **Draw FOV**: Off for less distraction
-   - **FOV Slider**: ~30 for a balance of accuracy and coverage.
-   - **Target Priority**: Use **Closest to Crosshair** for most scenarios. Switch to **Closest to Player** if encountering hammer aimbot issues.
-   - **Silent**: Turn off for legit play. Turn on if playing casually or prioritizing convenience.
-   - **Ignore Friends**: Enable for block or PvP modes to avoid targeting teammates.
-   - **Target Box**: Off for less distraction in casual play; useful in PvP to identify targets easily.
-   - **Target Glow**: A subtler alternative to the Target Box—use based on preference.
-   - **Advanced Settings**: Leave off unless you know what you are doing. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-   - **Grenade Move Prediction**: Disable unless you have a powerful CPU and want to get most out of KRX Grenade Aimbot. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-   - **Edge Accuracy**: Set to maximum for consistent hooks or lower to appear more legitimate. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-   - **Min/Max Shoot Delay**: Keep default unless you know what adjustments you need to make. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+1. Abre la pestaña **Aimbot** en el cliente.
+2. Personaliza las configuraciones. Aquí están las **configuraciones recomendadas para juego semi-legit diario**:
+   - **Enable**: Activado (asócialo a una tecla, por ejemplo `LCTRL`).
+   - **Draw FOV**: Apagado para menos distracción.
+   - **FOV Slider**: ~30 para un equilibrio entre precisión y cobertura.
+   - **Target Priority**: Usa **Closest to Crosshair** para la mayoría de los escenarios. Cambia a **Closest to Player** si tienes problemas con el hammer aimbot.
+   - **Silent**: Apágalo para jugar de manera legítima. Actívalo si juegas casualmente o priorizas conveniencia.
+   - **Ignore Friends**: Actívalo para bloquear o en modos PvP para evitar apuntar a compañeros de equipo.
+   - **Target Box**: Apágalo para menos distracción en el juego casual; útil en PvP para identificar fácilmente los objetivos.
+   - **Target Glow**: Una alternativa más sutil a Target Box; úsalo según prefieras.
+   - **Advanced Settings**: Déjalo apagado a menos que sepas lo que estás haciendo. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+   - **Grenade Move Prediction**: Desactívalo a menos que tengas una CPU potente y quieras aprovechar al máximo el Aimbot de granadas de KRX. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+   - **Edge Accuracy**: Configúralo al máximo para ganchos consistentes o más bajo para que se vea más legítimo. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+   - **Min/Max Shoot Delay**: Déjalo por defecto a menos que sepas qué ajustes necesitas hacer. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)

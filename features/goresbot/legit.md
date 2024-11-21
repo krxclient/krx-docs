@@ -3,47 +3,47 @@ icon: eye
 ---
 
 # Legit ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The **Legit** bot in KRX Client focuses on providing assistance while maintaining a natural playstyle, perfect for users who prefer subtle enhancements.  
-*Note: When using avoid bots, please use a higher `cl_prediction_margin` refer to [settings](../settings.md) and choose pred margin based on ping*
+El bot **Legit** en KRX Client se centra en proporcionar asistencia manteniendo un estilo de juego natural, perfecto para usuarios que prefieren mejoras sutiles.  
+*Nota: Al usar bots de evitación, por favor utiliza un `cl_prediction_margin` más alto. Consulta [configuración](../settings.md) y elige el margen de predicción según tu ping.*
 
 ---
 
-## **Screenshot**
+## **Captura de pantalla**
 ![Legit Menu - Recommended Settings](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/legit-menu.png)
 
 ---
 
-## **Avoid**
-- **Enable**: Enables avoid.
-- **Player Prediction**: Predicts the movements of other players for better avoidance.
-- **Better Unhook**: Enhances unhooking mechanics such that it also checks for direction + hook not just hook.
-- **Drag Support**: Prevents aimbot from aiming at directions that could lead to freezing.
-- **Afk Protection**: Automatically disables the bot after the specified **Afk Time** if inactivity is detected.
-  - **Afk Time**: Adjustable in seconds.
+## **Evitación**
+- **Enable**: Habilita la evitación.
+- **Player Prediction**: Predice los movimientos de otros jugadores para una mejor evitación.
+- **Better Unhook**: Mejora la mecánica de desenganche para que también verifique la dirección + gancho, no solo el gancho.
+- **Drag Support**: Impide que el aimbot apunte a direcciones que podrían llevar a congelar tu personaje.
+- **Afk Protection**: Desactiva automáticamente el bot después del **Afk Time** especificado si se detecta inactividad.
+  - **Afk Time**: Ajustable en segundos.
 
 ---
 
-## **Settings**
-- **Hook Assistance**: Activates hook inputs for the Gores bot.
-- **Direction Assistance**: Activates directional inputs for the Gores bot.
-- **Check Ticks**: Specifies how far into the future legit scans predict.
+## **Configuración**
+- **Hook Assistance**: Activa las entradas de gancho para el bot de Gores.
+- **Direction Assistance**: Activa las entradas direccionales para el bot de Gores.
+- **Check Ticks**: Especifica hasta qué punto en el futuro las verificaciones de legit predicen.
 
 ---
 
-## **Priority**
-- **Quality**: Adjusts the quality of the bot's decisions(the bigger the better).
-- **Randomness**: Adds variability to the bot's actions to maintain a natural appearance.
-- **Direction Priority**: Adjusts the priority to follow current direction.
-- **Hook Priority**: Adjusts the priority to follow current hook.
-- **Life Priority**: Adjusts the priority of the bot to live.
+## **Prioridad**
+- **Quality**: Ajusta la calidad de las decisiones del bot (cuanto más grande, mejor).
+- **Randomness**: Agrega variabilidad a las acciones del bot para mantener una apariencia natural.
+- **Direction Priority**: Ajusta la prioridad para seguir la dirección actual.
+- **Hook Priority**: Ajusta la prioridad para seguir el gancho actual.
+- **Life Priority**: Ajusta la prioridad del bot para sobrevivir.
 
 ---
 
 ## **Tiles**
-- **Teles**: Avoids teleport tiles when enabled.
-- **Death**: Avoids death tiles when enabled.
-- **Unfreeze**: Actively avoids unfreeze tiles.
-  - **Unfreeze Ticks**: Adjusts the duration for unfreeze checks.
+- **Teles**: Evita los azulejos de teletransportación cuando está habilitado.
+- **Death**: Evita los azulejos de muerte cuando está habilitado.
+- **Unfreeze**: Evita activamente los azulejos de descongelación.
+  - **Unfreeze Ticks**: Ajusta la duración de las verificaciones de descongelación.
 
-## **Configuration**
-- We don't have a recommendation for this bot, you will need to find and tweak the settings yourself. This bot is very settings and playstyle dependant.
+## **Configuración**
+- No tenemos una recomendación para este bot, necesitarás encontrar y ajustar la configuración por ti mismo. Este bot depende mucho de la configuración y el estilo de juego.

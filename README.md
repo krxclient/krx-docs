@@ -14,22 +14,22 @@ layout:
     visible: true
 ---
 
-# Welcome  
+# Bienvenido  
 
-Welcome to the official **KRX Client** wiki!  
+¡Bienvenido a la wiki oficial de **KRX Client**!  
 
-## About  
+## Acerca de  
 
-**KRX Client** your ultimate tool designed to enhance your gaming experience. These docs will walk you through all the features and settings to get most out of each version of KRX - **Free**, **Premium** and **Ultimate**  
+**KRX Client** es tu herramienta definitiva diseñada para mejorar tu experiencia de juego. Esta documentación te guiará a través de todas las características y configuraciones para sacar el máximo provecho de cada versión de KRX: **Free**, **Premium** y **Ultimate**.  
 
-### Jump right in
+### Comienza ahora
 
 <table data-view="cards">
   <thead>
     <tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr>
   </thead>
   <tbody>
-    <tr><td><strong>Getting Started</strong></td><td>Quickstart</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr>
-    <tr><td><strong>Features</strong></td><td>Explore key features</td><td></td><td></td><td><a href="features/aimbot.md">aimbot.md</a></td></tr>
+    <tr><td><strong>Comenzar</strong></td><td>Guía rápida</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr>
+    <tr><td><strong>Características</strong></td><td>Explora las características principales</td><td></td><td></td><td><a href="features/aimbot.md">aimbot.md</a></td></tr>
   </tbody>
 </table>
