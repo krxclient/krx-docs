@@ -2,17 +2,17 @@
 icon: bullseye-arrow
 ---
 
-# Quickstart
+# Hızlı başlangıç
 
-This guide will help you get started with KRX Client quickly.
+Bu kılavuz, KRX Client'ı hızlı bir şekilde kullanmaya başlamanıza yardımcı olacaktır.
 
-### Step 1: Download
-- Visit [krxclient.xyz](https://krxclient.xyz) and download the version you need.
+### Adım 1: İndir
+- krxclient.xyz](https://krxclient.xyz) adresini ziyaret edin ve ihtiyacınız olan sürümü indirin.
 
-### Step 2: Install
-- Follow the [installation guide](installation.md) to set up the client on your system.
+### Adım 2: Kurulum
+- İstemciyi sisteminize kurmak için [kurulum kılavuzunu] (installation.md) izleyin.
 
-### Step 3: Explore Features
-- Open the client and explore the tabs:
-  - **Free/Premium**: Aimbot, Misc, Visuals & HUD, Settings.
-  - **Ultimate**: TAS, Avoid + improvements/advanced features for bots in **Free/Premium**.
+### Adım 3: Özellikleri Keşfedin
+- İstemciyi açın ve sekmeleri keşfedin:
+  - **Ücretsiz/Premium**: Aimbot, Misc, Görseller ve HUD, Ayarlar.
+  - Ultimate**: TAS, Avoid + **Free/Premium'da** botlar için iyileştirmeler/gelişmiş özellikler.

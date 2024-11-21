@@ -4,18 +4,18 @@ icon: shield
 
 # Gores Bot
 
-The **Avoid** tab, exclusive to the Ultimate version of KRX Client, provides advanced versions of Gores Bots to help you avoid freezing.  
-*Note: When using avoid bots, please use a higher `cl_prediction_margin` refer to [settings](settings.md) and choose pred margin based on ping*
+KRX Client'ın Ultimate sürümüne özel **Avoid** sekmesi, Gores Botunun gelişmiş sürümlerini donmayı önlemenize yardımcı olur.
+*Not: Avoid botunu kullanırken, lütfen daha yüksek bir `cl_prediction_margin` bakın [settings](settings.md) ve pinginize göre tahmini margini seçin*
 
 ---
 
-## **Screenshot**
+## **Ekran Görüntüsü**
 ![Avoid Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/avoid-menu.png)
 
 ---
 
-## **Gores Bot Types**
-In KRX, there are 4 types of Gores Bots, each working a little differently from the others:
+## **Gores Botu Türleri**
+KRX'te, her biri diğerlerinden biraz farklı çalışan 4 tür Gores Botu vardır:
 1. **Basic**  
 2. **[Legit](goresbot/legit.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
 3. **[Blatant](goresbot/blatant.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
@@ -23,32 +23,32 @@ In KRX, there are 4 types of Gores Bots, each working a little differently from 
 
 ---
 
-## **Basic Gores Bot**
-The basic Gores Bot included with the free and premium version has no configurable settings and only uses directional keys for movement.  
-Overall, it’s a simple bot meant for basic use.
+## **Basic Gores Botu**
+Ücretsiz ve premium sürümle birlikte gelen Temel Gores Bot'un yapılandırılabilir ayarları yoktur ve hareket için yalnızca yön tuşlarını kullanır.  
+Genel olarak, temel kullanım için tasarlanmış basit bir bottur.
 
 ---
 
-## **Legit Gores Bot** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The Legit Bot is best for players who want to look legit while avoiding freeze. It avoids freezing with minimal changes to your inputs and allows for some configuration.  
-This bot can fail and partially depends on the skill of the user, which is part of what makes it "legit." However, it may cause a drop in FPS on some systems.  
+## **Legit Gores Botu** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+Legit Bot, buzlardan kaçınırken legit görünmek isteyen oyuncular için en iyisidir. Girdilerinizde minimum değişiklikle donmayı önler ve bazı yapılandırmalara izin verir.  
+Bu bot başarısız olabilir ve kısmen kullanıcının becerisine bağlıdır, bu da onu “legit” yapan şeyin bir parçasıdır. Ancak, bazı sistemlerde FPS'de düşüşe neden olabilir.  
 
-For more details, see [Legit Gores Bot](goresbot/legit.md).
+Daha fazla detay için lütfen buraya bakın. [Legit Gores Bot](goresbot/legit.md).
 
 ---
 
-## **Blatant Gores Bot** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The Blatant Gores Bot is perfect for anyone who doesn’t want to fail and wants to easily complete even the hardest Gores maps. It’s very easy to configure.  
-One of the advantages of the Blatant Bot is that it keeps your tee safe above everything else. You can configure settings like aiming, limiting inputs, and how much the bot predicts based on your preferences.  
+## **Blatant Gores Botu** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+Blatant Gores Botu, başarısız olmak istemeyen ve en zor Gores haritalarını bile kolayca tamamlamak isteyen herkes için mükemmeldir. Yapılandırması çok kolaydır.  
+Blatant Bot'un avantajlarından biri, tee'nizi her şeyden önce güvende tutmasıdır. Nişan alma, girişleri sınırlama ve botun tercihlerinize göre ne kadar tahmin yapacağı gibi ayarları yapılandırabilirsiniz.  
 
-For more details, see [Blatant Gores Bot](goresbot/blatant.md).
+Daha fazla detay için lütfen buraya bakın. [Blatant Gores Bot](goresbot/blatant.md).
 
 ---
 
 ## **Fentbot** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The Fentbot (fentanyl-themed bot) is best for advanced users. It’s a kind of auto-TAS bot that finds inputs using pathfinding to complete maps.  
-This bot focuses solely on following its path, so it might fail or perform sub-optimal moves at times. It is highly configurable and runs asynchronously, so while you play the map this bot finds inputs to complete it. It’s best used on KoG maps.  
+Fentbot (fentanil-temalı bot) ileri düzey oyuncular için en iyisidir. Haritaları tamamlamak için yol bulmayı kullanarak girdileri bulan bir tür otomatik TAS botudur.
+Bu bot yalnızca yolunu izlemeye odaklanır, bu nedenle zaman zaman başarısız olabilir veya ekverişli olmayan hareketler gerçekleştirebilir. Son derece yapılandırılabilir ve eşzamansız olarak çalışır, böylece siz haritayı oynarken bu bot haritayı tamamlamak için girdiler bulur. KoG haritalarında en iyi şekilde kullanılır.
 
-For more details, see [Fentbot](goresbot/fentbot.md).
+Daha fazla detay için lütfen buraya bakın. [Fentbot](goresbot/fentbot.md).
 
 ---

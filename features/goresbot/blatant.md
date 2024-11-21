@@ -3,77 +3,77 @@ icon: fire
 ---
 
 # Blatant ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The **Blatant** Gores bot in KRX Client is expertly designed to help you tackle Gores maps of all kinds, from easy to extreme.  
-*Note: When using avoid bots, please use a higher `cl_prediction_margin` refer to [settings](../settings.md) and choose pred margin based on ping*
+KRX İstemcisindeki **Blatant** Gores botu, kolaydan ekstrem olana kadar her türlü Gores haritasıyla başa çıkmanıza yardımcı olmak için ustalıkla tasarlanmıştır.  
+*Not: Botlardan kaçınırken, lütfen daha yüksek bir `cl_prediction_margin` kullanın [settings](../settings.md) bölümüne bakın ve ping'e göre tahmin marjını seçin*
 
 ---
 
-## **Screenshot**
-![Blatant Menu - Recommended Settings](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/blatant-menu.png)
+## **Ekran Görüntüsü**
+![Blatant Menu - Önerilen Ayarlar](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/blatant-menu.png)
 
 ---
 
 ## **Avoid**
-- **Enable**: Activates the avoid functionality.
-- **Player Prediction**: Predicts the movements of other players.
-- **NSIF**: An advanced feature that tracks previous input sequences and switches to NSIF when the current blatant input does not persist long enough.
-- **Afk Protection**: Automatically disables the Gores bot when the user is detected as AFK after the specified **Afk Time**.
-  - **Afk Time**: Configurable in seconds.
+- **Enable**: Kaçınma işlevini etkinleştirir.
+- **Player Prediction**: Diğer oyuncuların hareketlerini tahmin eder.
+- **NSIF**: Önceki giriş dizilerini izleyen ve mevcut bariz giriş yeterince uzun süre devam etmediğinde NSIF'e geçen gelişmiş bir özellik.
+- **Afk Protection**: Kullanıcı belirtilen **Afk Time** sonrasında AFK olarak algılandığında Gores botunu otomatik olarak devre dışı bırakır.
+  - **Afk Time**: Saniye cinsinden yapılandırılabilir.
 
 ## **Settings**
-- **Hook Assistance**: Activates hook inputs for the Gores bot.
-- **Direction Assistance**: Enables directional input for the Gores bot.
-- **Check Ticks**: Specifies how far into the future blatant scans predict.
-- **Kick in Ticks**: Determines the minimum lifespan of the current input for blatant not to activate.
-- **Action Ticks**: Similar to check ticks but applied to individual actions during blatant scans.
+- **Hook Assistance**: Gores botu için kanca girişlerini etkinleştirir.
+- **Direction Assistance**: Gores botu için yön girişini etkinleştirir.
+- **Check Ticks**: Açık taramaların ne kadar ileriyi tahmin ettiğini belirtir.
+- **Kick in Ticks**: Blatant'ın etkinleştirilmemesi için mevcut girdinin minimum ömrünü belirler.
+- **Action Ticks**: Kontrol tiklerine benzer ancak bariz taramalar sırasında bireysel eylemlere uygulanır.
 
 ## **Ratelimiting**
-- **Enable**: Enables rate-limiting for various actions.
-- **Hook/Unhook**: Limits the frequency of hook and unhook actions.
-- **Direction/No Direction**: Controls direction-related rate-limiting.
-- **Hook Check**: Applies direction limits only when not hooking.
-  - **Hook Ticks**: Sets the duration of hook rate-limiting in ticks.
-  - **Unhook Ticks**: Defines the duration of unhook rate-limiting in ticks.
-  - **Move Ticks**: Configures rate-limiting duration for directional movement.
-  - **Stand Ticks**: Adjusts rate-limiting duration for stationary actions.
+- **Enable**: Çeşitli eylemler için hız sınırlamayı etkinleştirir.
+- **Hook/Unhook**: Kanca ve kanca açma eylemlerinin sıklığını sınırlar.
+- **Direction/No Direction**: Yönle ilgili hız sınırlamayı kontrol eder.
+- **Hook Check**: Yön sınırlamalarını yalnızca kanca takılmadığında uygular.
+  - **Hook Ticks**: Kanca hız sınırlamasının süresini tik olarak ayarlar.
+  - **Unhook Ticks**: Kanca açma hızı sınırlamasının süresini tik cinsinden tanımlar.
+  - **Move Ticks**: Yönlü hareket için hız sınırlama süresini yapılandırır.
+  - **Stand Ticks**: Sabit eylemler için hız sınırlama süresini ayarlar.
 
 ## **Misc**
-- **Drag Support**: Provides additional data to the aimbot, helping avoid directions that could lead to freezing your tee.
-- **Track Point**: Tracks the current direction and, if hookable, targets it for the entire scan duration.
-- **Rehook Action**: Considers rehooking scenarios in the blatant scan.
-- **Safe Aim Tracking**: Ensures tracking only if the tracked direction remains valid for the entire scan duration.
-- **Tile Distance**: Adjusts the size of avoided tiles, designed to make blatant actions appear more legitimate.
+- **DragSupports**: Aimbot'a ek veriler sağlayarak tee'nizin donmasına neden olabilecek yönlerden kaçınmanıza yardımcı olur.
+- **Track Point**: Geçerli yönü izler ve kancalanabilirse, tüm tarama süresi boyunca hedefler.
+- **Rehook Action**: Bariz taramada yeniden kancalama senaryolarını dikkate alır.
+- **Safe Aim Tracking**: Yalnızca izlenen yön tüm tarama süresi boyunca geçerli kalırsa izlemeyi sağlar.
+-**Tile Distance**: Kaçınılan karoların boyutunu ayarlar, bariz eylemlerin daha meşru görünmesini sağlamak için tasarlanmıştır.
 
 ## **Tiles**
-- **Teles**: Avoids teleport tiles.
-- **Unfreeze**: Avoids unfreeze tiles.
-  - **Ticks**: Configurable check duration for unfreeze tiles.
-- **Death**: Avoids death tiles.
+- **Teles**: Işınlanma karolarından kaçınır.
+- **Unfreeze**: Çözme karelerinden kaçınır.
+  - **Ticks**: Çözülmemiş karolar için yapılandırılabilir kontrol süresi.
+- **Death**: Ölüm karelerinden kaçınır.
 
 ## **Aimbot**
-- **Enable**: Activates the avoid aimbot.
-- **Auto Aim**: Scans all directions and selects the longest viable one.
-- **Aim Assist**: Targets the direction closest to your mouse that remains valid the longest.
-- **Upward Aim**: Prioritizes upward directions that persist the longest.
-- **Points**: Specifies the number of points to evaluate per segment.
-- **Segments**: Defines the number of segments to scan.
-- **FOV**: Configurable field of view for targeting.
-- **Check Ticks**: Adjusts the duration of scans for aimbot calculations.
+- **Enable**: Kaçınma aimbotunu etkinleştirir.
+- **Auto Aim**: Tüm yönleri tarar ve en uzun uygulanabilir olanı seçer.
+- **Aim Assist**: Farenize en yakın olan ve en uzun süre geçerli kalan yönü hedefler.
+- **Upward Aim**: En uzun süre geçerli olan yukarı yönlere öncelik verir.
+- **Points**: Segment başına değerlendirilecek nokta sayısını belirtir.
+- **Segments**: Taranacak segment sayısını tanımlar.
+- **FOV**: Hedefleme için yapılandırılabilir görüş alanı.
+- **Check Ticks**: Aimbot hesaplamaları için taramaların süresini ayarlar.
 
 ## **Visuals**
-- **Track Point**: Displays tracked points visually.
-- **Aimbot**: Highlights aimbot target points.
-- **Path**: Shows the current path followed by the bot.
+- **Track Points**: İzlenen noktaları görsel olarak görüntüler.
+- **Aimbot**: Aimbot hedef noktalarını vurgular.
+- **Path**: Bot tarafından izlenen geçerli yolu gösterir.
 
 ## **Configuration**
-- Configuring this bot is not trivial, you need to experiment with each of these settings, here's some basic configuration to start you off:
-- **NSIF**: ON
-- **Hook Assistance**: ON
-- **Direction Assistance**: ON
+- Bu botu yapılandırmak önemsiz değildir, bu ayarların her birini denemeniz gerekir, işte size başlamak için bazı temel yapılandırma:
+- **NSIF**: AÇIK
+- **Hook Assistance**: AÇIK
+- **Direction Assistance**: AÇIK
 - **Check Ticks**: 26
-- **Kick in Ticks**: 20
+- **Kick on Ticks**: 20
 - **Action Ticks**: 26
-- **Drag Support**: ON
-- **Track Point**: ON
-- **Rehook Action**: ON
-- **Safe Aim Tracking**: For maximum safety ON, otherwise OFF
+- **Drag Support**: AÇIK
+- **İzleme Noktası**: AÇIK
+- **Rehook Action**: AÇIK
+- **Safe Aim Tracking**: Maksimum güvenlik için AÇIK, aksi takdirde KAPALI

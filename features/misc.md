@@ -2,13 +2,13 @@
 icon: sparkles
 ---
 
-# Misc
+# **Misc**
 
-The **Misc** tab in KRX Client offers a range of tools and features designed to enhance gameplay, provide protections, and enable fun trolling mechanics.
+**Misc** sekmesi, oynanışı geliştirmek, koruma sağlamak ve eğlenceli trolleme mekaniklerini etkinleştirmek için tasarlanmış özellikler sunar.
 
 ---
 
-## **Screenshot**
+## **Ekran Görüntüsü**
 ![Misc Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/misc-menu.png)
 
 ---
@@ -16,97 +16,96 @@ The **Misc** tab in KRX Client offers a range of tools and features designed to 
 ## **Features**
 
 ### **Bots**
-- **Moonwalk**: Makes the player do a "moonwalk" when pressing both left and right keys by switching the movement direction back and forth.  
-- **Auto Fire**: Automatically fires your weapon when holding the fire button.  
-- **Auto Rehook**: After successfully hooking a player, if you keep holding the hook button, it automatically tries to rehook them.  
-- **Auto Jump Save**: Automatically jumps to avoid going into freeze.  
-- **Quick Stop**: Stops the player quickly and smoothly by adjusting movement direction to counter their current velocity.  
-- **Avoid Freeze**: Helps avoid freeze zones by using left/right movement.  
-- **Dummy Fly**: Your dummy automatically does hook fly with you, making the dummy hammer and hook too. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
-- **Jet Ride**: Works like hook ride bot but with a jetpack. Control it with A/W/S/D. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
-- **Auto Aled**: Automatically hammers when an aled is possible. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
+- **Moonwalk**: Oyuncunun hem sol hem de sağ tuşlara basarken hareket yönünü ileri geri değiştirerek “Moonwalk” yapmasını sağlar.
+- **Auto Fire**: Ateş düğmesine basılı tuttuğunuzda silahınız otomatik olarak ateş eder.
+- **Auto Rehook**: Bir oyuncuyu başarıyla tuttuktan sonra, kanca düğmesini basılı tutmaya devam ederseniz, otomatik olarak yeniden tutmaya çalışır.
+- **Auto Jump Save**: Donmayı önlemek için otomatik olarak zıplar.
+- **Quick Stop**: Oyuncunun mevcut hızına karşı hareket yönünü ayarlayarak oyuncuyu hızlı ve sorunsuz bir şekilde durdurur.
+- **Avoid Freeze**: Sol/sağ yaparak donmayı önlemeye yardımcı olur.  
+- **Dummy Fly**: Kuklanız otomatik olarak sizinle birlikte Dummy Flyyapar ve Dummynize çekic ve kancada attırır. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
+- **Jet Ride**: Hook ride botunun jetpackli hali. A/W/S/D tuşlarıyla kontrol edilir. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
+- **Auto Aled**: Aled mümkünse otomatik çekiç vurur. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
 
 ### **Protections**
-- **Random Timeout Seed**: Generates a new timeout seed before connecting to a server to avoid fingerprinting. Note: You cannot rejoin your old position after timing out with this enabled.
-- **Version Spoofer**: Spoofs the client version/ID to bypass restrictions. If unsure, leave it off.
+- **Random Timeout Seed**: Parmak izini önlemek için bir sunucuya bağlanmadan önce yeni bir zaman aşımı seedi oluşturur. Not: Bu özellik etkinken zaman aşımına uğradıktan sonra eski konumunuza tekrar dönemezsiniz.
+- **Version Spoof**: Kısıtlamaları atlamak için istemci sürümünü/Kimliğini değiştirir. Emin değilseniz kapalı bırakın.
 
-### **Mod Detector**  
-- **Enable**: Turns on the Mod Detector feature to identify potential moderators or suspicious players on the server.  
-- **Detect by Names**: Scans player names for known moderators.  
-- **Detect Suspicious Players**: Scans player names to detect potential moderators or players who could report you.  
-- **Leave on Mod Detection**: Automatically disconnects from the server if a potential moderator is detected.  
-- **Leave on Warn Detected**: Automatically disconnects from the server if a potential moderator or player who could report you is detected.  
-
+### **Mod Dedector**  
+- **Enable**: Sunucudaki potansiyel yetkilileri veya şüpheli oyuncuları belirlemek için Yetkili Dedektörü özelliğini açar.  
+- **Detect by Names**: Bilinen yetkililer için oyuncu adlarını tarar.
+- **Detect Suspicious Players**: Potansiyel yetkilileri veya sizi rapor edebilecek oyuncuları tespit etmek için oyuncu adlarını tarar.  
+- **Leave on Mod Detection**: Bir yetkili tespit edilirse sunucu ile olan bağlantıyı otomatik olarak keser.
+- **Leave on Warn Detected**: Sizi rapor edebilecek potansiyel bir yetkili veya oyuncu tespit edilirse sunucu bağlantısını otomatik olarak keser. 
 ### **Auto Unfreeze** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-- **Enable**: Activates the Auto Unfreeze feature, which automatically shoots a laser at a wall to unfreeze you when you jump through freeze zones.
-- **Advanced Settings**: Enables more detailed configuration options for precise control.
-    - **Bounces**: Determines how the laser bounces off walls:
-        - **Least**: Selects a direction with the fewest bounces, ensuring quicker unfreezing.
-        - **Most**: Selects a direction with the most bounces. Useful in TAS scenarios, as longer bounces result in faster reload times.
-    - **Silent**: Makes aim adjustments invisible on your screen while remaining visible to others.
-    - **Points**: Configures the number of points considered when checking for unfreeze directions. Higher values provide more precise checks.
-    - **Current Dir Ticks**: Sets how many ticks of the laser are used to calculate the current direction. Adjust for better accuracy.
-    - **Ticks**: Defines how many ticks of the laser are analyzed when determining the best unfreeze direction.
-    - **FOV**: Adjusts the field of view to determine the laser's targeting range.
+- **Enable**: Otomatik Auto Unfreeze özelliğini etkinleştirir, bu özellik donduğunuzda kurtulabilir bir pozisyondaysanız size otomatik lazer atar.
+- **Advanced Settings**: Ayrıntılı kontrol için daha ayrıntılı yapılandırma seçeneklerini etkinleştirir.
+    - **Bounces**: Lazerin duvarlardan nasıl sekeceğini belirler:
+        - **Least**: En az sekmenin olduğu bir yön seçerek daha hızlı çözülme sağlar.
+        - **Most**: En çok sekmenin olduğu yönü seçer. TAS senaryolarında kullanışlıdır, çünkü daha uzun sekmeler mermileri daha hızlı yeniden doldurur.
+    - **Silent**: Bu ayarı kullandığınızda nişangahınız aim etkilerinden etkilenmez.
+    - **Points**: Kurtarılma yönlerini kontrol ederken dikkate alınan nokta sayısını yapılandırır. Daha yüksek değerler daha hassas kontroller sağlar.
+    - **Current Dir Ticks**: Geçerli yönü hesaplamak için lazerin kaç tick kullanılacağını ayarlar. Daha iyi doğruluk için ayarlayın.
+    - **Ticks**: En iyi kurtarma yönü belirlenirken lazerin kaç tick analiz edileceğini tanımlar.
+    - **FOV**: Lazerin hedefleme menzilini belirlemek için görüş alanını ayarlar.
 
 ### **Fake Aim**
-- **Enable**: Turns on fake aim behavior to confuse or mislead other players.
-- **Send Always**: If enabled, the aim direction will be sent every tick to the server (looks smoother for others).
-- **Visible**: Shows the fake aim on your screen.
-- **Modes**: Determines how the fake aim behaves:
-  - **Mouse Pos**: Adjusts your aim to follow your mouse position, making the gores bot aimbot appear less blatant.
-  - **Robot Aim**: Updates your aim position only when hooking or firing.
-  - **Spinbot**: Rotates your aim rapidly in a spinning motion.
-  - **Random**: Moves your aim in random directions.
-  - **Fake Angles**: Aims in the opposite direction of your cursor.
-  - **Aimbot Troll Aim**: Always aims at the closest player.
+- **Enable**: Diğer oyuncuların kafasını karıştırmak veya yanıltmak için sahte aim açar.
+- **Send Always**: Etkinleştirilirse, hedefin yönü her tickte sunucuya gönderilir (diğerleri için daha düzgün görünür).
+- **Visible**: Sahte aimi ekranınızda gösterir.
+- **Modes**: Sahte aimin nasıl davranacağını belirler:
+  - **Mouse Pos**: Hedefinizi fare konumunuzu takip edecek şekilde ayarlayarak gores bot aimbot'un daha az belirgin görünmesini sağlar.
+  - **Robot Aim**: Aim pozisyonunuzu sadece kanca atarken veya ateş ederken gösterir.
+  - **Spinbot**: Hedefinizi bir dönme hareketiyle hızla döndürür.
+  - **Random**: Teenizi çok hızlı bir şekilde döndürür.
+  - **Fake Angles**: Teeniz baktığınız yönün tersine bakar.
+  - **Aimbot Troll Aim**: Her zaman en yakın oyuncuya nişan alır.
 
 ### **Other**
-- **Change Name on Finish**: Automatically changes your name just before crossing the finish line.
-- **Auto Team**: Automatically joins the selected team and locks it.
-- **Anti AFK**: Prevents being marked as AFK.
-- **Kill on Freeze**: Kills your player automatically when you get frozen.
-- **Fast Input**: Makes your input feel 1 tick faster (20ms), but this is only a visual effect.
-- **Ignore Replay Warnings**: Suppresses warning messages related to TAS replays.
-- **Hide Chat Bubble**: Hides the chat bubble so other players don’t know when you are typing.
-- **Auto Verify**: Automatically verifies you on whitelist-protected servers like `ger10.ddnet.tw`.
-- **Send Occasional Ads**: Sends occasional advertisements in chat.
+- **Change Name on Finish**: Bitiş çizgisini geçmeden hemen öncesinde isminizi otomatik olarak değiştirir.
+- **Auto Team**: Seçilen takıma otomatik olarak katılır ve onu kilitler.
+- **Anti AFK**: AFK olmayı önler.
+- **Kill on Freeze**: Dondurulduğunuzda teenizi otomatik olarak öldürür.
+- **Fast Input**: Girişinizi 1 tick daha hızlı (20ms) hissettirir, ancak bu yalnızca görsel bir etkidir.
+- **Ignore Replay Warnings**: TAS tekrarlarıyla ilgili uyarı mesajlarını bastırır.
+- **Hide Chat Bubble**: Sohbet balonunu gizler, böylece diğer oyuncular ne zaman yazdığınızı bilmez.
+- **Auto Verify**: Beyaz liste korumalı sunucularda sizi otomatik olarak doğrular `ger10.ddnet.tw` gibi.
+- **Send Occasional Ads**: Sohbette ara sıra reklamlar gönderir.
 
 ### **Troll**
-- **Emote Spam**: Spams random emotes as fast as possible.
-- **Killsay/Deathsays**: Sends pre-defined messages upon kills or deaths.
-- **Fancy Chat Font**: Changes your chat font for a unique appearance.
-- **Mass Mention Spam**: Mentions multiple players repeatedly.
-- **Chat Repeater**: Automatically repeats another player's chat message with alternating uppercase and lowercase letters (e.g., "MeSsAgE").
+- **Emote Spam**: Rastgele ifadeleri olabildiğince hızlı atar.
+- **Killsay/Deathsays**: Öldürmeler veya ölümler üzerine önceden yazılmış mesajı gönderir.
+- **Fancy Chat Font**: Benzersiz bir görünüm için sohbet yazı tipinizi değiştirir.
+- **Mass Mention Spam**: Birden fazla oyuncudan tekrar tekrar bahseder.
+- **Chat Repeater**: Başka bir oyuncunun sohbet mesajını otomatik olarak büyük ve küçük harflerle tekrarlar (örnek olarak, "MeSsAgE").
 
 ### **ID Stealer**
-- **Enable**: Activates the ID Stealer feature, allowing you to copy another player’s information.
-- **Closest Player**: If enabled, targets the closest player to copy their details. If disabled, selects a random player on the server.
-- **Steal Name**: Copies the targeted player’s name.
-- **Steal Clan**: Copies the targeted player’s clan name.
-- **Steal Skin**: Copies the targeted player’s skin.
-- **Steal Flag**: Copies the targeted player’s country flag.
-- **Steal Eye Emote**: Copies the targeted player’s eye emote expression.
-- **Stealer Speed**: Adjusts the interval (in seconds) for how frequently the feature updates the stolen details.
+- **Enable**: ID Stealer özelliğini etkinleştirerek başka bir oyuncunun bilgilerini kopyalamanızı sağlar.
+- **Closest Player**: Etkinleştirilmişse, bilgilerini kopyalamak için en yakın oyuncuyu hedefler. Devre dışı bırakılırsa, sunucuda rastgele bir oyuncu seçer.
+- **Steal Name**: Hedeflenen oyuncunun adını kopyalar.
+- **Steal Clan**: Hedeflenen oyuncunun klanını kopyalar.
+- **Steal Skin**: Hedeflenen oyuncunun teesini kopyalar.
+- **Steal Flag**: Hedeflenen oyuncunun bayrağını kopyalar.
+- **Steal Eye Emote**: Hedeflenen oyuncunun ifadesi ifadesini kopyalar.
+- **Stealer Speed**: Özelliğin çalınan detaylarını ne sıklıkta güncelleyeceğine ilişkin aralığı (saniye cinsinden) ayarlar.
 
 ### **Silent Walk**
-- **Enable**: Activates the Silent Walk feature, which hides certain indicators to make your actions less noticeable to other players.
-- **Direction**: Hides the directional arrows that show your movement direction.
-- **Jump**: Hides the jump arrow, making it harder for others to see when you’re jumping.
-- **Hook**: Spams an invisible hook at your aim direction. Keep in mind that hook reach is limited.
-- **Hook Closest**: Spams an invisible hook at the closest player. Keep in mind that hook reach is limited.
+- **Enable**: Hareketlerinizin diğer oyuncular tarafından daha az fark edilmesini sağlamak için belirli göstergeleri gizleyen Silent Walk özelliğini etkinleştirir.
+- **Direction**: Hareket yönünüzü gösteren okları gizler.
+- **Jump**: Zıplama okunu gizleyerek başkalarının ne zaman zıpladığınızı görmesini zorlaştırır.
+- **Hook**: Hedefinize görünmez bir kanca gönderir. Kanca uzaklığının sınırlı olduğunu unutmayın.
+- **Hook Closest**: En yakın oyuncuya görünmez bir kanca atar. Kanca uzaklığının sınırlı olduğunu unutmayın.
 
 ---
 
 ## **Configuration**
 
-For most use cases, it's worth enabling the following features:
-- **Auto Fire**: Automatically fires your weapon, making it easier to focus on aiming and movement.
-- **Avoid Freeze**: Especially useful when playing gores maps, this feature helps you avoid freeze zones.
-- **Quick Stop**: Great for block maps, this helps you stop quickly and precisely.
-- **Auto Jump Save**: A situational feature to prevent falling into freeze; enable it when needed.
-- **Mod Detector**: Use this if you're worried about being watched or banned by moderators.
-- **Fast Input**: Many users say this is a game-changer for improving responsiveness, so give it a try.
-- **Auto Verify**: A quality-of-life feature that automates verification for DDOS-protected servers. It’s worth keeping enabled for convenience.
+Çoğu kullanım durumu için aşağıdaki özellikleri etkinleştirmek faydalı olacaktır:
+- **Auto Fire**: Silahınızı otomatik olarak ateşleyerek nişan almaya ve harekete odaklanmanızı kolaylaştırır.
+- **Avoid Freeze**: Özellikle gores haritaları oynarken kullanışlı olan bu özellik, buzlardan kaçınmanıza yardımcı olur.
+- **Quick Stop**: Block haritaları için harika olan bu özellik, hızlı ve hassas bir şekilde durmanıza yardımcı olur.
+- **Auto Jump Save**: Donmayı önlemek için duruma bağlı bir özellik; gerektiğinde etkinleştirin.
+- **Mod Detector**: Yetkililer tarafından izlenmekten veya yasaklanmaktan endişeleniyorsanız bunu kullanın.
+- **Fast Input**: Birçok kullanıcı bunun tepki süresini artırmak için oyunun kurallarını değiştirdiğini söylüyor, bu yüzden bir deneyin.
+- **Auto Verify**: DDOS korumalı sunucular için doğrulamayı otomatikleştiren bir özellik. Kolaylık sağlamak için açık tutmaya değer.
 
-Adjust these features depending on your specific gameplay needs, and experiment to find the best combination for your style.
+Bu özellikleri oyun ihtiyaçlarınıza göre ayarlayın ve tarzınıza en uygun kombinasyonu bulmak için denemeler yapın.

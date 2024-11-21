@@ -1,21 +1,21 @@
-# Table of contents
+# İçindekiler
 
-* [Welcome](README.md)
-* [FAQ](faq.md)
+* [Hoş geldiniz](README.md)
+* [SSS](faq.md)
 
-## Getting Started
+## Başlayalım
 
-* [Quickstart](getting-started/quickstart.md)
-* [Installation](getting-started/installation.md)
+* [Hızlı Başlangıç](getting-started/quickstart.md)
+* [Kurulum](getting-started/installation.md)
 
-## Features
+## Özellikler
 
 * [Aimbot](features/aimbot.md)
 * [Misc](features/misc.md)
-* [Visuals & HUD](features/visuals-hud.md)
-* [Settings](features/settings.md)
+* [Görseller ve HUD](features/visuals-hud.md)
+* [Ayarlar](features/settings.md)
 
-## Ultimate Features
+## Ultimate Özellikler
 
 * [Gores Bot](features/avoid.md)
     * [Legit](features/goresbot/legit.md)
