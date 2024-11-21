@@ -13,8 +13,8 @@ El **Blatant** Gores bot en KRX Client está diseñado para ayudarte a enfrentar
 
 ---
 
-## **Evitación**
-- **Enable**: Activa la funcionalidad de evitar.
+## **Avoid**
+- **Enable**: Activa la funcionalidad de avoid.
 - **Player Prediction**: Predice los movimientos de otros jugadores.
 - **NSIF**: Una característica avanzada que rastrea las secuencias de entrada previas y cambia a NSIF cuando la entrada actual de Blatant no persiste lo suficiente.
 - **Afk Protection**: Desactiva automáticamente el Gores bot cuando se detecta que el usuario está AFK después del tiempo especificado de **Afk Time**.
@@ -27,8 +27,8 @@ El **Blatant** Gores bot en KRX Client está diseñado para ayudarte a enfrentar
 - **Kick in Ticks**: Determina la duración mínima de la entrada actual para que Blatant no se active.
 - **Action Ticks**: Similar a Check Ticks, pero se aplica a las acciones individuales durante los escaneos de Blatant.
 
-## **Limitación de Tasa**
-- **Enable**: Habilita la limitación de tasa para varias acciones.
+## **Ratelimiting**
+- **Enable**: Habilita el Ratelimiting para varias acciones.
 - **Hook/Unhook**: Limita la frecuencia de acciones de gancho y desenganche.
 - **Direction/No Direction**: Controla la limitación de tasa relacionada con la dirección.
 - **Hook Check**: Aplica límites de dirección solo cuando no se está enganchando.
@@ -44,11 +44,11 @@ El **Blatant** Gores bot en KRX Client está diseñado para ayudarte a enfrentar
 - **Safe Aim Tracking**: Asegura el rastreo solo si la dirección rastreada permanece válida durante toda la duración del escaneo.
 - **Tile Distance**: Ajusta el tamaño de los azulejos evitados, diseñado para hacer que las acciones de Blatant parezcan más legítimas.
 
-## **Azulejos**
-- **Teles**: Evita los azulejos de teletransportación.
-- **Unfreeze**: Evita los azulejos de descongelación.
-  - **Ticks**: Duración configurable de comprobación para los azulejos de descongelación.
-- **Death**: Evita los azulejos de muerte.
+## **Tiles**
+- **Teles**: Evita los tiles de teletransportación.
+- **Unfreeze**: Evita los tiles de descongelación.
+  - **Ticks**: Duración configurable de comprobación para los tiles de descongelación.
+- **Death**: Evita los tiles de muerte.
 
 ## **Aimbot**
 - **Enable**: Activa el aimbot de evitación.
