@@ -7,10 +7,10 @@ icon: bullseye-arrow
 Bu kılavuz, KRX Client'ı hızlı bir şekilde kullanmaya başlamanıza yardımcı olacaktır.
 
 ### Adım 1: İndir
-- krxclient.xyz](https://krxclient.xyz) adresini ziyaret edin ve ihtiyacınız olan sürümü indirin.
+- [krxclient.xyz](https://krxclient.xyz) adresini ziyaret edin ve ihtiyacınız olan sürümü indirin.
 
 ### Adım 2: Kurulum
-- İstemciyi sisteminize kurmak için [kurulum kılavuzunu] (installation.md) izleyin.
+- İstemciyi sisteminize kurmak için [kurulum kılavuzunu](installation.md'a bakın.
 
 ### Adım 3: Özellikleri Keşfedin
 - İstemciyi açın ve sekmeleri keşfedin:

@@ -38,7 +38,7 @@ KRX İstemcisindeki **Fent Bot** sekmesi, yol bulma ve tünelleme yoluyla otomat
 ## **Configuration**
 - Çoğu zaman KRX tarafından sağlanan varsayılan ayarları kullanmak yeterlidir. İşte iyi CPU'lara sahip daha ileri düzey kullanıcılar için olası bir yapılandırma:
 - **Player Prediction**: KAPALI
-- **Advanced Settin*gs*: AÇIK
+- **Advanced Settings**: AÇIK
 - **Use Skibiforce**: AÇIK
 - **Skibidiforce Width**: 4
 - **Fent Ticks**: 1000

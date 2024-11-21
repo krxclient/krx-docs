@@ -60,7 +60,7 @@ KRX İstemcisindeki **Visuals & HUD** sekmesi, oyununuzun görsel öğelerini ge
 
 1. İstemcide **Visuals & HUD** sekmesini açın.
 2. Ayarları özelleştirin. İşte bazı **önerilen ayarlar**:
-   - Özellikler HUD**: Oynanışınızı büyük ölçüde etkileyen temel özellikleri görüntülemek için çok kullanışlı bir özellik. **Tavsiye edilir: Açık**.
+   - **Özellikler HUD**: Oynanışınızı büyük ölçüde etkileyen temel özellikleri görüntülemek için çok kullanışlı bir özellik. **Tavsiye edilir: Açık**.
    - **TAS HUD**: Bir TAS oluştururken hayati bilgileri görüntüler. **Tavsiye edilir: Açık**.
    - **Smoke Trail**: Eğlenceli ve benzersiz bir görsel özellik. Sıradan bir oyun sırasında dikkat dağıtıcı olabilir, ancak render demoları için şiddetle tavsiye edilir. **Gerektiği gibi kullanın**.
    - **Custom Theme**: Menü renklerini hafifçe ayarlayarak önemli bir görsel etki yaratır. **Tavsiye edilir: Açık** ve en iyi deneyim için ayarları değiştirin.
