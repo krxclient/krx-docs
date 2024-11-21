@@ -2,61 +2,61 @@
 icon: gear
 ---
 
-# Settings
+# Configuración
 
-The **Settings** tab in the KRX Client allows you to configure hotkeys and fine-tune specific features to enhance your gameplay experience.
-
----
-
-## **Screenshot**
-![Settings Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/settings-menu.png)
+La pestaña **Configuración** en el cliente KRX te permite asignar atajos de teclado y ajustar características específicas para mejorar tu experiencia de juego.
 
 ---
 
-## **Hotkeys**
-- **Aimbot**: Toggles the aimbot.  
-- **Aimbot Auto Hook**: Automatically hooks targets when Aimbot is enabled.  
-- **Aimbot Auto Shoot**: Automatically shoots at targets when Aimbot is enabled.  
-- **Balance Bot**: Toggles the balance bot to maintain balance on tees.  
-- **Emote Spam**: Enables continuous emote spamming.  
-- **Hook Spam**: Enables rapid hook spamming.  
-- **Super DynCam**: Enables unlimited zoom for the dynamic camera.  
-- **Pixel Walk**: Allows precise, pixel-by-pixel movement when using directional keys.  
-- **Hook Nearest Collision**: Automatically hooks to the nearest collision.  
-- **Quick Stop**: Instantly counteracts movement when not holding any directional keys to stop as fast as possible.  
-- **Hook Ride (risky)**: Activates hook ride bot.  
-- **Record Replay**: Starts recording player inputs.  
-- **Load Replay**: Loads previously recorded inputs.  
-- **Avoid Freeze**: Activates the bot to help avoid freeze tiles.  
-- **Auto Edge**: Enables the bot to automatically land on edges near freeze, death, or teleport tiles. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
-- **Laser Unfreeze Bot**: Activates a bot to automatically unfreeze you using the laser. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
-- **Avoid Auto Drag**: Automatically hooks the closest tee without freezing when this feature is active. ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
-- **Avoid Track Points**: Toggles advanced point tracking for the Blatant Gores Bot. See [Blatant Gores Bot](blatant.md) for more details. ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
+## **Captura de pantalla**
+![Menú de Configuración](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/settings-menu.png)
 
 ---
 
-## **Settings**
-- **Teleport Prediction**: Enables teleport prediction for TAS or Gores Bot, otherwise teleports are replaced with freeze. ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
-- **Advanced Settings**: Unlocks advanced prediction settings for fine-tuning all KRX bots for maximum advantage: ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-   - **Death Tile Prediction**: Predicts death tiles for bots, including TAS and Gores Bot. Otherwise, death tiles are ignored.  
-   - **Move Restrictions Prediction**: Predicts air stoppers. Disabling this can significantly boost bot performance.  
-   - **Player Loop**: Predicts tee-to-tee collisions. Disabling this only removes collision handling and can significantly boost bot performance.  
-   - **Prediction Margin**: Adjusts the prediction margin. Higher values make you less affected by lag spikes but might make others appear laggier.
-- **Balance Bot Offset**: Configures how aggressively the balance bot reacts to maintain balance. Higher values reduce movement corrections.  
-- **Hook Nearest FOV**: Sets the field of view for the **Hook Nearest Collision**"** feature.  
+## **Atajos de teclado**
+- **Aimbot**: Activa/desactiva el aimbot.  
+- **Aimbot Auto Hook**: Lanza automáticamente el gancho a objetivos cuando el Aimbot está habilitado.  
+- **Aimbot Auto Shoot**: Dispara automáticamente a objetivos cuando el Aimbot está habilitado.  
+- **Balance Bot**: Activa el bot para mantener el equilibrio en los tees.  
+- **Emote Spam**: Permite el envío continuo de emoticonos.  
+- **Hook Spam**: Habilita el envío rápido de ganchos.  
+- **Super DynCam**: Permite un zoom ilimitado con la cámara dinámica.  
+- **Pixel Walk**: Permite movimientos precisos, píxel por píxel, al usar teclas direccionales.  
+- **Hook Nearest Collision**: Automáticamente lanza el gancho a la colisión más cercana.  
+- **Quick Stop**: Detiene instantáneamente el movimiento al soltar las teclas direccionales, permitiendo frenar lo más rápido posible.  
+- **Hook Ride (arriesgado)**: Activa el bot de Hook Ride.  
+- **Record Replay**: Comienza a grabar las entradas del jugador.  
+- **Load Replay**: Carga entradas previamente grabadas.  
+- **Avoid Freeze**: Activa el bot para evitar tiles de freeze.  
+- **Auto Edge**: Activa el bot para aterrizar automáticamente en los bordes cercanos a tiles de freeze, muerte o teletransporte. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
+- **Laser Unfreeze Bot**: Activa un bot para descongelarte automáticamente usando el láser. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
+- **Avoid Auto Drag**: Automáticamente engancha al tee más cercano sin congelarse cuando esta función está activa. ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
+- **Avoid Track Points**: Activa el seguimiento avanzado de puntos para el Blatant Gores Bot. Consulta [Blatant Gores Bot](blatant.md) para más detalles. ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
 
 ---
 
-## **Configuration**
+## **Ajustes**
+- **Teleport Prediction**: Habilita la predicción de teletransportes para TAS o Gores Bot; de lo contrario, los teletransportes se reemplazan con freeze. ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
+- **Advanced Settings**: Desbloquea configuraciones avanzadas para optimizar todos los bots KRX al máximo: ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+   - **Death Tile Prediction**: Predice tiles de muerte para los bots, incluyendo TAS y Gores Bot. De lo contrario, los tiles de muerte se ignoran.  
+   - **Move Restrictions Prediction**: Predice "air stoppers". Desactivar esta opción puede mejorar significativamente el rendimiento del bot.  
+   - **Player Loop**: Predice colisiones entre tees. Desactivar solo elimina el manejo de colisiones, lo que puede mejorar significativamente el rendimiento.  
+   - **Prediction Margin**: Ajusta el margen de predicción. Valores más altos te hacen menos vulnerable a picos de lag, pero podrían hacer que otros jugadores parezcan con más lag.
+- **Balance Bot Offset**: Configura la agresividad del bot para mantener el equilibrio. Valores más altos reducen las correcciones de movimiento.  
+- **Hook Nearest FOV**: Ajusta el campo de visión para la función **Hook Nearest Collision**.  
 
-1. Open the **Settings** tab in the KRX Client.  
-2. Assign custom hotkeys to features according to your preferences.  
-3. Adjust settings to suit your gameplay needs. Below are some **recommended configurations**:  
-   - **Teleport Prediction**: Recommended to keep disabled unless using TAS. Don't enable when using the Gores Bot. ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
-   - **Advanced Settings**: Recommended disabled unless you know what you are doing. ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
-      - **Death Tile Prediction**: Recommended disabled as it slows bots but it's useful for TAS.  
-      - **Move Restrictions Prediction**: Recommended enabled for casual play. Disable for significant performance boosts in bots.  
-      - **Player Loop**: Recommended enabled for casual play. Disable for significant performance boosts in bots.  
-      - **Prediction Margin**: Choose a value based on your ping (e.g., for 50ms ping, set ~50). Setting higher values (>20) are recommended to avoid bot issues.
-   - **Balance Bot Offset**: Recommended value: ~2.  
-   - **Hook Nearest FOV**: Recommended to set a lower FOV (e.g., 30) to reduce lag on low-end CPUs.  
+---
+
+## **Configuración**
+
+1. Abre la pestaña **Configuración** en el cliente KRX.  
+2. Asigna atajos personalizados según tus preferencias.  
+3. Ajusta los ajustes para adaptarlos a tus necesidades de juego. A continuación, te recomendamos algunas configuraciones:  
+   - **Teleport Prediction**: Se recomienda mantener deshabilitada a menos que uses TAS. No actives esta opción al usar el Gores Bot. ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
+   - **Advanced Settings**: Se recomienda mantener deshabilitada a menos que sepas lo que estás haciendo. ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
+      - **Death Tile Prediction**: Se recomienda deshabilitada ya que ralentiza los bots, aunque es útil para TAS.  
+      - **Move Restrictions Prediction**: Recomendado habilitar para un juego casual. Desactivar para mejorar el rendimiento en bots.  
+      - **Player Loop**: Recomendado habilitar para un juego casual. Desactivar para mejorar el rendimiento en bots.  
+      - **Prediction Margin**: Ajusta según tu ping (por ejemplo, para 50ms de ping, configúralo en ~50). Valores mayores a 20 se recomiendan para evitar problemas con el bot.
+   - **Balance Bot Offset**: Valor recomendado: ~2.  
+   - **Hook Nearest FOV**: Recomendado un FOV más bajo (por ejemplo, 30) para reducir el lag en CPUs de bajo rendimiento.  
