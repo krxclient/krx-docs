@@ -22,3 +22,7 @@
     * [Blatant](features/goresbot/blatant.md)
     * [Fentbot](features/goresbot/fentbot.md)
 * [TAS](features/tas.md)
+
+## Changelog
+
+* [Changelog](changelog.md)
