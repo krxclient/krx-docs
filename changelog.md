@@ -1,9 +1,12 @@
+---
+icon: rocket
+---
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),  
-and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
 ## [1.27] - 2024-11-17
 ### Added
@@ -107,12 +110,12 @@ and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https:/
 - Random name/clan generator. 🔄🆕
 - Name/clan converter to fancy name/clan. ✨🆔
 - Balance bot hotkey for hooked players. ⚖️🎯
+- Global settings for prediction (tele, player collision check, death tiles, move restriction). 🌐⚙️
+- Useful binds section (currently includes 45-degree aim bind). 🤖🔄
 - Rainbow tee & rainbow hook. 🌈
 - Balance bot for hooked-only players. ⚖️
 - Auto jump bot. 🤖🆙
 - 45-degree aim bind. 🎯🏹
-- Global settings for prediction (tele, player collision check, death tiles, move restriction). 🌐⚙️
-- Useful binds section (currently includes 45-degree aim bind). 🤖🔄
 
 ### Changed
 - Updated client to DDNet 18.4. 🔄
@@ -132,6 +135,7 @@ and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https:/
 - Display [WARN] in yellow in the scoreboard when a suspicious player is detected. 📊🟡
 
 ### Premium/Ultimate Features
+#### Added
 - Show real aim in TAS. 🎯🏁
 - TAS continues on saved replay. ▶️📹
 - Tutorial button in TAS menu. 📚🎯
@@ -143,19 +147,21 @@ and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https:/
 - Separate config values for blatant/legit bot. ⚙️🆕
 - Pause after rewind/forward in TAS. ⏸️⏪⏩
 - Wall-only laser setting. 🔫🧱
-- Improved TAS fake aim. 🎯🤖
-- Fixed legit bot issues. 🎯🔧
-- Fixed game-breaking bug in KRX prediction. 🛠️🧩
-- Fixed how player prediction works for avoid functionality. 🔧🧠
-- Fixed and improved rendering of prediction lines in TAS. 🎨📈
-- Made certain TAS variables (load, record, pause, etc.) not save. 📝🚫
+- God mode features in TAS (super, give weapons). 🦸🔫
+- TAS stop mouse functionality when paused. ⏸️🐭
+
+#### Changed
 - Increased prediction lines length in TAS. 📏🔄
-- TAS no longer simulates further when rewinding/forwarding. ⏪⏩🚫
-- Removed useless inputs from TAS. 🚫📝
-- Fixed player prediction for gores bot (previously didn't remove all players). 🔧🧠
-- Fixed TAS prediction lines to work for every tee. 🎨📈
-- Added god mode features in TAS (super, give weapons). 🦸🔫
-- Added TAS stop mouse functionality when paused. ⏸️🐭
+
+#### Fixed
+- Legit bot issues. 🎯🔧
+- Game-breaking bug in KRX prediction. 🛠️🧩
+- How player prediction works for avoid functionality. 🔧🧠
+- Improved rendering of prediction lines in TAS. 🎨📈
+- TAS variables (load, record, pause, etc.) no longer save. 📝🚫
+- TAS simulation stops further when rewinding/forwarding. ⏪⏩🚫
+- Player prediction for gores bot (previously didn't remove all players). 🔧🧠
+- TAS prediction lines now work for every tee. 🎨📈
 
 ---
 
@@ -334,6 +340,7 @@ and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https:/
 - Minor bugs. 🐞
 
 ### Removed
+- Disabled Aimbot on FNG. 🚫
 - Edge Aimbot. ❌
 - KRX Chat. 🗑️
 - Laser Unfreeze Bot. 🗡️
