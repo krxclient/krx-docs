@@ -2,8 +2,8 @@
 
 All notable changes to this project will be documented in this file.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),  
+and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
 ## [1.27] - 2024-11-17
 ### Added
@@ -163,32 +163,37 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Option to hide features HUD. 🖥️
 - Fake ping functionality. 📶
-- Reorganized KRX menus for better navigation. 🗂️
-- TAS to the menu. 🏁
-- Saving replays to TAS (stored in "appdata/krxclient.xyz/replays"). 🎥
-- Dummy support in TAS (might be broken sometimes; try shorter maps first). 🗺️
-- Auto forward in TAS (auto-forward when frozen until unfrozen). ❄️➡️
-- "Unlimited" replays in TAS (RAM-dependent; up to 1000 hours on 32GB). ♾️
-- TAS fake aim (modifies unused inputs based on the fake aim mode). 🎯
-- TAS starting conditions verification (weapons, position, strong/weak hook) + option to ignore. ✔️
-- Basic pathfinding (work in progress). 🗺️
 
 ### Changed
 - Updated client to DDNet 18.3.1. 🆕
+- Reorganized KRX menus for better navigation. 🗂️
 - Improved ID Stealer (now includes the option to steal emote). 🔄
-- Enhanced ban-logs for better analysis. 📊
+- Improved ban-logs for better analysis. 📊
 - Huge improvement in bot speed. 🚀
 
 ### Fixed
 - Aimbot target box issues. 🎯
 - Various crashes and bugs. 🛠️
+- Wibble wobble bug. 🤫🧏‍♂️
+
+### Premium/Ultimate Features
+#### Added
+- TAS to the menu. 🏁
+- Replay saving to TAS (stored in "appdata/krxclient.xyz/replays"). 🎥
+- Dummy support in TAS (might be broken sometimes; try shorter maps first). 🗺️
+- Auto forward in TAS (automatically forwards when frozen until unfrozen). ❄️➡️
+- "Unlimited" replays in TAS (RAM-dependent; up to 1000 hours on 32GB). ♾️
+- TAS fake aim (modifies unused inputs based on the fake aim mode). 🎯
+- TAS starting conditions verification (weapons, position, strong/weak hook) + option to ignore. ✔️
+- Basic pathfinding (work in progress). 🗺️
+
+#### Fixed
 - Auto-aled issues. 🔧
 - Memory leak with avoid freeze. 🧠
 - HUD features in TAS (freezebars, etc.). 📊
 - Checkpoint teleports in TAS. 🚏
 - Aim locking in TAS. 🔒
 - Auto-rewind in TAS. ⏪
-- Wibble wobble bug. 🤫🧏‍♂️
 
 ---
 
