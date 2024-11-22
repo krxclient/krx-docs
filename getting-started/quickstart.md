@@ -10,7 +10,7 @@ Bu kılavuz, KRX Client'ı hızlı bir şekilde kullanmaya başlamanıza yardım
 - [krxclient.xyz](https://krxclient.xyz) adresini ziyaret edin ve ihtiyacınız olan sürümü indirin.
 
 ### Adım 2: Kurulum
-- İstemciyi sisteminize kurmak için [kurulum kılavuzunu](installation.md)'a bakın.
+- İstemciyi sisteminize kurmak için [kurulum kılavuzunu](installation.md) inceleyin.
 
 ### Adım 3: Özellikleri Keşfedin
 - İstemciyi açın ve sekmeleri keşfedin:

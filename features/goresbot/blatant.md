@@ -38,7 +38,7 @@ KRX İstemcisindeki **Blatant** Gores botu, kolaydan ekstrem olana kadar her tü
   - **Stand Ticks**: Sabit eylemler için hız sınırlama süresini ayarlar.
 
 ## **Misc**
-- **DragSupports**: Aimbot'a ek veriler sağlayarak tee'nizin donmasına neden olabilecek yönlerden kaçınmanıza yardımcı olur.
+- **Drag Support**: Aimbot'a ek veriler sağlayarak tee'nizin donmasına neden olabilecek yönlerden kaçınmanıza yardımcı olur.
 - **Track Point**: Geçerli yönü izler ve kancalanabilirse, tüm tarama süresi boyunca hedefler.
 - **Rehook Action**: Bariz taramada yeniden kancalama senaryolarını dikkate alır.
 - **Safe Aim Tracking**: Yalnızca izlenen yön tüm tarama süresi boyunca geçerli kalırsa izlemeyi sağlar.
@@ -74,6 +74,6 @@ KRX İstemcisindeki **Blatant** Gores botu, kolaydan ekstrem olana kadar her tü
 - **Kick on Ticks**: 20
 - **Action Ticks**: 26
 - **Drag Support**: AÇIK
-- **İzleme Noktası**: AÇIK
+- **Track Point**: AÇIK
 - **Rehook Action**: AÇIK
 - **Safe Aim Tracking**: Maksimum güvenlik için AÇIK, aksi takdirde KAPALI

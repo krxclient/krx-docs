@@ -36,7 +36,7 @@ Ayrıntılı kurulum talimatları için [Kurulum Kılavuzumuza](getting-started/
 ## Kullanım
 
 ### **Neden TAS'da silahları göremiyorum?**
-/showall' komutunu çalıştırmadınız. Oyun konsolunda çalıştırın.
+`/showall` komutunu çalıştırmadınız. Oyun konsolunda çalıştırın.
 
 ---
 
@@ -44,7 +44,7 @@ Ayrıntılı kurulum talimatları için [Kurulum Kılavuzumuza](getting-started/
 
 ### **Neden blatant config ile başarısız oluyorum?**
 Yapılandırmanızın önerilen ayarlarla eşleştiğinden emin olun. Sorunlar devam ederse:
-1. cl_prediction_margin 20` komutunu kullanın.
+1. `cl_prediction_margin 20` komutunu kullanın.
 2. Ping değerinize bağlı olarak değeri kademeli olarak 300'e kadar artırın.
 
 ### **Banlardan nasıl kaçınabilirim?**
@@ -82,4 +82,4 @@ Antivirüs programınızın önemli dosyaları kaldırmadığından emin olun. S
 
 - Destek için [Discord sunucumuza](https://discord.gg/MwzsHadQAe) katılın.
 - E-posta: support@krxclient.xyz  
-- Telgraf: [Buraya Katılın](https://t.me/joinchat/4sp4Mduuf0RiZGM0)
+- Telegram: [Buraya Katılın](https://t.me/joinchat/4sp4Mduuf0RiZGM0)

@@ -75,7 +75,7 @@ En sorunsuz TAS deneyimi için, bir sunucuya katıldıktan sonra `/showall` komu
 
 ## **SORU**
 1. **S:** TAS'da neden silahları göremiyorum?
-   **C:** `/showall' komutunu çalıştırmadınız.  
+   **C:** `/showall` komutunu çalıştırmadınız.  
 
 2. **S:** Bir harita değişikliğinden sonra koşuma neden devam edemiyorum?
    **C:** Maalesef harita değişikliklerinde devam etmek desteklenmiyor. Kaydı durdurun, farklı bir sunucuda haritaya katılın ve oradan devam edin.  

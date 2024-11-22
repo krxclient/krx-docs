@@ -26,7 +26,7 @@ KRX İstemcisindeki **Legit** botu, doğal bir oyun tarzını korurken yardım s
 ## **Settings**
 - **Hook Assistance**: Gores botu için kanca girişlerini etkinleştirir.
 - **Direction Assistance**: Gores botu için yön girişlerini etkinleştirir.
-- **Check Ticks**: Yasal taramaların ne kadar ileriyi tahmin ettiğini belirtir.
+- **Check Ticks**: Legit taramaların ne kadar ileriyi tahmin ettiğini belirtir.
 
 ---
 

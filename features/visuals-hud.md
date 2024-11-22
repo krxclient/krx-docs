@@ -60,9 +60,9 @@ KRX İstemcisindeki **Visuals & HUD** sekmesi, oyununuzun görsel öğelerini ge
 
 1. İstemcide **Visuals & HUD** sekmesini açın.
 2. Ayarları özelleştirin. İşte bazı **önerilen ayarlar**:
-   - **Özellikler HUD**: Oynanışınızı büyük ölçüde etkileyen temel özellikleri görüntülemek için çok kullanışlı bir özellik. **Tavsiye edilir: Açık**.
-   - **TAS HUD**: Bir TAS oluştururken hayati bilgileri görüntüler. **Tavsiye edilir: Açık**.
-   - **Smoke Trail**: Eğlenceli ve benzersiz bir görsel özellik. Sıradan bir oyun sırasında dikkat dağıtıcı olabilir, ancak render demoları için şiddetle tavsiye edilir. **Gerektiği gibi kullanın**.
-   - **Custom Theme**: Menü renklerini hafifçe ayarlayarak önemli bir görsel etki yaratır. **Tavsiye edilir: Açık** ve en iyi deneyim için ayarları değiştirin.
-   - **KoG**: KoG oynanışı için, bu bölümdeki çoğu seçenek inanılmaz derecede kullanışlıdır. **Tavsiye edilir: Çoğu ayarı etkinleştirin**, ardından tercihlerinize göre ayarlayın.
-   - **Aim/Bullet Lines**: Sıradan oyun için gerekli olmasa da, bunlar TAS için veya silahlarla hassas atışlar yaparken çok kullanışlıdır. **Tavsiye edilir: Sıradan oyun için kapalı**, **TAS veya sıkı atışlar için açık**.
+   - **Özellikler HUD**: Oynanışınızı büyük ölçüde etkileyen temel özellikleri görüntülemek için çok kullanışlı bir özellik. **Açık olması tavsiye edilir**.
+   - **TAS HUD**: Bir TAS oluştururken hayati bilgileri görüntüler. **Açık olması tavsiye edilir**.
+   - **Smoke Trail**: Eğlenceli ve benzersiz bir görsel özellik. Sıradan bir oyun sırasında dikkat dağıtıcı olabilir, ancak render demoları için şiddetle tavsiye edilir. **İstediğiniz gibi kullanın**.
+   - **Custom Theme**: Menü renklerini hafifçe ayarlayarak önemli bir görsel etki yaratır. **Açık olması tavsiye edilir** ve en iyi deneyim için ayarları değiştirin.
+   - **KoG**: KoG oynanışı için, bu bölümdeki çoğu seçenek inanılmaz derecede kullanışlıdır. **Çoğu ayarı aktifleştirmeniz tavsiye edilir**, ardından tercihlerinize göre ayarlayın.
+   - **Aim/Bullet Lines**: Sıradan oyun için gerekli olmasa da, bunlar TAS için veya silahlarla hassas atışlar yaparken çok kullanışlıdır. **Normal oynanış için kapalı olması tavsiye edilir**, **TAS veya zor atışlar için açık**.

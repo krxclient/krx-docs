@@ -5,7 +5,7 @@ icon: shield
 # Gores Bot
 
 KRX Client'ın Ultimate sürümüne özel **Avoid** sekmesi, Gores Botunun gelişmiş sürümlerini donmayı önlemenize yardımcı olur.
-*Not: Avoid botunu kullanırken, lütfen daha yüksek bir `cl_prediction_margin` bakın [settings](settings.md) ve pinginize göre tahmini margini seçin*
+*Not: Avoid botunu kullanırken, lütfen daha yüksek bir `cl_prediction_margin` seçin [settings](settings.md)'e bakın ve pinginize göre tahmini margini seçin*
 
 ---
 
