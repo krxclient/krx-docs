@@ -30,7 +30,7 @@ KRX İstemcisindeki **Legit** botu, doğal bir oyun tarzını korurken yardım s
 
 ---
 
-## **Pririty**
+## **Priority**
 - **Quality**: Botun kararlarının kalitesini ayarlar (ne kadar büyükse o kadar iyidir).
 - **Randomness**: Doğal bir görünüm sağlamak için botun eylemlerine değişkenlik ekler.
 - **Direction Priority**: Mevcut yönü takip etme önceliğini ayarlar.

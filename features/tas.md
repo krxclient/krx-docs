@@ -74,23 +74,23 @@ En sorunsuz TAS deneyimi için, bir sunucuya katıldıktan sonra `/showall` komu
 ---
 
 ## **SORU**
-1. **S: TAS'da neden silahları göremiyorum?
+1. **S:** TAS'da neden silahları göremiyorum?
    **C:** `/showall' komutunu çalıştırmadınız.  
 
-2. **S: Bir harita değişikliğinden sonra koşuma neden devam edemiyorum?
+2. **S:** Bir harita değişikliğinden sonra koşuma neden devam edemiyorum?
    **C:** Maalesef harita değişikliklerinde devam etmek desteklenmiyor. Kaydı durdurun, farklı bir sunucuda haritaya katılın ve oradan devam edin.  
 
-3. **S: `Verify TAS Integrity failed...` gibi bu uyarılar nedir?
+3. **S:** `Verify TAS Integrity failed...` gibi bu uyarılar nedir?
    **C:** Bu uyarılar TAS'ın sorunsuz çalışmasını sağlar. Genellikle bunları görmezden gelebilirsiniz, ancak hata ayıklama sorunlarına yardımcı olurlar - sorunlarla karşılaşırsanız lütfen bunları bizimle paylaşın.  
 
-4. **S: TAS'ım neden çalışmanın ortasında başarısız oldu?
+4. **S:** TAS'ım neden çalışmanın ortasında başarısız oldu?
    **C:** TAS hataları genellikle gecikme nedeniyle meydana gelir. Uygun `cl_prediction_margin` ayarını kullanın ve yeniden oynatmayı doğru başlangıç konumundan yeniden başlatın. Sorun devam ederse destek ekibiyle iletişime geçin.  
 
-5. **S: TAS'da neden hareket edemiyorum?
+5. **S:** TAS'da neden hareket edemiyorum?
    **C:** Büyük olasılıkla TAS duraklatılmış veya `krx_tasrespawn` 1 olarak ayarlanmıştır. Bunu düzeltmek için TAS'ı duraklatın veya konsolda `krx_tasrespawn 0` komutunu çalıştırın.  
 
-6. **S: TAS'a girerken neden hiçbir şey görmüyorum?
+6. **S:** TAS'a girerken neden hiçbir şey görmüyorum?
    **C:** Yeniden doğmanız gerekiyor. Bunu çözmek için Yeniden Doğma kısayol tuşunu kullanın.  
 
-7. **S: Neden geri veya ileri saramıyorum?
+7. **S:** Neden geri veya ileri saramıyorum?
    **C:** Geri veya ileri sarma özelliğini kullanmak için TAS'ta kayda başlamanız gerekir. Adım geri/ileri sarma etkinse, değişiklikler fark edilemeyecek kadar ince olabilir; gerekirse devre dışı bırakın.  

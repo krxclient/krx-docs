@@ -29,7 +29,7 @@ Hayır, kapalı kaynaklı bir projedir. Bu, tespit edilmemesine yardımcı olur 
 Antivirüs yazılımınız onu kaldırmış olabilir. Antivirüs programınızı devre dışı bırakın ve klasörü tekrar ayıklayın.
 
 ### **İstemciyi nasıl kurabilirim?**
-Ayrıntılı kurulum talimatları için [Kurulum Kılavuzumuza] (getting-started/installation.md) bakın.
+Ayrıntılı kurulum talimatları için [Kurulum Kılavuzumuza](getting-started/installation.md) bakın.
 
 ---
 
@@ -65,7 +65,7 @@ Resellerlarımızı kullanın. Alternatifleri bulmak için Discord'daki **Resell
 ## Yaygın Hatalar
 
 ### **Hata: VCRUNTIME140.dll eksik**
-Eksik Dosya[Microsoft'un web sitesi](https://aka.ms/vs/17/release/vc_redist.x64.exe) adresinden yükleyin.
+Eksik Dosyayı [Microsoft'un web sitesi](https://aka.ms/vs/17/release/vc_redist.x64.exe) adresinden yükleyin.
 
 ### **Hata: GET: SSL bağlantı hatası**
 VPN kullanmayı veya modeminizi yeniden başlatmayı deneyin. Çözülmezse destek ekibiyle iletişime geçin.
@@ -80,6 +80,6 @@ Antivirüs programınızın önemli dosyaları kaldırmadığından emin olun. S
 
 ## Bize Ulaşın
 
-- Destek için [Discord sunucumuza] (https://discord.gg/MwzsHadQAe) katılın.
+- Destek için [Discord sunucumuza](https://discord.gg/MwzsHadQAe) katılın.
 - E-posta: support@krxclient.xyz  
 - Telgraf: [Buraya Katılın](https://t.me/joinchat/4sp4Mduuf0RiZGM0)
