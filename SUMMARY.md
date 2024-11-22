@@ -1,28 +1,28 @@
-# Table of contents
+# 目录
 
-* [Welcome](README.md)
-* [FAQ](faq.md)
+* [欢迎](README.md)
+* [常见问题](faq.md)
 
-## Getting Started
+## Getting Started 入门指南
 
-* [Quickstart](getting-started/quickstart.md)
-* [Installation](getting-started/installation.md)
+* [快速开始](getting-started/quickstart.md)
+* [安装说明](getting-started/installation.md)
 
-## Features
+## Features 功能特性
 
-* [Aimbot](features/aimbot.md)
-* [Misc](features/misc.md)
-* [Visuals & HUD](features/visuals-hud.md)
-* [Settings](features/settings.md)
+* [自瞄功能](features/aimbot.md)
+* [杂项功能](features/misc.md)
+* [视觉效果与界面](features/visuals-hud.md)
+* [设置](features/settings.md)
 
-## Ultimate Features
+## Ultimate Features 旗舰版功能
 
-* [Gores Bot](features/avoid.md)
-    * [Legit](features/goresbot/legit.md)
-    * [Blatant](features/goresbot/blatant.md)
-    * [Fentbot](features/goresbot/fentbot.md)
-* [TAS](features/tas.md)
+* [防冻机器人](features/avoid.md)
+    * [合法防冻](features/goresbot/legit.md)
+    * [明显防冻](features/goresbot/blatant.md)
+    * [芬特机器人](features/goresbot/fentbot.md)
+* [TAS辅助加速](features/tas.md)
 
-## Changelog
+## Changelog 更新日志
 
-* [Changelog](changelog.md)
+* [更新日志](changelog.md)
