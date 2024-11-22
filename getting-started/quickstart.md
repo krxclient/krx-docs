@@ -2,17 +2,17 @@
 icon: bullseye-arrow
 ---
 
-# Quickstart
+# 快速入门
 
-This guide will help you get started with KRX Client quickly.
+本指南将帮助您快速开始使用 KRX 客户端。
 
-### Step 1: Download
-- Visit [krxclient.xyz](https://krxclient.xyz) and download the version you need.
+### 第一步：下载
+- 访问 [krxclient.xyz](https://krxclient.xyz) 并下载您需要的版本。
 
-### Step 2: Install
-- Follow the [installation guide](installation.md) to set up the client on your system.
+### 第二步：安装
+- 按照 [安装指南](installation.md) 在您的系统上设置客户端。
 
-### Step 3: Explore Features
-- Open the client and explore the tabs:
-  - **Free/Premium**: Aimbot, Misc, Visuals & HUD, Settings.
-  - **Ultimate**: TAS, Avoid + improvements/advanced features for bots in **Free/Premium**.
+### 第三步：探索功能
+- 打开客户端并探索各个标签页：
+  - **免费/高级**：瞄准器、杂项、视觉效果与 HUD、设置。
+  - **终极版**：TAS、避免 + 改进/高级功能，适用于 **免费/高级** 中的机器人。
