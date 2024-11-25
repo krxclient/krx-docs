@@ -1,0 +1,25 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.iml
+
+# Temporary/backup files
+*.swp
+*.swo
+*.bak
+*~
+
+# Log files
+*.log
+
+# Environment files (if any)
+.env
+.env.*
+
+# Miscellaneous
+*.tmp
+*.lock
