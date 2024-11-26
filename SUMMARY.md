@@ -1,14 +1,14 @@
 # Table of contents
 
-* [Welcome](README.md)
-* [FAQ](faq.md)
+* [Привет!](README.md)
+* [Часто задаваемые вопросы](faq.md)
 
-## Getting Started
+## Начало работы <a href="#getting-started" id="getting-started"></a>
 
-* [Quickstart](getting-started/quickstart.md)
-* [Installation](getting-started/installation.md)
+* [Быстрый старт](getting-started/quickstart.md)
+* [Установка](getting-started/installation.md)
 
-## Features
+## Функции <a href="#features" id="features"></a>
 
 * [Aimbot](features/aimbot.md)
 * [Misc](features/misc.md)
@@ -18,9 +18,9 @@
 ## Ultimate Features
 
 * [Gores Bot](features/avoid.md)
-    * [Legit](features/goresbot/legit.md)
-    * [Blatant](features/goresbot/blatant.md)
-    * [Fentbot](features/goresbot/fentbot.md)
+  * [Legit](features/goresbot/legit.md)
+  * [Blatant](features/goresbot/blatant.md)
+  * [Fentbot](features/goresbot/fentbot.md)
 * [TAS](features/tas.md)
 
 ## Changelog

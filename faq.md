@@ -1,85 +1,99 @@
 ---
-
 icon: book
-
 ---
 
-# FAQ
+# Часто задаваемые вопросы
 
-Find answers to common questions about **KRX Client** below. If your question isn't listed, reach out on our [Discord](https://discord.gg/MwzsHadQAe).
+Ниже приведены ответы на самые популярные вопросы о **KRX Client**. Если твоего вопроса нет в списке, свяжись с нами в [Discord](https://discord.gg/MwzsHadQAe).
 
----
+***
 
-## General Questions
+## Основные вопросы
 
-### **Where can I download the KRX Client?**
-Download the KRX Client from [krxclient.xyz](https://krxclient.xyz). Extract the files to a single folder, preferably a new one on your desktop.
+### **Где я могу скачать KRX Client?**
 
-### **Is KRX Client safe to use?**
-Yes, the client is safe. However, due to file obfuscation for security, your antivirus might flag it as malicious. This is a false positive.
+Скачайте KRX Client с [krxclient.xyz](https://krxclient.xyz). Распакуйте файлы в одну папку, лучше всего в новую папку на рабочем столе.
 
-### **Is KRX Client open source?**
-No, it’s a closed-source project. This helps keep it undetected and prevents the creation of effective antibot mechanisms.
+### **Безопасен ли KRX Client?**
 
----
+Да, безопасен. Однако из-за [обфускации](https://wikipedia.org/wiki/Obfuscation) файлов в целях безопасности ваш антивирус может пометить его как вредоносный. Это ложное срабатывание.
 
-## Installation and Setup
+### **У KRX Client открытый исходный код?**
 
-### **Why is KRX Client.exe missing from the folder?**
-Your antivirus software might have removed it. Disable your antivirus and extract the folder again.
+Нет, это проект с закрытым исходным кодом. Это помогает сохранить его незамеченным и предотвращает создание эффективной защиты.
 
-### **How do I install the client?**
-For detailed installation instructions, refer to our [Installation Guide](getting-started/installation.md).
+***
 
----
+## Установка
 
-## Usage
+### **Почему KRX Client.exe отсутствует в папке?**
 
-### **Why don’t I see weapons in TAS?**
-You didn’t run the command `/showall`. Run it in the game console.
+Возможно, твой антивирус удалил его. Отключи антивирус и снова распакуй папку.
 
----
+### **Как установить клиент?**
 
-## Troubleshooting
+Для получения подробных инструкций по установке, перейди и  к нашему [гайду по установке](getting-started/installation.md).
 
-### **Why do I fail with a blatant config?**
-Ensure your config matches the recommended settings. If issues persist:
-1. Use the command `cl_prediction_margin 20`.
-2. Increase the value gradually up to 300 based on your ping.
+***
 
-### **How can I avoid bans?**
-Avoid using blatant configs. Use legit configs shared by members in Discord. Adjust them for your playstyle.
+## Использование
 
----
+### Почему я не вижу оружия в TAS?
 
-## Payment and Subscriptions
+Попробуй выполнить команду `/showall` в чате сервера.
 
-### **How do I pay without crypto?**
-Use our resellers. Visit the **Resellers** category on Discord or use the store section on our website to find alternatives.
+***
 
-### **How do I get free access to KRX Client?**
-Free subscriptions are only available through giveaways on Discord. Keep an eye on announcements for details.
+## Устранение неполадок
 
----
+### Почему я падаю с blatant?
 
-## Common Errors
+Убедитесь, что ваша конфигурация соответствует рекомендованным настройкам. Если проблема осталась:
+
+1. Используй команду `cl_prediction_margin 20` в [консоли клиента](#user-content-fn-1)[^1]
+2. Постепенно увеличивайте значение до 300 в зависимости от вашего пинга.
+
+### **Как я могу избежать банов?**
+
+Избегайте использования blatant  конфигураций. Используйте легитные конфигурации, которыми делятся участники [Discord](https://discord.gg/MwzsHadQAe). Настройте их под свой стиль игры.
+
+***
+
+## Оплата и подписки
+
+### Как оплатить без криптовалюты?
+
+Используйте наших реселлеров. Посетите категорию «Resellers» в [Discord ](https://discord.gg/MwzsHadQAe)или воспользуйтесь разделом магазина на нашем сайте, чтобы найти альтернативные варианты.
+
+### **Как мне получить KRX Premium/Ultimate бесплатно?**
+
+В нашем [Discord](https://discord.gg/MwzsHadQAe) вы можете увидеть бесплатные раздачи. Следите за новостями, чтобы узнать подробности.
+
+***
+
+## Распространенные ошибки
 
 ### **Error: VCRUNTIME140.dll is missing**
-Install the missing dependency from [Microsoft's website](https://aka.ms/vs/17/release/vc_redist.x64.exe).
+
+Установите отсутствующую зависимость с сайта [Microsoft](https://aka.ms/vs/17/release/vc_redist.x64.exe).
 
 ### **Error: GET: SSL connect error**
-Try using a VPN or restarting your router. If unresolved, contact support.
 
-### **Crash: Vulkan Renderer Issues**
-Switch to OpenGL in your game settings. Vulkan is less stable on some systems.
+Попробуйте использовать VPN или перезапустить свой роутер. Если не удалось, обратитесь в службу поддержки.
 
-### **Crash or Missing files**
-Ensure your antivirus isn’t removing essential files. If the issue persists, join our Discord for support.
+### **Краш: Vulkan Renderer Issues**
 
----
+Переключитесь на OpenGL в настройках клиента. Vulkan менее стабилен на некоторых системах.
 
-## Contact Us
+### **Краш или** Отсутствующие файлы
 
-- Join our [Discord server](https://discord.gg/MwzsHadQAe) for support.
-- Email: support@krxclient.xyz  
-- Telegram: [Join Here](https://t.me/joinchat/4sp4Mduuf0RiZGM0)
+Убедитесь, что ваш антивирус не удаляет важные файлы. Если проблема не устранена, обратитесь за поддержкой в наш [Discord](https://discord.gg/MwzsHadQAe).
+
+***
+
+## Связь с нами
+
+* Вы можете получить поддержку в [**Discord**](https://discord.gg/MwzsHadQAe) или [**Telegram**](https://t.me/joinchat/4sp4Mduuf0RiZGM0)
+* **Почта**: support@krxclient.xyz
+
+[^1]: F1

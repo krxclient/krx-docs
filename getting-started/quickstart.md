@@ -2,17 +2,20 @@
 icon: bullseye-arrow
 ---
 
-# Quickstart
+# Быстрый старт
 
-This guide will help you get started with KRX Client quickly.
+Это руководство поможет тебе быстро приступить использованию KRX Client.
 
-### Step 1: Download
-- Visit [krxclient.xyz](https://krxclient.xyz) and download the version you need.
+### Шаг 1: Загрузка
 
-### Step 2: Install
-- Follow the [installation guide](installation.md) to set up the client on your system.
+* Перейди на [krxclient.xyz](https://krxclient.xyz/) и загрузи нужную версию.
 
-### Step 3: Explore Features
-- Open the client and explore the tabs:
-  - **Free/Premium**: Aimbot, Misc, Visuals & HUD, Settings.
-  - **Ultimate**: TAS, Avoid + improvements/advanced features for bots in **Free/Premium**.
+### Шаг 2: Установка
+
+* Следуй [гайду по установке](https://krxclient.gitbook.io/docs/getting-started/installation) чтобы настроить клиент.
+
+### Шаг 3: Исследуйте функционал
+
+* Открой клиент и изучи вкладки:
+  * **Free/Premium**: Aimbot, Misc, Visuals & HUD, Settings.
+  * **Ultimate**: TAS, Avoid + улучшенный/расширенный функционал из **Free/Premium**.

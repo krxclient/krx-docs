@@ -2,24 +2,26 @@
 icon: computer
 ---
 
-# Installation
+# Установка
 
-Follow these steps to easily install **KRX Client**:
+Выполни следующие действия, чтобы легко установить KRX Client:
 
-## Recommended System Requirements
-- **Operating System**: Windows 10 or later (Linux works with Wine but isn't officially supported).
-- **CPU**: Minimum 4 cores (x64 architecture preferred over x86).
-- **RAM**: At least 8 GB for smooth performance.
+## Рекомендуемые системные требования
 
-## Installation Steps
-1. Download the KRX Client zipped folder from [krxclient.xyz](https://krxclient.xyz).
-2. Extract the folder using your preferred unzipping tool.
-3. Open the extracted folder and launch **KRX Client.exe**.
-4. If you are using the **Premium** or **Ultimate** version, log in with your credentials.  
-   **Note:** Use your username, not your email. For example, if your email is `johndoe@example.com`, and your username is `johndoe123`, you would use `johndoe123`.
+* Операционная система: Windows 10 или более поздней версии (Linux работает с Wine, но официально не поддерживается).
+* **CPU**: Минимум 4 ядра (x64  архитектура предпочтительнее, чем x86).
+* **RAM**: Не менее 8 ГБ для стабильной работы.
 
-**Prefer a video guide?** Watch our step-by-step tutorial here: [YouTube Installation Guide](https://youtu.be/ytl2i0TpEso).
+## Этапы установки
 
-## Troubleshooting
-- **Executable Missing**: If the `KRX Client` executable isn't visible, your antivirus software may have removed it. Disable real-time protection temporarily and extract the folder again.
-- **Other Issues**: For additional help, check the [FAQ section](../faq.md) or contact our support team on [Discord](https://discord.gg/MwzsHadQAe).
+1. Скачай архив KRX Client с сайта [krxclient.xyz](https://krxclient.xyz).
+2. Распакуй папку.
+3. Открой распакованную папку и запусти файл **KRX Client.exe**.
+4. Если ты используешь Premium или Ultimate версию, войди в аккаунт, используя свои данные. Примечание: Используй логин аккаунта, а не электронную почту. Например, если твоя почта - `johndoe@example.com`, а имя пользователя - `johndoe123`, тебе нужно использовать `johndoe123`.
+
+Предпочитаешь видео-руководство? Посмотри наше пошаговое руководство [здесь](https://youtu.be/ytl2i0TpEso).
+
+## Устранение неполадок
+
+* **Отсутствует исполняемый файл**: Если исполняемый файл `KRX Client` не отображается, возможно, твой антивирус удалил его. Временно отключи защиту в режиме реального времени и снова распакуй папку.
+* **Другие вопросы**: Для получения дополнительной помощи ознакомься с разделом [часто задаваемых вопросов](../faq.md) или свяжись с нашей службой поддержки в [Discord](https://discord.gg/MwzsHadQAe).
