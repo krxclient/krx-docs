@@ -25,7 +25,7 @@ icon: bullseye-arrow
 * **Target Box**: Выделяет цели квадратами (красный для крюка, оранжевый для оружия). Полезно для PvP режимов, но может отвлекать в обычной игре.
 * **Target Glow**: Добавляет эффект свечения целям. **Примечание**: Это не работает с колобками сплошного черного цвета.
 * **Advanced Settings**:  Открывает дополнительный контроль над поведением Aimbot. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-* **Grenade Move Prediction**: Предугадывает движения цели для повышения точности стрельбы гранатой. **Примечание**: Эта функция требовательна к процессору, поэтому не рекомендуется для использования на маломощных ПК.![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+* **Grenade Move Prediction**: Предугадывает движения цели для повышения точности стрельбы гранатой. **Примечание**: Эта функция требовательна к процессору, поэтому не рекомендуется для использования на маломощных ПК.![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
 * **Edge Accuracy**: Регулирует точность зацепления краев: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
   * **Lower Values**: Увеличивает вероятность промаха, но делает делает вас на вид более легитными. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
   * **Higher Values**: Повышает точность даже в сложных моментах. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)

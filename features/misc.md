@@ -4,7 +4,7 @@ icon: sparkles
 
 # Misc
 
-Вкладка **Misc** в **KRX Client** предлагает ряд инструментов и функций, предназначенных для улучшения игрового процесса, обеспечения защиты и включения забавной механики троллинга.
+Вкладка **Misc** в **KRX Client** предлагает ряд инструментов и функций, предназначенных для улучшения игрового процесса, обеспечения защиты и троллинга.
 
 ***
 
@@ -16,106 +16,112 @@ icon: sparkles
 
 ### **Bots**
 
-* **Moonwalk**: Makes the player do a "moonwalk" when pressing both left and right keys by switching the movement direction back and forth.
-* **Auto Fire**: Automatically fires your weapon when holding the fire button.
-* **Auto Rehook**: After successfully hooking a player, if you keep holding the hook button, it automatically tries to rehook them.
-* **Auto Jump Save**: Automatically jumps to avoid going into freeze.
-* **Quick Stop**: Stops the player quickly and smoothly by adjusting movement direction to counter their current velocity.
-* **Avoid Freeze**: Helps avoid freeze zones by using left/right movement.
-* **Dummy Fly**: Your dummy automatically does hook fly with you, making the dummy hammer and hook too. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-* **Jet Ride**: Works like hook ride bot but with a jetpack. Control it with A/W/S/D. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-* **Auto Aled**: Automatically hammers when an aled is possible. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+* **Moonwalk**: Заставляет игрока забавно двигаться в стиле "Лунной походки" при одновременном зажатии клавиш вправо и влево.
+* **Auto Fire**: Позволяет удерживать стрельбу/атаку.
+* **Auto Rehook**: После попадания хуком по игроку, если вы продолжаете удерживать клавишу хука, он автоматически попытается повторно хукнуть.
+* **Auto Jump Save**: Автоматически прыгает, чтобы избежать попадание во фриз.
+* **Quick Stop**: Тормозит игрока быстро и плавно, направляя движения в соответствии с его текущей скоростью.
+* **Avoid Freeze**: Помогает избежать фриза с помощью движений влево/вправо.
+* **Dummy Fly**: Твой дамми автоматически помогает выполнять тебе хукфлай[^1] ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+* **Jet Ride**: Работает как `hook ride bot`, но с джетпаком. Управление с помощью A/W/S/D. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+* **Auto Aled**: Автоматически бьёт молотом помогая сделать Алед, если это возможно. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
 
 ### **Protections**
 
-* **Random Timeout Seed**: Generates a new timeout seed before connecting to a server to avoid fingerprinting. Note: You cannot rejoin your old position after timing out with this enabled.
-* **Version Spoofer**: Spoofs the client version/ID to bypass restrictions. If unsure, leave it off.
+* **Random Timeout Seed**: Генерирует новый [токен таймаута](#user-content-fn-2)[^2] перед заходом на сервер для избежания отслеживания со стороны сервера. **Примечание:** вы не сможете вернуться на свою позицию после закрытия клиента без выхода с сервера.
+* **Version Spoofer**: Заменяет отправляемую серверу версию клиента. Если не уверены - не трогайте.
 
 ### **Mod Detector**
 
-* **Enable**: Turns on the Mod Detector feature to identify potential moderators or suspicious players on the server.
-* **Detect by Names**: Scans player names for known moderators.
-* **Detect Suspicious Players**: Scans player names to detect potential moderators or players who could report you.
-* **Leave on Mod Detection**: Automatically disconnects from the server if a potential moderator is detected.
-* **Leave on Warn Detected**: Automatically disconnects from the server if a potential moderator or player who could report you is detected.
+* **Enable**: Включает обнаружение модераторов на сервере.
+* **Detect by Names**: Проверяет ники игроков на соответствие списку модераторов.
+* **Detect Suspicious Players**: Проверяет ники игроков, чтобы выявить потенциальных модераторов или игроков, которые могли бы пожаловаться на вас.
+* **Leave on Mod Detection**: Автоматически выходит с сервера при обнаружении модератора.
+* **Leave on Warn Detected**: Автоматически выходит с сервера при обнаружении потенциального модератора или игрока, который мог бы пожаловаться на вас.
 
 ### **Auto Unfreeze** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
 
-* **Enable**: Activates the Auto Unfreeze feature, which automatically shoots a laser at a wall to unfreeze you when you jump through freeze zones.
-* **Advanced Settings**: Enables more detailed configuration options for precise control.
-  * **Bounces**: Determines how the laser bounces off walls:
-    * **Least**: Selects a direction with the fewest bounces, ensuring quicker unfreezing.
-    * **Most**: Selects a direction with the most bounces. Useful in TAS scenarios, as longer bounces result in faster reload times.
-  * **Silent**: Makes aim adjustments invisible on your screen while remaining visible to others.
-  * **Points**: Configures the number of points considered when checking for unfreeze directions. Higher values provide more precise checks.
-  * **Current Dir Ticks**: Sets how many ticks of the laser are used to calculate the current direction. Adjust for better accuracy.
-  * **Ticks**: Defines how many ticks of the laser are analyzed when determining the best unfreeze direction.
-  * **FOV**: Adjusts the field of view to determine the laser's targeting range.
+* **Enable**: Активирует функцию разморозки, путём автоматического направления лазера на стену под нужным углом, чтобы разморозить вас, когда вы перепрыгиваете через фриз.
+* **Advanced Settings**: Включает более подробные настройки.
+  * **Bounces**: Способ направления лазера:
+    * **Least**: Направление с наименьшим количеством отскоков, обеспечивая более быстрое размораживание.
+    * **Most**: Направление с наибольшим количеством отскоков. Полезно в сценариях TAS, поскольку более длительные отскоки приводят к более быстрому времени перезарядки.
+  * **Silent**: Делает прицеливание невидимыми для вас, оставаясь при этом видимыми для других.
+  * **Points**: Количество точек, учитываемых при проверке направлений выстрела. Более высокое значение обеспечивают более точный выстрел.
+  * **Current Dir Ticks**: Количество тиков которое используются для расчета текущего направления.
+  * **Ticks**: Количество тиков которое используется для определения наилучшего направления выстрела.
+  * **FOV**: Настраивает поле зрения для определения угла наведения лазера.
 
 ### **Fake Aim**
 
-* **Enable**: Turns on fake aim behavior to confuse or mislead other players.
-* **Send Always**: If enabled, the aim direction will be sent every tick to the server (looks smoother for others).
-* **Visible**: Shows the fake aim on your screen.
-* **Modes**: Determines how the fake aim behaves:
-  * **Mouse Pos**: Adjusts your aim to follow your mouse position, making the gores bot aimbot appear less blatant.
-  * **Robot Aim**: Updates your aim position only when hooking or firing.
-  * **Spinbot**: Rotates your aim rapidly in a spinning motion.
-  * **Random**: Moves your aim in random directions.
-  * **Fake Angles**: Aims in the opposite direction of your cursor.
-  * **Aimbot Troll Aim**: Always aims at the closest player.
+* **Enable**: Включает фейковый аим, чтобы сбить с толку или ввести в заблуждение других игроков.
+* **Send Always**: Если включено, направление прицеливания будет отправляться на сервер при каждом тике (для других это выглядит более плавно).
+* **Visible**: Показывает фейковый аим на вашем экране.
+* **Modes**: Режим работы:
+  * **Mouse Pos**: Нацеливается в позицию курсора, благодаря чему gores bot выглядит менее палевно.
+  * **Robot Aim**: Меняет направление только при стрельбе или хуке.
+  * **Spinbot**: Вращает аим с заданной скоростью.
+  * **Random**: Нацеливается в случайном направление.
+  * **Fake Angles**: Нацеливается в направлении, противоположном вашему курсору.
+  * **Aimbot Troll Aim**: Нацеливается на ближайшего игрока.
 
 ### **Other**
 
-* **Change Name on Finish**: Automatically changes your name just before crossing the finish line.
-* **Auto Team**: Automatically joins the selected team and locks it.
-* **Anti AFK**: Prevents being marked as AFK.
-* **Kill on Freeze**: Kills your player automatically when you get frozen.
-* **Fast Input**: Makes your input feel 1 tick faster (20ms), but this is only a visual effect.
-* **Ignore Replay Warnings**: Suppresses warning messages related to TAS replays.
-* **Hide Chat Bubble**: Hides the chat bubble so other players don’t know when you are typing.
-* **Auto Verify**: Automatically verifies you on whitelist-protected servers like `ger10.ddnet.tw`.
-* **Send Occasional Ads**: Sends occasional advertisements in chat.
+* **Change Name on Finish**: Автоматически меняет ваш никнейм перед пересечением финиша.
+* **Auto Team**: Автоматически присоединяется к выбранной команде и блокирует ее.
+* **Anti AFK**: Не даёт получить статус AFK.
+* **Kill on Freeze**: Автоматически убивает вашего игрока, когда вы попадаете во фриз.
+* **Fast Input**: Ваш ввод ощущается на 1 тик быстрее (20 мс), но это всего лишь визуальный эффект.
+* **Ignore Replay Warnings**: Игнорирует предупреждения, связанные с TAS.
+* **Hide Chat Bubble**: Скрывает эмоцию чата над вами, чтобы другие игроки не знали, когда вы печатаете.
+* **Auto Verify**: Автоматически верифицирует вас на серверах с белым списком, например `ger10.ddnet.tw`.
+* **Send Occasional Ads**: Время от времени отправляет рекламу в чат.
 
 ### **Troll**
 
-* **Emote Spam**: Spams random emotes as fast as possible.
-* **Killsay/Deathsays**: Sends pre-defined messages upon kills or deaths.
-* **Fancy Chat Font**: Changes your chat font for a unique appearance.
-* **Mass Mention Spam**: Mentions multiple players repeatedly.
-* **Chat Repeater**: Automatically repeats another player's chat message with alternating uppercase and lowercase letters (e.g., "MeSsAgE").
+* **Emote Spam**: Спамит эмоциями.
+* **Killsay/Deathsays**: Отправляет заранее заготовленные[^3] сообщения после убийства/смерти.
+* **Fancy Chat Font**: Изменяет шрифт ваших сообщений в чате.
+* **Mass Mention Spam**: Неоднократно упоминает нескольких игроков.
+* **Chat Repeater**: Автоматически повторяет сообщение другого игрока с чередованием прописных и строчных букв (Например, "СоОбЩеНиЕ").
 
 ### **ID Stealer**
 
-* **Enable**: Activates the ID Stealer feature, allowing you to copy another player’s information.
-* **Closest Player**: If enabled, targets the closest player to copy their details. If disabled, selects a random player on the server.
-* **Steal Name**: Copies the targeted player’s name.
-* **Steal Clan**: Copies the targeted player’s clan name.
-* **Steal Skin**: Copies the targeted player’s skin.
-* **Steal Flag**: Copies the targeted player’s country flag.
-* **Steal Eye Emote**: Copies the targeted player’s eye emote expression.
-* **Stealer Speed**: Adjusts the interval (in seconds) for how frequently the feature updates the stolen details.
+* **Enable**: Активирует; Позволяет красть информацию других игроков.
+* **Closest Player**: Если включено, выбирает ближайшего игрока для копирования его данных. Если отключено, выбирает случайного игрока на сервере.
+* **Steal Name**: Копирует имя.
+* **Steal Clan**: Копирует название клана.
+* **Steal Skin**: Копирует скин.
+* **Steal Flag**: Копирует флаг страны.
+* **Steal Eye Emote**: Копирует тип глаз.
+* **Stealer Speed**: Настраивает интервал (в секундах) для того, как часто функция обновляет украденные данные.
 
 ### **Silent Walk**
 
-* **Enable**: Activates the Silent Walk feature, which hides certain indicators to make your actions less noticeable to other players.
-* **Direction**: Hides the directional arrows that show your movement direction.
-* **Jump**: Hides the jump arrow, making it harder for others to see when you’re jumping.
-* **Hook**: Spams an invisible hook at your aim direction. Keep in mind that hook reach is limited.
-* **Hook Closest**: Spams an invisible hook at the closest player. Keep in mind that hook reach is limited.
+* **Enable**: Активирует функцию; Скрывает определенные индикаторы, чтобы сделать ваши действия менее заметными для других игроков.
+* **Direction**: Скрывает стрелки направления, которые показывают направление вашего движения.
+* **Jump**: Скрывает стрелку прыжка, чтобы другим было труднее увидеть, когда вы прыгаете.
+* **Hook**: Спамит невидимым хуком по направлению курсора. Имейте в виду, что длина хука сильно ограничена.
+* **Hook Closest**: Спамит невидимым хуком по ближайшему игроку. Имейте в виду, что длина хука сильно ограничена.
 
 ***
 
-## **Configuration**
+## Конфигурация
 
-For most use cases, it's worth enabling the following features:
+Для большинства случаев советуем включить следующие функции:
 
-* **Auto Fire**: Automatically fires your weapon, making it easier to focus on aiming and movement.
-* **Avoid Freeze**: Especially useful when playing gores maps, this feature helps you avoid freeze zones.
-* **Quick Stop**: Great for block maps, this helps you stop quickly and precisely.
-* **Auto Jump Save**: A situational feature to prevent falling into freeze; enable it when needed.
-* **Mod Detector**: Use this if you're worried about being watched or banned by moderators.
-* **Fast Input**: Many users say this is a game-changer for improving responsiveness, so give it a try.
-* **Auto Verify**: A quality-of-life feature that automates verification for DDOS-protected servers. It’s worth keeping enabled for convenience.
+* **Auto Fire**: Автоматически стреляет из вашего оружия, что позволяет вам сосредоточиться на прицеливании и передвижении.
+* **Avoid Freeze**: Эта функция особенно полезна при прохождение gores карт, так как помогает вам избегать фриза.
+* **Quick Stop**: Отлично подходит для блок карт, это помогает вам быстро и точно останавливаться.
+* **Auto Jump Save**: Функция для предотвращения попадания во фриз; включайте ее при необходимости.
+* **Mod Detector**: Используйте это, если вы беспокоитесь о том, что за вами будут следить или вас забанят модераторы.
+* **Fast Input**: Многие игроки утверждают, что это значительно меняет правила игры, позволяя им реагировать быстрее. Рекомендуем вам попробовать.
+* **Auto Verify**: Это значительно упрощает жизнь, автоматизируя проверку серверов, защищённых от DDoS-атак. Рекомендуем оставить эту функцию включённой для удобства.
 
-Adjust these features depending on your specific gameplay needs, and experiment to find the best combination for your style.
+Настройте эти функции в соответствии с вашими личными предпочтениями в игре. Экспериментируйте, чтобы найти наиболее подходящее сочетание для вашего стиля игры.
+
+[^1]: _Хукфлай_ - это техника полета для двух тии.
+
+[^2]: Ключ, используемый для запоминания вашей "сессии" на стороне сервера. Помогает сохранить прогресс при краше клиента (Вас перемещает на прошлую позицию при заходе на сервер)
+
+[^3]: killsays.json
