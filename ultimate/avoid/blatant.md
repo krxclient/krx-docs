@@ -5,7 +5,7 @@ icon: fire
 # Blatant
 
 The **Blatant** Gores bot in KRX Client is expertly designed to help you tackle Gores maps of all kinds, from easy to extreme.\
-&#xNAN;_&#x4E;ote: When using avoid bots, please use a higher `cl_prediction_margin` refer to_ [_settings_](../settings.md) _and choose pred margin based on ping_
+&#xNAN;_&#x4E;ote: When using avoid bots, please use a higher `cl_prediction_margin` refer to_ [_settings_](../../features/settings.md) _and choose pred margin based on ping_
 
 ***
 

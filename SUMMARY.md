@@ -15,14 +15,14 @@
 * [Visuals & HUD](features/visuals-hud.md)
 * [Settings](features/settings.md)
 
-## Ultimate Features
+## Ultimate
 
-* [Gores Bot](features/avoid.md)
-  * [Legit](features/goresbot/legit.md)
-  * [Blatant](features/goresbot/blatant.md)
-  * [Fentbot](features/goresbot/fentbot.md)
-* [TAS](features/tas.md)
+* [Gores Bot](ultimate/avoid/README.md)
+  * [Legit](ultimate/avoid/legit.md)
+  * [Blatant](ultimate/avoid/blatant.md)
+  * [Fentbot](ultimate/avoid/fentbot.md)
+* [TAS](ultimate/tas.md)
 
 ## Changelog
 
-* [Changelog](changelog.md)
+* [Список изменений](changelog.md)

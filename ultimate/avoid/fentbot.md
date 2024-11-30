@@ -5,7 +5,7 @@ icon: robot
 # Fentbot
 
 The **Fent Bot** tab in KRX Client provides advanced tool for automating va pathfinding and tunneling.\
-&#xNAN;_&#x4E;ote: When using avoid bots, please use a higher `cl_prediction_margin` refer to_ [_settings_](../settings.md) _and choose pred margin based on ping_
+&#xNAN;_&#x4E;ote: When using avoid bots, please use a higher `cl_prediction_margin` refer to_ [_settings_](../../features/settings.md) _and choose pred margin based on ping_
 
 ***
 
