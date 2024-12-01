@@ -89,8 +89,8 @@ The **Misc** tab in KRX Client offers a range of tools and features designed to 
 - **Steal Eye Emote**: Copies the targeted player’s eye emote expression.
 - **Stealer Speed**: Adjusts the interval (in seconds) for how frequently the feature updates the stolen details.
 
-### **Silent Walk**
-- **Enable**: Activates the Silent Walk feature, which hides certain indicators to make your actions less noticeable to other players.
+### **Ghost Move**
+- **Enable**: Activates the Ghost Move feature, which hides certain indicators to make your actions less noticeable to other players.
 - **Direction**: Hides the directional arrows that show your movement direction.
 - **Jump**: Hides the jump arrow, making it harder for others to see when you’re jumping.
 - **Hook**: Spams an invisible hook at your aim direction. Keep in mind that hook reach is limited.

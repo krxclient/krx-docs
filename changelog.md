@@ -8,6 +8,35 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
+## [1.28] - 2024-12-01
+### Added
+- Simple TAS timer to display finishing times. ⏱️🎮
+- Auto-save functionality for TAS. 💾✨
+- Additional sounds and effects in TAS. 🎵🎭
+- Configurable colors and path modes for TAS replay and prediction lines. 🎨📊
+- Docs buttons integrated into the menu for easier navigation. 📚🔘
+
+### Changed
+- Refactored TAS code for improved overall quality. 🔄🎯
+- Made TAS easier to use. 🛠️🎮
+- Renamed "Silent Walk" to "Ghost Move". 👻🚶
+- Improved TAS menu. 📋🎮
+- Enhanced smooth aim. 🎯🌀
+- Simplified ID Stealer and Mod Detector in the GUI. 🔧🛡️
+- Save TAS file process now uses a popup. 💾🔔
+
+### Fixed
+- Checkpoint teleports not working in TAS mode. 🚏🔧
+- TAS initialization issues causing movement at the start of recording, ensuring precise starting positions. ⏪🎮
+- TAS fake aim inconsistencies. 🎯🔧
+- Hammer aimbot bugs. 🔨🎯
+- Nameplates and direction arrows not displaying in TAS. 🏷️➡️
+
+### Removed
+- "Continue Saved" feature as replays now auto-continue upon entry. 🚫💾
+
+---
+
 ## [1.27] - 2024-11-17
 ### Added
 - Quick stop. 🛑✨
