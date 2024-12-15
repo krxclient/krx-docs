@@ -4,9 +4,11 @@ icon: stopwatch
 
 # TAS (Tool-Assisted Speedrun) ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
 
-The **TAS** tab in the KRX Client Ultimate version is a beta feature designed for advanced tool-assisted gameplay, enabling precise and repeatable inputs.  
-For the smoothest TAS experience, we recommend using the `/showall` command upon joining a server.  
-*Note: This feature is currently under rework, and its functionality may change in the future.*
+The **TAS** tab in the KRX Client Ultimate version is a feature designed for advanced tool-assisted gameplay, enabling precise and repeatable inputs.  
+**Note: Always use the `/showall` command upon joining a server(otherwise weapons, pickups, etc. might not work)**.  
+To automatically run this command there's 2 options:
+1. `F1->cl_run_on_join showall 1`
+2. `Main Menu -> DDNet -> Miscellaneous -> Run on join -> showall 1` 
 
 ---
 
@@ -14,85 +16,81 @@ For the smoothest TAS experience, we recommend using the `/showall` command upon
 ![TAS Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/tas-menu.png)
 
 ---
-## **TAS**
-- **Enable**: Activates TAS and teleports you to the TAS world.  
+## **Main**
 - **TPS (Ticks Per Second)**: Adjusts the tick rate for tool-assisted inputs (default TPS for Teeworlds: 50).  
-- **Dummy Replay**: Enables dummy support in TAS mode.  
-- **Player Prediction**: Adds other players to the TAS world.  
-- **Ignore Start Warnings**: Suppresses warning messages at the beginning of TAS.  
-- **Stop Mouse When Paused**: Disables mouse input when TAS is paused, allowing for legitimate runs.  
-- **Use Rewind Input**: Sets mouse input to match rewinded input for more realistic replays.  
-- **Show Real Aim**: Displays the actual aiming direction during TAS replay.
+- **Pause**: Pauses TAS world(works the same as Pause hotkey).
+- **Playback replay**: Plays the recorded replay(works the same as Load hotkey).
+---
+
+## **Settings**
+- **Enable sound**: Enables supported sound effects in TAS world.
+- **Enable effects**: Enables supported effects in TAS world(for example grenade explosions).
+- **Show real aim**: When playing back a run, the tee will aim at the recorded directions.
+- **Predict players**: Adds all the players in the server to the TAS world.
+- **Auto Replay**: Automatically loads and restarts replays.  
+   - **On freeze**: Restarts the replay when freezing occurs.  
+   - **Kill**: Kills the player when the replay ends.
+- **Auto Save Replay**: Automatically saves replay to the `krxclient.xyz/replays/auto/` directory.
+---
+
+## **Hotkeys**
+- **Record**: Assigns a key to start recording a replay.  
+- **Load**: Assigns a key to load a replay.  
+- **Clear**: Assigns a key to clear current replay and respawn in TAS world.  
+- **Pause**: Assigns a key to pause TAS.  
+- **Rewind**: Assigns a key to rewind during TAS.  
+- **Forward**: Assigns a key to forward during TAS.
+
+---
+
+## **Replay**
+- **Folder button**: Opens replay folder(`krxclient.xyz/replays/`).
+- **Replay selection**: Selector for the current replay from the saved replays.
+- **Reload button**: Reloads the saved replays for selection.
+- **Enter button**: Loads the inputs from the replay and automatically loads the TAS world for this replay(similar to old `Continue`).
+- **Validate replay**: Validates the inputs of the replay(if the positions of the simulated inputs match the saved positions).
+- **Save replay**: Opens a popup with the dialog for saving the replay.
 
 ---
 
 ## **Tools**
+- **Ticks**: Sets the number of ticks to forward & rewind(default: 1 tick).
 - **Auto Rewind**: Automatically rewinds to the last safe tick before freezing.  
 - **Auto Forward**: Automatically forwards to the first tick before unfreezing.  
-- **Rewind Ticks**: Sets the number of ticks to rewind (default: 1 tick).  
-- **Forward Ticks**: Sets the number of ticks to forward (default: 1 tick).  
-- **Pause**: Pauses TAS after auto-rewinding or auto-forwarding.  
+- **Auto pause**: Pauses TAS after auto-rewinding or auto-forwarding.  
 - **Step**: Rewinds or forwards by exactly one tick, enabling precise movement selection for each tick.
 
 ---
 
 ## **Fake Aim**
-- **Enable**: Activates fake aim mode for deceptive targeting.  
-- **Mode**: Selects the type of fake aim (e.g., Robot Aim).
+- **Mode**: Selects the type of fake aim (Smooth, Robot Aim, etc.).
+- **Add fake aim**: Adds the fake aim to the current input.  
 
 ---
 
-## **Auto Replay**
-- **Enable**: Automatically loads and restarts replays.  
-- **Reset on Freeze**: Restarts the replay when freezing occurs.  
-- **Kill on Reset**: Kills the player when the replay ends.
-
----
-
-## **God Mode**
-- **Super**: Toggles the RCON command `super` in the TAS world.  
-- **Weapon**: Allows you to give yourself a weapon (except Ninja due to known issues).  
-- **Give Weapon**: Grants the selected weapon.
-
----
-
-## **Hotkeys**
-- **Enable TAS**: Assigns a key to activate TAS.  
-- **Record Replay**: Assigns a key to start recording a replay.  
-- **Load Replay**: Assigns a key to load a replay.  
-- **Respawn TAS**: Assigns a key to respawn in TAS mode.  
-- **Pause TAS**: Assigns a key to pause TAS.  
-- **Rewind TAS**: Assigns a key to rewind during TAS.  
-- **Forward TAS**: Assigns a key to forward during TAS.
-
----
-
-## **Additional Options**
-- **Replays Folder**: Opens the folder where TAS replays are stored.  
-- **Load/Save**: Loads or saves replays.  
-- **Continue**: Resumes playback from the last tick of a selected replay.  
-- **Custom Name Field**: Saves replays with a custom name (e.g., `my_tas`).  
+## **Visuals**
+- **Draw start/end pos**: Enables rendering the start/end pos of the replay.
+- **Draw replay path**: Enables rendering the path of the currently loading replay.
+   - **Segmented**: Draws only a segment of the whole path(when disabled renders the whole path of the replay).  
+   - **Mode**: Selects the type of path rendering(Dotted, Full line).
+   - **Color**: Color to be used for replay path
+- **Draw prediction path**: Renders prediction lines in TAS world.
+   - **Mode**: Selects the type of path rendering(Dotted, Full line).
+   - **Local color**: Color to be used for rendering local/dummy characters.
+   - **Frozen color**: Color used for prediction path when characters are frozen.
+   - **Other color**: Color used for prediction paths of non-local characters.
 
 ---
 
 ## **FAQ**
-1. **Q: Why don’t I see weapons in TAS?**  
+1. **Q: Why don’t I see weapons/shields/hearts/etc. in TAS?**  
    **A:** You didn’t run the command `/showall`.  
 
 2. **Q: Why can’t I continue my run after a map change?**  
-   **A:** Unfortunately, continuing is not supported across map changes. Stop recording, join the map on a different server, and continue from there.  
+   **A:** Unfortunately, continuing is not supported across map changes. Stop recording, save your replay, join the map on a different server, and continue from there.  
 
-3. **Q: What are these warnings like `Verify TAS Integrity failed...`?**  
-   **A:** These warnings ensure smooth TAS runs. You can usually ignore them, but they help with debugging issues—please share them with us if you encounter problems.  
-
-4. **Q: Why did my TAS fail mid-run?**  
+3. **Q: Why did my TAS fail mid-run?**  
    **A:** TAS failures usually occur due to lag. Use the appropriate `cl_prediction_margin` setting and restart the replay from the correct starting position. Contact support if the issue persists.  
 
-5. **Q: Why can’t I move in TAS?**  
+4. **Q: Why can’t I move in TAS?**  
    **A:** Most likely, TAS is paused or `krx_tasrespawn` is set to 1. Unpause TAS or run `krx_tasrespawn 0` in the console to fix this.  
-
-6. **Q: Why don’t I see anything when entering TAS?**  
-   **A:** You need to respawn. Use the Respawn hotkey to resolve this.  
-
-7. **Q: Why can’t I rewind or forward?**  
-   **A:** You need to start recording in TAS to use rewind or forward. If step rewind/forward is enabled, the changes may be too subtle to notice—disable it if needed.  
