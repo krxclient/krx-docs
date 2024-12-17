@@ -8,6 +8,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
+## [1.29] - 2024-12-17
+### Added
+- New brainrot loading messages. 🧠🔄
+- KRX Watermark. 🔖✨
+- Latest fast input changes. ⚡⌨️
+- Cool seasonal hats in KRX menu. 🎩❄️
+- Heart prediction to settings. ❤️📊
+
+### Changed
+- Client updated to DDNet 18.8. 🔄🎮
+- TAS format is now 98% smaller in file size. 📉💾
+
+### Fixed
+- TAS fake aim for edge cases. 🎯🔧
+- Telegun prediction in TAS. 🔫📌
+- Save replay popup functionality. 💾🔔
+- Shotgun scan issues in aimbot. 🔫🎯
+- Auto forward in TAS. 🛠️➡️
+
 ## [1.28] - 2024-12-01
 ### Added
 - Simple TAS timer to display finishing times. ⏱️🎮
