@@ -27,6 +27,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 - Shotgun scan issues in aimbot. 🔫🎯
 - Auto forward in TAS. 🛠️➡️
 
+---
+
 ## [1.28] - 2024-12-01
 ### Added
 - Simple TAS timer to display finishing times. ⏱️🎮
