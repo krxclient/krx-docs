@@ -8,6 +8,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
+## [1.30] - 2024-12-19
+### Added
+- Auto shoot checkbox to aimbot menu. 🔫✅
+
+### Fixed
+- Avoid trackpoint ESP showing up when avoid is disabled. 🛠️🚫
+- FPS issues resolved. 📈🎮
+
+### Removed
+- Outdated TAS tutorial button in TAS menu. 🚫📚
+- Logo from watermark to increase FPS. 🚫📊
+
+---
+
 ## [1.29] - 2024-12-17
 ### Added
 - New brainrot loading messages. 🧠🔄
