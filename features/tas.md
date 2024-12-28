@@ -12,6 +12,12 @@ To automatically run this command there's 2 options:
 
 ---
 
+## **Video Tutorial**
+[![TAS Tutorial](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRUUiq1ml9TU)](https://www.youtube.com/watch?v=RUUiq1ml9TU)  
+Recent tutorial on how to use TAS providied by m4zty
+
+---
+
 ## **Screenshot**
 ![TAS Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/tas-menu.png)
 
