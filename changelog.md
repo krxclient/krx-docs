@@ -8,6 +8,52 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
+## [1.31] - 2025-01-17
+### Added
+- Pathfinding to the menu. 🗺️🔍  
+- Dummy TAS. 🤖🎯  
+- Unfreezebot ESP. 👁️🛠️  
+- Custom color options for hook, tee, and weapons. 🎨🖌️  
+- Seasonal hat icons for future seasons. 🎩🎁  
+- Hotkeys for avoid to the avoid menu. ⌨️🛑  
+- Automatic replay time retrieval when saving replays. ⏱️💾  
+- Replay vault for automatic fetching from [KRX-Replays GitHub](https://github.com/krxclient/krx-replays). 📂🌐  
+- Notifications for bots, displayed in the right corner. 🔔📢  
+- Discord RPC support for KRX, DDNet, and TClient. 🤝💬  
+- Simple trails. 🌟🏞️  
+- Fire inputs to fentbot for shooting when necessary. 🔫🎯  
+- Auto-vote kick. 🚪🗳️  
+- New TAS saving system: replays are saved to a folder named after the map (e.g., `Autumn Sunset/autumn_sunset_69.69s`). 💾📁  
+
+### Changed
+- Client updated to DDNet 18.9. 🚀🛠️  
+- Reworked TAS file picker. 🗂️🖱️  
+- Improved TAS popup to be translation-friendly. 🌐🗨️  
+- Reworked replay HUD: moved to the left side, now shows progress and status. 📊⬅️  
+- Reworked watermark with gradient text, a different style, and rainbow colors. 🌈🖋️  
+- Reworked avoid menus. 🛑🔧  
+- Moved pathfinding commands to the fentbot menu. 📜🗺️  
+- Automatically pauses TAS when recording stops. ⏸️📹  
+- Improved Fentbot algorithm and performance. 🧠⚡  
+- Improved Pathfinding for fentbot. 🗺️🚶  
+- Updated Mod detection lists. 📝🛡️  
+- Features HUD to be smaller. 🖥️📉
+
+### Fixed
+- Autounfreeze shooting others when aimbot is enabled. 🔫🛑  
+- Copy moves in dummy TAS. 🤖📝  
+- Teles and tile death detection when changing bots. 🗺️⚰️  
+- Fentbot not stopping on the finish tile. 🚶🏁  
+- Timing issues in fentbot. ⏱️⚙️  
+- Crashes with fentbot. 💥🐛  
+- Aimbot locking aim direction in TAS. 🎯🔒  
+- Avoid being disabled randomly. 🛑❌  
+
+### Removed
+- Useless features from gores bots. 🛠️🚮  
+
+--- 
+
 ## [1.30] - 2024-12-19
 ### Added
 - Auto shoot checkbox to aimbot menu. 🔫✅
