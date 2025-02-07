@@ -8,6 +8,34 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
+## [1.32] - 2025-02-07
+### Added
+- Grenade saver. 💣💾
+- Tile outlines. 🔲✨
+- Custom frozen color customization. ❄️🎨
+- **Made weapon aimbot free for all users**. 🎯🔓
+- Auto shotgun. 🔫🔥
+- Custom Discord RPC. 🎮💬
+- Trajectory line ESP. 🎯📈
+- Color customization for trails. 🌈🚶
+- Features HUD customization. 🛠️🖥️
+- Fentbot Light tiles support. 💡🔲
+- Simple jump/double-jump rendering in Fentbot. 🦘🎮
+- Smooth camera. 🎥✨
+- Commands system (!help and !skin for now). 📜⚙️
+
+### Changed
+- Reworked aimbot menu. 🎯📋
+- Improved order in visuals & HUD menu. 🖼️🔄
+- Updated to DDNet 18.9.1. 🔄🎮
+- Fentbot now holds jump properly and has better RNG. 🎮🎲
+- Fentbot pathfinding enhanced. 🗺️🤖
+- Fentbot now automatically switches weapons based on priority: grenade, shotgun, laser. 🔄🔫
+- Fixed hook aimbot issues at high velocity. 🪝🚀
+- Fixed errors when syncing replays. 🔄🎥
+
+---
+
 ## [1.31] - 2025-01-17
 ### Added
 - Pathfinding to the menu. 🗺️🔍  
