@@ -1,5 +1,10 @@
 ---
 icon: computer
+description: >-
+    Follow this step-by-step guide to install KRX Client, a bot client for Teeworlds
+    built on DDNet. Learn about system requirements, troubleshooting, and how to
+    get started quickly.
+
 ---
 
 # Installation

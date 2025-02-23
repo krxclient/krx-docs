@@ -1,5 +1,9 @@
 ---
 icon: eye
+description: >-
+    Customize your game with the Visuals & HUD settings in KRX Client for Teeworlds.
+    Learn how to enable aim lines, bullet trails, rainbow effects, and HUD enhancements
+    for better gameplay experience.
 ---
 
 # Visuals & HUD

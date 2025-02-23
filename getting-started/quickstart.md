@@ -1,5 +1,9 @@
 ---
 icon: bullseye-arrow
+description: >-
+    Get started with KRX Client quickly with this beginner-friendly guide. Learn
+    how to download, install, and explore key features, including aimbot, visuals,
+    and bot functionalities across different versions.
 ---
 
 # Quickstart

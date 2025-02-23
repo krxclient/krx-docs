@@ -1,5 +1,9 @@
 ---
 icon: gear
+description: >-
+    Configure your KRX Client settings to optimize gameplay in Teeworlds. Learn how
+    to set up hotkeys, adjust prediction margins, enable teleport prediction, and
+    fine-tune bot behaviors for improved performance.
 ---
 
 # Settings

@@ -1,6 +1,10 @@
 ---
 
 icon: book
+description: >-
+    Find answers to common questions about KRX Client, a bot client for Teeworlds
+    built on DDNet. Learn about installation, troubleshooting, payments, and best
+    practices for using the client effectively.
 
 ---
 

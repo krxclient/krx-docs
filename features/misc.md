@@ -1,5 +1,9 @@
 ---
 icon: sparkles
+description: >-
+    Explore the Miscellaneous features of KRX Client, including automation tools,
+    protections, trolling features, and mod detection. Enhance your Teeworlds gameplay
+    with bots, auto-unfreeze, fake aim, and more.
 ---
 
 # Misc

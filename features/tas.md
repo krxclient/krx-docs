@@ -1,5 +1,9 @@
 ---
 icon: stopwatch
+description: >-
+    Master the TAS (Tool-Assisted Speedrun) feature in KRX Client for Teeworlds.
+    Learn how to record, replay, and optimize inputs for precision movement in DDNet
+    maps, with auto-save and path visualization.
 ---
 
 # TAS (Tool-Assisted Speedrun) ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)

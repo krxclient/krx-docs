@@ -1,5 +1,9 @@
 ---
 icon: robot
+description: >-
+    Discover the Fent Bot in KRX Client, an advanced pathfinding and tunneling bot
+    for Teeworlds. Learn how to optimize movement using Skibidiforce, tweak inputs,
+    and visualize generated paths.
 ---
 
 # Fent Bot ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)

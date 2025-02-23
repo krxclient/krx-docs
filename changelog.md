@@ -1,5 +1,9 @@
 ---
 icon: rocket
+description: >-
+    Stay updated with the latest changes in KRX Client, a bot client for Teeworlds.
+    Read about new features, fixes, and improvements in each release, including aimbot
+    updates, pathfinding enhancements, and TAS optimizations.
 ---
 
 # Changelog

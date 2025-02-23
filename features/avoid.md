@@ -1,5 +1,9 @@
 ---
 icon: shield
+description: >-
+    Discover the Avoid feature in KRX Client, an advanced Gores Bot system that prevents
+    freezing in Teeworlds. Learn about different bot types, including Legit, Blatant,
+    and Fentbot, for optimal movement.
 ---
 
 # Gores Bot

@@ -1,5 +1,9 @@
 ---
 icon: bullseye-arrow
+description: >-
+    Learn how to configure the Aimbot feature in KRX Client for Teeworlds. This guide
+    covers targeting methods, FOV adjustments, grenade prediction, and advanced settings
+    for improved precision in DDNet.
 ---
 
 # Aimbot

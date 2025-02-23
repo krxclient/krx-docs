@@ -1,5 +1,9 @@
 ---
 icon: eye
+description: >-
+    Understand the Legit bot in KRX Client, a subtle assistive bot for Teeworlds.
+    Explore features that provide movement assistance while maintaining a natural
+    playstyle for improved gameplay without detection.
 ---
 
 # Legit ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)

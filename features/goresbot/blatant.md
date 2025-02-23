@@ -1,5 +1,9 @@
 ---
 icon: fire
+description: >-
+    Learn about the Blatant Gores Bot in KRX Client, designed to complete Teeworlds
+    Gores maps efficiently. Explore features like hook assistance, direction prediction,
+    and rate-limiting for optimal movement.
 ---
 
 # Blatant ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
