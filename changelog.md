@@ -12,6 +12,31 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
+## [1.33] - 2025-03-14
+### Added
+- Trails from TClient. 🚀✨
+- Player indicators from TClient. 👤🔍
+- Auto vote F3/F4. 🗳️✅
+- Auto shoot checkbox & hotkey back to aimbot menu. 🎯🔘
+- Mute command. 🔇💬
+- More features to features HUD. 📊🆕
+
+### Changed
+- Updated to DDNet 19.0. 🔄🎮
+- Improved grenade aimbot (now checks the full path of grenades). 🎯💥
+- Optimized fentbot pathfinding. 🤖🛤️
+
+### Fixed
+- Commands showing "Unknown command" when someone in chat did a !command. 🛠️💬
+- Save Replay popup showing up upon first launch. 💾🔧
+- Aimbot distance check. 🎯✅
+- Blatant avoid using trackpoint when it was disabled. 🚫👀
+
+### Removed
+- Auto verify feature. ❌🔍
+
+---
+
 ## [1.32] - 2025-02-07
 ### Added
 - Grenade saver. 💣💾
