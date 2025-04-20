@@ -23,7 +23,9 @@ Welcome to the official **KRX Client** wiki!
 
 ## About
 
-**KRX Client** your ultimate tool designed to enhance your gaming experience. These docs will walk you through all the features and settings to get most out of each version of KRX - **Free**, **Premium** and **Ultimate**
+**KRX Client** is your ultimate tool designed to enhance your Teeworlds gaming experience. These docs will walk you through all the features and settings to get the most out of each version of KRX - **Free**, **Premium**, and **Ultimate**.
+
+**Got a quick question?** Try asking our experimental **[KRX Client Support Bot (ChatGPT Required)](https://chatgpt.com/g/g-68024c1919908191948a8f9af09aa816-krx-client-support-bot)** or check the [FAQ](faq.md).
 
 ### Jump right in
 

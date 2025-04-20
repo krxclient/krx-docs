@@ -8,7 +8,11 @@ description: >-
 
 # FAQ
 
-Find answers to frequently asked questions about **KRX Client** below. If your question isn't listed, please check the other sections of this documentation or reach out on our [Discord](https://discord.gg/MwzsHadQAe).
+Find answers to frequently asked questions about **KRX Client** below.
+
+**Need a quick answer?** If you have access to ChatGPT, you can try asking our experimental **[KRX Client Support Bot](https://chatgpt.com/g/g-68024c1919908191948a8f9af09aa816-krx-client-support-bot)**.
+
+If your question isn't listed here or the bot can't help, please check the other sections of this documentation or reach out on our [Discord](https://discord.gg/MwzsHadQAe).
 
 ---
 
