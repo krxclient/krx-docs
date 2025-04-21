@@ -46,7 +46,7 @@ The **Blatant** Gores bot in KRX Client is expertly designed for maximum safety 
 - **Drag Support**: Provides additional data to the aimbot (if used separately), helping it avoid aiming directions that could lead to freezing while Blatant Avoid is active.
 - **Track Point**: If enabled, the bot identifies the last direction the player aimed at which was hookable onto a tile. It will prioritize maintaining aim towards this "track point" during its safety calculations, potentially overriding mouse aim if the tracked direction is safer.
   - **Safe Aim Tracking**: If Track Point is enabled, this ensures the bot only locks onto the tracked direction if that direction remains valid (doesn't lead to freeze) for the *entire* `Check Ticks` scan duration. Disabling this allows tracking even if the direction becomes unsafe later in the prediction, potentially leading to riskier but more persistent aim tracking.
-- **Auto Drag**: ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square) Automatically aims at and hooks the closest tee *if* doing so is predicted to be safe (doesn't cause freeze). Uses aimbot logic internally for target selection and edge hooking.
+- **Auto Drag**: Automatically aims at and hooks the closest tee *if* doing so is predicted to be safe (doesn't cause freeze). Uses aimbot logic internally for target selection and edge hooking.
 
 ## **Tiles**
 - **Teles**: Avoids teleport tiles when enabled.

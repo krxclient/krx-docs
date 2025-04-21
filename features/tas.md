@@ -12,7 +12,7 @@ The **TAS** (Tool-Assisted Speedrun) tab in the KRX Client Ultimate version prov
 
 **Important Prerequisite: `/showall`**
 - For TAS playback and recording to correctly interact with map entities (weapons, pickups, shields, hearts, etc.), you **must** ensure all entities are rendered *before* starting a TAS session on a server. There are two ways to do this automatically:
-    1.  **KRX Console:** Press `F1` and type `cl_run_on_join "showall 1"` (requires quotes).
+    1.  **Console:** Press `F1` and type `cl_run_on_join "showall 1"` (requires quotes).
     2.  **DDNet Settings:** Go to `Settings -> DDNet -> Miscellaneous` and add `showall 1` to the "Run on join" field.
 - *Failure to do this will likely result in TAS replays desyncing or behaving incorrectly around map entities.*
 
@@ -73,7 +73,7 @@ The **TAS** (Tool-Assisted Speedrun) tab in the KRX Client Ultimate version prov
 - **Load Replay Data**: (Formerly "Enter" / "Continue") Loads the selected replay file's input data into the TAS buffer and initializes the TAS world to the replay's starting state. Does *not* start playback.
 - **Validate Replay**: Simulates the loaded replay internally and compares the resulting positions tick-by-tick against the positions saved within the replay file (if available). Useful for checking if a replay desyncs due to game updates or inconsistencies.
 - **Save Replay**: Opens a popup dialog allowing you to name and save the current replay buffer to a `.tas` file, typically within a folder named after the current map.
-- **Replay Vault Auto Sync**: ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square) (`krx_tasreplayvaultautosync`) Automatically checks for and downloads updates to the community replay vault from GitHub when the client starts.
+- **Replay Vault Auto Sync**: (`krx_tasreplayvaultautosync`) Automatically checks for and downloads updates to the community replay vault from GitHub when the client starts.
     - **Sync Now**: Manually triggers a sync with the replay vault.
 
 ---

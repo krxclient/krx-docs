@@ -42,8 +42,8 @@ The **Fent Bot** in KRX Client is an advanced, experimental tool for automating 
 - **Auto Tunnels**: Automatically generates a restricted movement tunnel based on the path taken in a loaded TAS replay file (`*.tas`). The bot will then only search for solutions within this defined tunnel.
   - **Tunnel Width**: Adjusts the width (in tiles) of the auto-generated tunnel around the replay path.
 - **Clear Tunnels**: Removes all manually created and auto-generated tunnels, resetting the pathfinding area to the entire map (minus standard obstacles).
-- **Light Tile Support**: ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square) Allows Fentbot to consider paths through freeze tiles if an unfreeze tile is nearby, potentially finding solutions on maps with "light freeze".
-  - **Radius**: ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square) Defines the search radius around a freeze tile within which an unfreeze tile must exist for the light tile logic to apply.
+- **Light Tile Support**: Allows Fentbot to consider paths through freeze tiles if an unfreeze tile is nearby, potentially finding solutions on maps with "light freeze".
+  - **Radius**: Defines the search radius around a freeze tile within which an unfreeze tile must exist for the light tile logic to apply.
 
 ---
 
