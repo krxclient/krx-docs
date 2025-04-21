@@ -17,14 +17,15 @@ Follow these steps to easily install **KRX Client**:
 - **RAM**: At least 8 GB for smooth performance.
 
 ## Installation Steps
-1. Download the KRX Client zipped folder from [krxclient.xyz](https://krxclient.xyz).
-2. Extract the folder using your preferred unzipping tool.
-3. Open the extracted folder and launch **KRX Client.exe**.
-4. If you are using the **Premium** or **Ultimate** version, log in with your credentials.  
-   **Note:** Use your username, not your email. For example, if your email is `johndoe@example.com`, and your username is `johndoe123`, you would use `johndoe123`.
+1.  Download the `.zip` file from [krxclient.xyz](https://krxclient.xyz).
+2.  **Create a new folder** (e.g., on your Desktop). **Ensure you extract KRX Client to its own new folder, not inside your existing official DDNet directory.**
+3.  Extract the contents of the `.zip` file into this new folder.
+4.  Run `KRX Client.exe` from inside the extracted folder.
+    *   **Tip:** If the client fails to launch the first time, try right-clicking `KRX Client.exe` and selecting 'Run as administrator'.
+5.  For **Premium/Ultimate**, log in with your KRX **username** (not email) and password.
 
 **Prefer a video guide?** Watch our step-by-step tutorial here: [YouTube Installation Guide](https://youtu.be/ytl2i0TpEso).
 
 ## Troubleshooting
-- **Executable Missing**: If the `KRX Client` executable isn't visible, your antivirus software may have removed it. Disable real-time protection temporarily and extract the folder again.
+- **Executable Missing**: If the `KRX Client` executable isn't visible, your antivirus software may have removed it. Disable real-time protection temporarily and add an exclusion for the download/extraction folder, then extract the folder again.
 - **Other Issues**: For additional help, check the [FAQ section](../faq.md) or contact our support team on [Discord](https://discord.gg/MwzsHadQAe).

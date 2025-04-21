@@ -27,6 +27,8 @@ Welcome to the official **KRX Client** wiki!
 
 **Got a quick question?** Try asking our experimental **[KRX Client Support Bot (ChatGPT Required)](https://chatgpt.com/g/g-68024c1919908191948a8f9af09aa816-krx-client-support-bot)** or check the [FAQ](faq.md).
 
+**Need direct support or want to join the community?** Visit our [Discord server](https://discord.gg/MwzsHadQAe).
+
 ### Jump right in
 
 <table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><strong>Getting Started</strong></td><td>Quickstart</td><td></td><td></td><td><a href="getting-started/quickstart.md">quickstart.md</a></td></tr><tr><td><strong>Features</strong></td><td>Explore key features</td><td></td><td></td><td><a href="features/aimbot.md">aimbot.md</a></td></tr></tbody></table>
