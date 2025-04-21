@@ -9,7 +9,7 @@ description: >-
 # Legit ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
 The **Legit** bot in KRX Client focuses on providing assistance while maintaining a natural playstyle, perfect for users who prefer subtle enhancements.
 *Note: When using avoid bots, please use a higher `cl_prediction_margin` refer to [settings](../settings.md) and choose pred margin based on ping*
-**Note on Performance:** Legit Avoid performs complex calculations and may cause FPS drops on some systems, especially with many players nearby. See the [FAQ](../faq.md#why-does-legit-avoid-freeze-cause-fps-drops-lag) for performance tuning tips.
+**Note on Performance:** Legit Avoid performs complex calculations and may cause FPS drops on some systems, especially with many players nearby. See the [FAQ](../../faq.md#why-does-legit-avoid-freeze-cause-fps-drops-lag) for performance tuning tips.
 
 ---
 
