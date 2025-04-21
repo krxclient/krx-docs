@@ -8,51 +8,31 @@ description: >-
 
 # Gores Bot
 
-The **Avoid** tab, exclusive to the Ultimate version of KRX Client, provides advanced versions of Gores Bots to help you avoid freezing.  
-*Note: When using avoid bots, please use a higher `cl_prediction_margin` refer to [settings](settings.md) and choose pred margin based on ping*
+The **Avoid** feature provides several types of Gores Bots designed to help you avoid freezing in Teeworlds maps. These bots automate certain inputs to keep your character safe.
+
+- **Console Bind**: You can toggle the currently selected Avoid bot using a key bind in the F1 console: `bind KEY toggle krx_avoidfreeze 1 0` (replace `KEY` with your desired key).
+- **Important Note on Prediction**: When using *any* Avoid bot, it's crucial to configure your prediction settings appropriately based on your ping. Set `cl_prediction_margin` in the F1 console to a value slightly higher than your average ping (e.g., `cl_prediction_margin 70` for 50ms ping). Refer to the [Settings](settings.md) page for more details.
 
 ---
 
 ## **Screenshot**
 ![Avoid Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/avoid-menu.png)
+*(Note: The specific options visible below the dropdown depend on the selected Gores Bot Type).*
 
 ---
 
 ## **Gores Bot Types**
-In KRX, there are 4 types of Gores Bots, each working a little differently from the others:
-1. **Basic**  
-2. **[Legit](goresbot/legit.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
-3. **[Blatant](goresbot/blatant.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
-4. **[Fentbot](goresbot/fentbot.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)  
+In KRX, you can select different Gores Bot agents, each with its own strategy and configuration:
+
+1.  **Basic** ![Free](https://img.shields.io/badge/Free-%234CAF50?style=flat-square) ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+    -   A simple bot included in Free and Premium tiers. Uses only directional keys (left/right) for basic freeze avoidance. No configurable settings. Suitable for simple situations.
+2.  **[Legit](goresbot/legit.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+    -   Designed for players who want assistance while maintaining a natural, "legitimate" playstyle. It subtly modifies inputs to avoid freeze but relies partially on user skill and can sometimes fail. Highly configurable priority settings. May impact performance on some systems.
+3.  **[Blatant](goresbot/blatant.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+    -   A highly effective bot focused on safety above all else. Uses more aggressive input changes (including hook) to prevent freezing, even on extremely difficult maps. Offers detailed configuration for movement, aiming, and tile avoidance.
+4.  **[Fentbot](goresbot/fentbot.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+    -   An advanced, experimental bot using pathfinding (FlowField) and potentially genetic algorithms ("Tweaker") to calculate input sequences for completing parts or entire maps, primarily KoG-style maps. Runs calculations asynchronously. Highly configurable but resource-intensive and may produce suboptimal paths.
 
 ---
 
-## **Basic Gores Bot**
-The basic Gores Bot included with the free and premium version has no configurable settings and only uses directional keys for movement.  
-Overall, it’s a simple bot meant for basic use.
-
----
-
-## **Legit Gores Bot** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The Legit Bot is best for players who want to look legit while avoiding freeze. It avoids freezing with minimal changes to your inputs and allows for some configuration.  
-This bot can fail and partially depends on the skill of the user, which is part of what makes it "legit." However, it may cause a drop in FPS on some systems.  
-
-For more details, see [Legit Gores Bot](goresbot/legit.md).
-
----
-
-## **Blatant Gores Bot** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The Blatant Gores Bot is perfect for anyone who doesn’t want to fail and wants to easily complete even the hardest Gores maps. It’s very easy to configure.  
-One of the advantages of the Blatant Bot is that it keeps your tee safe above everything else. You can configure settings like aiming, limiting inputs, and how much the bot predicts based on your preferences.  
-
-For more details, see [Blatant Gores Bot](goresbot/blatant.md).
-
----
-
-## **Fentbot** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The Fentbot (fentanyl-themed bot) is best for advanced users. It’s a kind of auto-TAS bot that finds inputs using pathfinding to complete maps.  
-This bot focuses solely on following its path, so it might fail or perform sub-optimal moves at times. It is highly configurable and runs asynchronously, so while you play the map this bot finds inputs to complete it. It’s best used on KoG maps.  
-
-For more details, see [Fentbot](goresbot/fentbot.md).
-
----
+Use the dropdown menu in the client's Avoid tab to select the desired bot type. Detailed configuration options for Legit, Blatant, and Fentbot are available in their respective sub-sections linked above.

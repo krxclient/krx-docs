@@ -66,39 +66,40 @@ Detailed explanations for all features are available in the respective sections 
 ### **How do I bind a key to toggle a feature (e.g., Avoid Freeze)?**
 1.  Press `F1` in-game to open the console.
 2.  Use the format: `bind KEY toggle COMMAND 1 0`
-3.  Replace `KEY` with your desired key (e.g., `x`, `mouse2`, `ctrl`).
+3.  Replace `KEY` with your desired key (e.g., `x`, `lctrl`).
 4.  Replace `COMMAND` with the feature's command variable (e.g., `krx_avoidfreeze` for Avoid Freeze, `krx_aimbot` for Aimbot). You can find many bindable commands listed in the in-game Settings -> Controls -> KRX menu.
 5.  Example: `bind x toggle krx_avoidfreeze 1 0` binds the 'X' key to toggle Avoid Freeze.
 
 ### **Why don't I see/pick up weapons in TAS?**
-You need to enable rendering for all entities *before* starting TAS.
-1.  Type `/showall` in the **in-game chat** (not the F1 console).
-2.  Also ensure weapon prediction is enabled in your client settings: Settings -> DDNet -> Antiping -> Enable 'Predict weapons'.
-3.  Sometimes, restarting the map (`/map mapname`) after using `/showall` but before starting the TAS process can help ensure it takes effect.
+You need to enable rendering for all entities *before* starting TAS. There are multiple ways to ensure this:
+1.  **In-Game Chat (Manual):** Type `/showall` in the chat (not F1 console) *after* joining the server but *before* starting TAS recording/playback.
+2.  **Console (Automatic):** Press `F1` and execute the command `cl_run_on_join "showall 1"`. This makes the client automatically run `/showall 1` every time you join a server.
+3.  **DDNet Settings (Automatic):** Go to `Settings -> DDNet -> Miscellaneous -> Run on join` and add `showall 1` to the text field.
+Additionally, ensure weapon prediction is enabled in your client settings: `Settings -> DDNet -> Antiping -> Predict weapons`. Sometimes, restarting the map (`/map mapname`) after using `/showall` but before starting TAS can also help ensure it takes effect.
 
 ### **My TAS replay fails/breaks/desyncs. How to fix?**
-TAS relies on predicting game ticks precisely. Network lag or certain map features can cause failures.
-1.  **Increase Prediction Margin:** Open the F1 console and type `cl_prediction_margin 200` (or higher, e.g., 300, depending on your ping and server stability). This helps compensate for lag.
-2.  **Check Map Compatibility:** Maps with server-side randomization (like multiple teleporter exits with the same ID or complex stoppers) can break TAS prediction and may be inherently unreliable for TAS playback.
-3.  **Enable Teleport Prediction:** If the map uses teleporters, go to the KRX TAS settings menu and ensure 'Teleport Prediction' is enabled.
-4.  **Ensure Stable Ping:** TAS works best with low, stable ping. High or fluctuating ping is a common cause of failure.
-5.  **Note on Server Checks:** Be aware that some specific game servers might implement their own anti-TAS mechanisms that could cause playback failures, even with correct client settings.
+TAS relies on predicting game ticks precisely. Network lag, packet loss, or certain map features can cause the playback to deviate from the recording (desync).
+1.  **Increase Prediction Margin:** This is the most common solution. Open the F1 console and type `cl_prediction_margin VALUE` (e.g., `cl_prediction_margin 200` or higher). This value (in milliseconds) tells the client to buffer more time for prediction, making it more resilient to network jitter and slight timing variations between recording and playback. Set it higher than your ping.
+2.  **Check Map Compatibility:** Maps with server-side randomization (like multiple teleporter exits with the same ID or complex stoppers/pistons) can inherently break TAS prediction and may be unreliable for playback regardless of client settings.
+3.  **Enable Teleport Prediction:** If the map uses standard teleporters, go to the KRX TAS settings menu and ensure 'Teleport Prediction' is enabled (though note this might conflict with some Avoid bot settings).
+4.  **Ensure Stable Ping:** TAS works best with low, stable ping. High or fluctuating ping significantly increases the chance of desync.
+5.  **Note on Server Checks:** Be aware that some game servers might implement their own anti-TAS mechanisms that could intentionally cause playback failures, even with correct client settings.
 
 ### **Why does Legit Avoid Freeze cause FPS drops/lag?**
-Legit Avoid performs complex calculations, which can impact performance on some systems, especially with many players nearby. To improve performance:
-1.  **Lower Settings:** Reduce 'Check Ticks' (try 4-6), 'Quality' (try ~50), and maybe 'Randomness' in the Legit Avoid menu.
-2.  **Disable Prediction:** Turn off 'Player Prediction' in the Avoid settings if you don't need it for your current task.
-3.  **Try Configs:** Check our [Discord](https://discord.gg/MwzsHadQAe) for community-shared configurations that might be optimized for performance.
+Legit Avoid performs complex calculations to find subtle, safe movements. This can be CPU-intensive, especially when many other players are nearby (increasing the complexity of the prediction). To improve performance:
+1.  **Lower Settings:** Reduce 'Quality' (`krx_avoid_num_iterations`, try ~50-100) and 'Check Ticks' (`krx_avoid_tile_legit_check_ticks`, try 4-8) in the Legit Avoid menu. Maybe also reduce 'Randomness' (`krx_avoid_tile_exploration_constant`).
+2.  **Disable Player Prediction:** Turn off 'Player Prediction' in the Avoid settings if not strictly needed.
+3.  **Try Configs:** Check the `#configs-and-replays` channel on our [Discord](https://discord.gg/MwzsHadQAe) for community-shared configurations potentially optimized for performance.
 
 ---
 
 ## Troubleshooting
 
 ### **Error: GET: SSL connect error / Failed to retrieve version / Failed to check status**
-This usually indicates a network issue blocking connection to the KRX authentication servers.
+This usually indicates a network issue blocking connection to the KRX authentication/status servers.
 1.  **Use a VPN:** Connect via a VPN (try different servers/countries like Germany) *before* launching KRX. This often resolves regional blocks or network filtering.
 2.  **Check Installation:** Ensure KRX is extracted to its own folder and *not* placed inside the official DDNet folder or overwriting DDNet files.
-3.  **Check DNS:** If you previously used a *cracked* client, it might have altered your DNS. Reset your system's DNS settings to "Automatic" or use a public DNS like `1.1.1.1` or `8.8.8.8`.
+3.  **Check DNS:** If you previously used a *cracked* client, it might have altered your system's DNS settings. Reset your DNS to "Automatic" or use a public DNS like Cloudflare (`1.1.1.1`, `1.0.0.1`) or Google (`8.8.8.8`, `8.8.4.4`).
 
 ### **Error: HWID verification failed**
 This means the client is locked to a different PC hardware configuration than the one currently detected.

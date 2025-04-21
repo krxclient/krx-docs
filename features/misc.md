@@ -14,103 +14,117 @@ The **Misc** tab in KRX Client offers a range of tools and features designed to 
 
 ## **Screenshot**
 ![Misc Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/misc-menu.png)
+*(Note: Screenshot may slightly differ from the latest version).*
 
 ---
 
 ## **Features**
 
 ### **Bots**
-- **Moonwalk**: Makes the player do a "moonwalk" when pressing both left and right keys by switching the movement direction back and forth.  
-- **Auto Fire**: Automatically fires your weapon when holding the fire button.  
-- **Auto Rehook**: After successfully hooking a player, if you keep holding the hook button, it automatically tries to rehook them.  
-- **Auto Jump Save**: Automatically jumps to avoid going into freeze.  
-- **Quick Stop**: Stops the player quickly and smoothly by adjusting movement direction to counter their current velocity.  
-- **Avoid Freeze**: Helps avoid freeze zones by using left/right movement.  
-- **Dummy Fly**: Your dummy automatically does hook fly with you, making the dummy hammer and hook too. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
-- **Jet Ride**: Works like hook ride bot but with a jetpack. Control it with A/W/S/D. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
-- **Auto Aled**: Automatically hammers when an aled is possible. ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)  
+*(Simple automation helpers)*
+- **Moonwalk** (`krx_moonwalk`): Makes your character visually moonwalk when holding both left and right movement keys simultaneously by rapidly alternating the direction sent to the server.
+- **Auto Fire** (`krx_autofire`): Automatically re-triggers the fire input while the fire key is held down, effectively acting like an auto-clicker for weapons like the pistol.
+- **Auto Rehook** (`krx_autorehook`): Attempts to automatically release and re-hook a grabbed tee when the hook timer is about to expire, useful for maintaining drags.
+- **Auto Jump Save** (`krx_autojumpsave`): Automatically performs a jump if it predicts doing so will prevent you from immediately falling into a freeze tile. Has different modes for sensitivity.
+    - **Mode** (`krx_autojumpsave_mode`): Selects the mode (0: Simple, 1: Advanced-NoVel, 2: Advanced-VelCheck). Mode 2 only triggers if vertical velocity is dominant.
+- **Quick Stop** (`krx_quickstop`): When no movement keys are pressed, the bot automatically inputs the opposite direction briefly to counteract current velocity, helping to stop faster.
+    - **Ground Only** (`krx_quickstop_grounded`): If enabled, Quick Stop only activates when your character is grounded.
+- **Avoid Freeze (Basic)** (`krx_avoidfreeze`): Enables the *basic* freeze avoidance bot, which only uses directional keys (left/right) to dodge freeze tiles. For more advanced avoidance, use the dedicated **Avoid** tab (Ultimate tier).
+- **Dummy Fly** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) (`krx_dummyfly`): Makes your dummy automatically attempt to hook fly alongside you, mirroring hook and hammer actions.
+- **Jet Ride** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) (`krx_jetride`): Automatically controls the jetpack (when active) to maintain flight, similar to hook ride but using gun recoil. Controllable with A/W/S/D.
+- **Auto Aled** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) (`krx_autoaled`): Automatically hammers a nearby frozen tee if doing so is predicted to unfreeze them safely on the other side of a freeze zone (an "aled").
 
 ### **Protections**
-- **Random Timeout Seed**: Generates a new timeout seed before connecting to a server to avoid fingerprinting. Note: You cannot rejoin your old position after timing out with this enabled.
-- **Version Spoofer**: Spoofs the client version/ID to bypass restrictions. If unsure, leave it off.
+- **Random Timeout Seed** (`krx_randomtimeoutseed`): Generates a new timeout seed before connecting to a server. This can potentially hinder server-side fingerprinting attempts but prevents rejoining your previous position after a timeout.
+- **Version Spoofer** (`krx_spoofversion`): Allows changing the client version reported to the server. May bypass some version restrictions but can cause issues if set incorrectly. Leave off if unsure.
+  - **Version Nr** (`krx_spoofversion_nr`): The specific version number to report when spoofing is enabled.
 
-### **Mod Detector**  
-- **Enable**: Turns on the Mod Detector feature to identify potential moderators or suspicious players on the server.  
-- **Detect by Names**: Scans player names for known moderators.  
-- **Detect Suspicious Players**: Scans player names to detect potential moderators or players who could report you.  
-- **Leave on Mod Detection**: Automatically disconnects from the server if a potential moderator is detected.  
-- **Leave on Warn Detected**: Automatically disconnects from the server if a potential moderator or player who could report you is detected.  
+### **Mod Detector**
+- **Enable** (`krx_moddetector`): Activates the system to detect potential moderators or suspicious players.
+- **Detect by Names** (`krx_moddetectornames`): Scans player names against internal lists of known moderators.
+- **Detect Suspicious Players** (`krx_moddetector_warn`): Scans player names against internal lists of players considered potentially likely to report cheats ("Warn" list).
+- **Leave on Mod Detection** (`krx_moddetector_leave`): Automatically disconnects from the server if a player detected as a moderator joins or is present.
+- **Leave on Warn Detected** (`krx_moddetector_warnleave`): Automatically disconnects from the server if a player from the "Warn" list joins or is present.
 
 ### **Auto Unfreeze** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-- **Enable**: Activates the Auto Unfreeze feature, which automatically shoots a laser at a wall to unfreeze you when you jump through freeze zones.
-- **Advanced Settings**: Enables more detailed configuration options for precise control.
-    - **Bounces**: Determines how the laser bounces off walls:
-        - **Least**: Selects a direction with the fewest bounces, ensuring quicker unfreezing.
-        - **Most**: Selects a direction with the most bounces. Useful in TAS scenarios, as longer bounces result in faster reload times.
-    - **Silent**: Makes aim adjustments invisible on your screen while remaining visible to others.
-    - **Points**: Configures the number of points considered when checking for unfreeze directions. Higher values provide more precise checks.
-    - **Current Dir Ticks**: Sets how many ticks of the laser are used to calculate the current direction. Adjust for better accuracy.
-    - **Ticks**: Defines how many ticks of the laser are analyzed when determining the best unfreeze direction.
-    - **FOV**: Adjusts the field of view to determine the laser's targeting range.
+*(Automatically shoots the laser rifle to break freeze)*
+- **Enable** (`krx_unfreezebot`): Activates the Auto Unfreeze feature.
+    - **Console Bind**: `bind KEY toggle krx_unfreezebot 1 0`
+- **ESP** (`krx_unfreezebotesp`): Draws the predicted path of the laser used for unfreezing.
+- **Advanced Settings** (`krx_unfreezebotadvancedsettings`): Enables more detailed configuration options.
+    - **Bounces** (`krx_unfreezebotmostbounces`): Configures bounce preference (0: Least, 1: Most). Least bounces unfreezes quicker. Most bounces can be useful in TAS for faster reload times due to longer laser travel.
+    - **Silent** (`krx_unfreezebotsilent`): Makes the aim adjustments for unfreezing invisible on your screen.
+    - **Points** (`krx_unfreezebotpoints`): Number of points checked per segment when scanning for unfreeze directions. Higher values increase precision but cost more performance.
+    - **Current Dir Ticks** (`krx_unfreezebotcurdirticks`): Lookahead duration (ticks) used to check if the *current* aim direction will unfreeze.
+    - **Ticks** (`krx_unfreezebotticks`): Lookahead duration (ticks) used when scanning *all* directions to find the best unfreeze angle.
+    - **FOV** (`krx_unfreezebotfov`): Field of view (degrees) within which the bot scans for potential unfreeze directions.
 
 ### **Fake Aim**
-- **Enable**: Turns on fake aim behavior to confuse or mislead other players.
-- **Send Always**: If enabled, the aim direction will be sent every tick to the server (looks smoother for others).
-- **Visible**: Shows the fake aim on your screen.
-- **Modes**: Determines how the fake aim behaves:
-  - **Mouse Pos**: Adjusts your aim to follow your mouse position, making the gores bot aimbot appear less blatant.
-  - **Robot Aim**: Updates your aim position only when hooking or firing.
-  - **Spinbot**: Rotates your aim rapidly in a spinning motion.
-  - **Random**: Moves your aim in random directions.
-  - **Fake Angles**: Aims in the opposite direction of your cursor.
-  - **Aimbot Troll Aim**: Always aims at the closest player.
+- **Enable** (`krx_fake_aim`): Turns on fake aim behavior to confuse or mislead other players about your actual aiming direction.
+- **Send Always** (`krx_fake_aim_send_always`): If enabled, the fake aim direction is sent every tick to the server, making it appear smoother to others. If disabled, it might only send updates when other inputs change.
+- **Visible** (`krx_fake_aim_visible`): Shows the fake aim direction on your own screen.
+- **Mode** (`krx_fake_aim_mode`): Determines how the fake aim behaves:
+  - **Mouse Pos**: Aims towards your actual mouse position. Useful with Avoid bots to make their aiming corrections less obvious.
+  - **Robot Aim**: Only updates the aim position sent to the server when you hook or fire. Between actions, it keeps showing the last aim direction used.
+  - **Spinbot**: Rotates your aim rapidly. Speed configurable via `krx_fake_aim_speed`.
+  - **Random**: Moves your aim in random directions constantly.
+  - **Fake Angles**: Aims in the opposite direction of your mouse cursor.
+  - **Aimbot Troll Aim**: Always aims at the closest player (uses aimbot logic).
 
 ### **Other**
-- **Change Name on Finish**: Automatically changes your name just before crossing the finish line.
-- **Auto Team**: Automatically joins the selected team and locks it.
-- **Anti AFK**: Prevents being marked as AFK.
-- **Kill on Freeze**: Kills your player automatically when you get frozen.
-- **Fast Input**: Makes your input feel 1 tick faster (20ms), but this is only a visual effect.
-- **Ignore Replay Warnings**: Suppresses warning messages related to TAS replays.
-- **Hide Chat Bubble**: Hides the chat bubble so other players don’t know when you are typing.
-- **Auto Verify**: Automatically verifies you on whitelist-protected servers like `ger10.ddnet.tw`.
-- **Send Occasional Ads**: Sends occasional advertisements in chat.
+- **Change Name on Finish** (`krx_change_name_on_finish`): Automatically changes your name just before crossing a finish line.
+  - **Random Name** (`krx_change_name_on_finish_random`): Use a randomly generated name.
+  - **Name** (`krx_change_name_on_finish_name`): Specify a custom name to use (if Random is off).
+- **Auto Team** (`krx_auto_team`): Automatically joins the specified **Preferred Team** and locks it upon connecting to a server.
+  - **Preferred Team** (`krx_auto_team_preferred`): The team number (1-63) to join.
+- **Anti AFK** (`krx_anti_afk`): Periodically makes small mouse movements to prevent being marked as AFK by the server based on the configured **Seconds**.
+  - **Seconds** (`krx_anti_afk_seconds`): The inactivity duration (server-side) after which the anti-AFK movement triggers.
+- **Kill on Freeze** (`krx_killonfreeze`): Kills your player automatically (`/kill`) the moment you enter a freeze state.
+- **Fast Input** (`cl_fast_input`): Applies your input one tick earlier to the *local prediction*. This makes your actions *feel* more responsive locally but does not change server-side processing or give a true latency advantage.
+  - **Fast Input Others** (`cl_fast_input_others`): Extends the fast input prediction effect to other players locally. Can make dragging feel smoother but increases the visual latency discrepancy between your view and the server state for others.
+- **Ignore Replay Warnings**: Suppresses console warnings related to TAS replays (e.g., inconsistencies).
+- **Hide Chat Bubble** (`krx_hidebubble`): Hides the "..." chat bubble indicator that normally appears above your tee when you are typing.
+- **Send Occasional Ads** (`krx_sendads`): ![Free](https://img.shields.io/badge/Free-%234CAF50?style=flat-square) Sends occasional advertisements for KRX Client via private messages to other players on the server (Free version only).
 
 ### **Troll**
-- **Emote Spam**: Spams random emotes as fast as possible.
-- **Killsay/Deathsays**: Sends pre-defined messages upon kills or deaths.
-- **Fancy Chat Font**: Changes your chat font for a unique appearance.
-- **Mass Mention Spam**: Mentions multiple players repeatedly.
-- **Chat Repeater**: Automatically repeats another player's chat message with alternating uppercase and lowercase letters (e.g., "MeSsAgE").
+- **Emote Spam** (`krx_emotespam`): Spams random emotes as fast as the server allows.
+    - **Console Bind**: `bind KEY toggle krx_emotespam 1 0`
+- **Killsay/Deathsays** (`krx_killsay`): Sends pre-defined messages in chat upon getting kills or dying.
+    - **Note**: Messages can be customized by editing the `data/krx/killsays.json` file.
+- **Fancy Chat Font** (`krx_fancychatfont`): Changes your chat messages to use a Unicode fancy font style.
+- **Mass Mention Spam** (`krx_massmentionspam`): Sends chat messages containing random spam text and mentions multiple players on the server repeatedly.
+- **Chat Repeater** (`krx_chatrepeater`): Automatically repeats another player's chat message, but with alternating uppercase and lowercase letters (e.g., "Hello there" becomes "HeLlO tHeRe"). Only repeats messages longer than the specified **Min Length**.
+  - **Min Length** (`krx_chatrepeater_length`): Minimum length of a message for the repeater to trigger.
 
 ### **ID Stealer**
-- **Enable**: Activates the ID Stealer feature, allowing you to copy another player’s information.
-- **Closest Player**: If enabled, targets the closest player to copy their details. If disabled, selects a random player on the server.
-- **Steal Name**: Copies the targeted player’s name.
-- **Steal Clan**: Copies the targeted player’s clan name.
-- **Steal Skin**: Copies the targeted player’s skin.
-- **Steal Flag**: Copies the targeted player’s country flag.
-- **Steal Eye Emote**: Copies the targeted player’s eye emote expression.
-- **Stealer Speed**: Adjusts the interval (in seconds) for how frequently the feature updates the stolen details.
+- **Enable** (`krx_idstealer`): Activates the ID Stealer feature, copying information from another player.
+- **Closest Player** (`krx_idstealer_closest`): If enabled, targets the closest player. If disabled, targets a random player.
+- **Steal Name** (`krx_idstealer_name`): Copies the target's name.
+- **Steal Clan** (`krx_idstealer_clan`): Copies the target's clan tag.
+- **Steal Skin** (`krx_idstealer_skin`): Copies the target's skin settings (name, custom colors, body/feet colors).
+- **Steal Flag** (`krx_idstealer_flag`): Copies the target's country flag.
+- **Steal Eye Emote** (`krx_idstealer_emote`): Copies the target's default eye emote.
+- **Stealer Speed** (`krx_idstealer_speed`): Adjusts the interval (in seconds) between updates of the stolen information.
 
 ### **Ghost Move**
-- **Enable**: Activates the Ghost Move feature, which hides certain indicators to make your actions less noticeable to other players.
-- **Direction**: Hides the directional arrows that show your movement direction.
-- **Jump**: Hides the jump arrow, making it harder for others to see when you’re jumping.
-- **Hook**: Spams an invisible hook at your aim direction. Keep in mind that hook reach is limited.
-- **Hook Closest**: Spams an invisible hook at the closest player. Keep in mind that hook reach is limited.
+*(Exploit to hide certain actions from other players)*
+- **Enable** (`krx_ghostmove`): Activates the Ghost Move features selected below.
+- **Direction** (`krx_ghostmovedirection`): Hides the directional arrows others see based on your movement input.
+- **Jump** (`krx_ghostmovejump`): Hides the jump arrow others normally see when you jump.
+- **Hook** (`krx_ghostmovehook`): Spams an invisible hook (no visual hook chain/head for others) towards your aim direction. Hook reach is still limited by server settings/tuning.
+- **Hook Closest** (`krx_ghostmovehookclosest`): Spams an invisible hook towards the closest player. Hook reach is limited.
 
 ---
 
 ## **Configuration**
 
-For most use cases, it's worth enabling the following features:
-- **Auto Fire**: Automatically fires your weapon, making it easier to focus on aiming and movement.
-- **Avoid Freeze**: Especially useful when playing gores maps, this feature helps you avoid freeze zones.
-- **Quick Stop**: Great for block maps, this helps you stop quickly and precisely.
-- **Auto Jump Save**: A situational feature to prevent falling into freeze; enable it when needed.
-- **Mod Detector**: Use this if you're worried about being watched or banned by moderators.
-- **Fast Input**: Many users say this is a game-changer for improving responsiveness, so give it a try.
-- **Auto Verify**: A quality-of-life feature that automates verification for DDOS-protected servers. It’s worth keeping enabled for convenience.
+For most use cases, consider enabling the following features based on your needs:
+- **Auto Fire**: Convenient for weapons like the pistol.
+- **Avoid Freeze (Basic)**: A simple safety net on Gores maps if not using the Ultimate Avoid bots.
+- **Quick Stop**: Useful for precise stopping, especially on block maps.
+- **Auto Jump Save**: Situational helper to prevent accidental falls into freeze.
+- **Mod Detector**: Enable if playing on servers where you are concerned about moderator detection. Configure leave settings based on risk tolerance.
+- **Fast Input**: Try enabling this; many find it improves the feeling of responsiveness, though it's a local visual effect.
+- **Auto Team**: Quality-of-life feature for automatically joining and locking a preferred team.
 
-Adjust these features depending on your specific gameplay needs, and experiment to find the best combination for your style.
+Adjust these and other features based on the game mode, server rules, and personal preference.
