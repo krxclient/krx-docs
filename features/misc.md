@@ -60,6 +60,14 @@ The **Misc** tab in KRX Client offers a range of tools and features designed to 
     - **Ticks** (`krx_unfreezebotticks`): Lookahead duration (ticks) used when scanning *all* directions to find the best unfreeze angle.
     - **FOV** (`krx_unfreezebotfov`): Field of view (degrees) within which the bot scans for potential unfreeze directions.
 
+### **Auto Vote**
+- **Auto Vote Kick** (`krx_autovotekick`): Automatically starts a vote kick when no other vote is active.
+    - **Mode** (`krx_autovotekick_mode`): Selects the target (0: Random teammate, 1: Specific ID).
+    - **Target ID** (`krx_autovotekick_target`): The specific player ID to target (if Mode is 1).
+    - **Reason** (`krx_autovotekick_reason`): The reason text included in the vote call.
+- **Auto Vote** (`krx_autovote`): Automatically votes on any active vote call.
+    - **Vote F3/F4** (`krx_autovotef4`): Determines the vote choice (0: Vote Yes (F3), 1: Vote No (F4)).
+
 ### **Fake Aim**
 - **Enable** (`krx_fake_aim`): Turns on fake aim behavior to confuse or mislead other players about your actual aiming direction.
 - **Send Always** (`krx_fake_aim_send_always`): If enabled, the fake aim direction is sent every tick to the server, making it appear smoother to others. If disabled, it might only send updates when other inputs change.
