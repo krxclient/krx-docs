@@ -82,6 +82,7 @@ TAS relies on predicting game ticks precisely. Network lag or certain map featur
 2.  **Check Map Compatibility:** Maps with server-side randomization (like multiple teleporter exits with the same ID or complex stoppers) can break TAS prediction and may be inherently unreliable for TAS playback.
 3.  **Enable Teleport Prediction:** If the map uses teleporters, go to the KRX TAS settings menu and ensure 'Teleport Prediction' is enabled.
 4.  **Ensure Stable Ping:** TAS works best with low, stable ping. High or fluctuating ping is a common cause of failure.
+5.  **Note on Server Checks:** Be aware that some specific game servers might implement their own anti-TAS mechanisms that could cause playback failures, even with correct client settings.
 
 ### **Why does Legit Avoid Freeze cause FPS drops/lag?**
 Legit Avoid performs complex calculations, which can impact performance on some systems, especially with many players nearby. To improve performance:
@@ -133,7 +134,8 @@ License keys are typically emailed instantly after payment confirmation.
 1.  **Check Spam/Junk Folder:** Ensure the email didn't land there.
 2.  **Wait 15-30 Minutes:** Allow for potential payment processing and email delivery delays.
 3.  **Check Payment Status:** Ensure your payment was fully completed and confirmed by the provider (Paddle, Coinbase, NowPayments, or Reseller).
-4.  **Contact Support:** If the key still hasn't arrived, open a ticket on our [Discord](https://discord.gg/MwzsHadQAe) with your payment details (Order ID, email used for purchase, transaction ID if crypto).
+4.  **Activate Key:** Once you receive the key via email, remember to **activate it on your krxclient.xyz profile page** under "Activate License".
+5.  **Contact Support:** If the key still hasn't arrived after a reasonable time, open a ticket on our [Discord](https://discord.gg/MwzsHadQAe) with your payment details (Order ID, email used for purchase, transaction ID if crypto).
 
 ### **Can I get a free trial or discount?**
 We generally do not offer free trials outside of announced special events (like the occasional Free Weekend). Discounts may be available during promotional periods – check the announcements on our [Discord](https://discord.gg/MwzsHadQAe).
