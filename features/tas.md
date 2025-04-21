@@ -114,14 +114,19 @@ The **TAS** (Tool-Assisted Speedrun) tab in the KRX Client Ultimate version prov
 
 ## **FAQ**
 
-1.  **Q:** Why don’t I see weapons/shields/hearts/etc. in the TAS world?
-    **A:** You most likely forgot to enable `/showall` before starting the TAS. Use `cl_run_on_join "showall 1"` in the F1 console or the equivalent DDNet setting to automate this. Also ensure `Settings -> DDNet -> Antiping -> Predict weapons` is enabled.
+**1. Q:** Why don’t I see weapons/shields/hearts/etc. in the TAS world?
 
-2.  **Q:** Why can’t I continue my TAS run after a map change?
-    **A:** TAS state is not preserved across map changes. You must stop recording, save your replay, manually change to the correct map (e.g., on a local server or different online server), load the replay data, and then continue recording from the end point.
+   **A:** You most likely forgot to enable `/showall` before starting the TAS. Use `cl_run_on_join "showall 1"` in the F1 console or the equivalent DDNet setting to automate this. Also ensure `Settings -> DDNet -> Antiping -> Predict weapons` is enabled.
 
-3.  **Q:** Why did my TAS replay desync or fail mid-run?
-    **A:** Desyncs usually happen due to network lag affecting the precise timing needed for TAS playback, or complex map features not perfectly predicted by the client (e.g., random teleporters, intricate stoppers). **Solution:** Increase `cl_prediction_margin` significantly (e.g., 200+) in the F1 console before playback. This helps buffer against network jitter. If it still fails, the map might have elements inherently unreliable for TAS, or server-side checks might be interfering.
+**2. Q:** Why can’t I continue my TAS run after a map change?
 
-4.  **Q:** Why can’t I move when I start recording TAS?
-    **A:** Check if TAS is paused (toggle with the `Pause` hotkey). Also, ensure the `krx_tasrespawn` command (bound to `Clear` hotkey) is not being held down, as holding it prevents movement.
+   **A:** TAS state is not preserved across map changes. You must stop recording, save your replay, manually change to the correct map (e.g., on a local server or different online server), load the replay data, and then continue recording from the end point.
+
+**3. Q:** Why did my TAS replay desync or fail mid-run?
+
+   **A:** Desyncs usually happen due to network lag affecting the precise timing needed for TAS playback, or complex map features not perfectly predicted by the client (e.g., random teleporters, intricate stoppers). **Solution:** Increase `cl_prediction_margin` significantly (e.g., 200+) in the F1 console before playback. This helps buffer against network jitter. If it still fails, the map might have elements inherently unreliable for TAS, or server-side checks might be interfering.
+
+**4. Q:** Why can’t I move when I start recording TAS?
+
+   **A:** Check if TAS is paused (toggle with the `Pause` hotkey). Also, ensure the `krx_tasrespawn` command (bound to `Clear` hotkey) is not being held down, as holding it prevents movement.
+
