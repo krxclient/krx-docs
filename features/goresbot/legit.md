@@ -10,7 +10,7 @@ description: >-
 The **Legit** bot in KRX Client focuses on providing subtle assistance while maintaining a natural playstyle, suitable for users who want help avoiding freeze without obviously appearing to use cheats.
 
 - **Console Bind**: You can toggle the Avoid bot (when Legit is selected) using: `bind KEY toggle krx_avoidfreeze 1 0` (replace `KEY` with your desired key).
-- **Performance Note**: Legit Avoid performs complex calculations (likely using a Monte Carlo Tree Search approach) and may cause FPS drops or lag on some systems, especially with many players nearby. Lowering "Quality" and "Check Ticks" can help mitigate this. See the [FAQ](../../faq.md#why-does-legit-avoid-freeze-cause-fps-drops-lag) for more performance tips.
+- **Performance Note**: Legit Avoid performs complex calculations and may cause FPS drops or lag on some systems, especially with many players nearby. Lowering "Quality" and "Check Ticks" can help mitigate this. See the [FAQ](../../faq.md#why-does-legit-avoid-freeze-cause-fps-drops-lag) for more performance tips.
 - **Prediction Note**: Remember to set `cl_prediction_margin` based on your ping (e.g., `cl_prediction_margin 70` for 50ms ping) for optimal performance.
 
 ---

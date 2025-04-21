@@ -25,7 +25,7 @@ Starting from the **Premium** tier, the Aimbot provides functionality for all we
 - **Enable**: Toggles the Aimbot on or off globally via the menu.
     - **Console Bind**: You can also toggle the aimbot using a key bind in the F1 console: `bind KEY toggle krx_aimbot 1 0` (replace `KEY` with your desired key, e.g., `lctrl`).
 - **Draw FOV**: Displays two lines originating from your character, indicating the angular Field of View (FOV) centered around your mouse cursor. Targets outside this wedge are ignored by the aimbot for the active weapon/hook.
-- **Auto Shoot**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Toggles automatic firing when the aimbot acquires a valid weapon target. This can also be controlled via a separate hotkey (see Settings tab).
+- **Auto Shoot**: Toggles automatic firing when the aimbot acquires a valid weapon target. This can also be controlled via a separate hotkey (see Settings tab).
 - **Target Priority**: Determines the method for selecting targets:
   - **Closest to Crosshair**: Targets based on the distance from your crosshair. This option ensures more precise identification but may struggle with hammer aimbot in some scenarios.
   - **Closest to Player**: Targets the nearest player to you. Ideal for HvH scenarios or more aggressive playstyles.
@@ -33,8 +33,8 @@ Starting from the **Premium** tier, the Aimbot provides functionality for all we
 - **Ignore Friends**: Prevents the Aimbot from targeting friends (added via the Teeworlds client's friend system). This applies differently per weapon based on individual ignore settings.
 - **Target Box**: Highlights targets with boxes (red for hook, orange for weapon). Useful for PvP modes but may be distracting in casual play.
 - **Target Glow**: Adds a "glow" effect by changing the target's tee colors. Note: This does not work effectively with tees that have a solid black color body/feet. Color settings are available if enabled.
-    - **Weapon Glow Color**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Sets the glow color applied to the weapon target.
-    - **Hook Glow Color**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Sets the glow color applied to the hook target.
+    - **Weapon Glow Color**: Sets the glow color applied to the weapon target.
+    - **Hook Glow Color**: Sets the glow color applied to the hook target.
 - **Advanced Settings**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Unlocks additional per-weapon controls and advanced behavior settings.
 - **Grenade Move Prediction**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Anticipates target movements based on potential inputs to improve grenade accuracy. **Note:** This is CPU-intensive and may impact performance, especially on lower-end PCs.
 - **Edge Accuracy**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Adjusts edge hook precision:
@@ -62,7 +62,7 @@ For **Hook**, **Hammer**, **Pistol**, **Shotgun**, **Grenade**, and **Laser**:
 2. Customize the settings. Here are the **recommended settings for semi-legit daily play**:
    - **Enable**: On (preferably bind to a key like `lctrl` using `bind lctrl toggle krx_aimbot 1 0`).
    - **Draw FOV**: Off for less visual clutter, On if you need to visualize the range.
-   - **Auto Shoot**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Enable based on preference or bind the hotkey `+toggle krx_aimbot_autoshoot_key 1 0` (see Settings tab).
+   - **Auto Shoot**: Enable based on preference or bind the hotkey `+toggle krx_aimbot_autoshoot_key 1 0` (see Settings tab).
    - **Target Priority (Global)**: Use **Closest to Crosshair** for most scenarios. Switch to **Closest to Player** if encountering hammer aimbot issues.
    - **Silent (Global/Per-Weapon)**: Off for legit play. On if playing casually or prioritizing convenience.
    - **Ignore Friends (Global/Per-Weapon)**: Enable for block or PvP modes to avoid targeting teammates.
