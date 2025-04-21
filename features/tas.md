@@ -8,7 +8,7 @@ description: >-
 
 # TAS (Tool-Assisted Speedrun) ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
 
-The **TAS** (Tool-Assisted Speedrun) tab in the KRX Client Ultimate version provides a comprehensive suite for recording, replaying, and manipulating precise sequences of inputs, primarily for creating optimized runs on DDNet maps.
+The **TAS** (Tool-Assisted Speedrun) tab in the KRX Client Ultimate version provides a comprehensive suite for recording, replaying, and manipulating precise sequences of inputs, primarily for creating optimized runs on DDNet (DDraceNetwork) maps.
 
 **Important Prerequisite: `/showall`**
 - For TAS playback and recording to correctly interact with map entities (weapons, pickups, shields, hearts, etc.), you **must** ensure all entities are rendered *before* starting a TAS session on a server. There are two ways to do this automatically:
@@ -20,12 +20,14 @@ The **TAS** (Tool-Assisted Speedrun) tab in the KRX Client Ultimate version prov
 
 ## **Video Tutorial**
 [![TAS Tutorial](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DRUUiq1ml9TU)](https://www.youtube.com/watch?v=RUUiq1ml9TU)
+
 *(Note: Tutorial provided by m4zty, may not reflect the absolute latest UI but covers core concepts).*
 
 ---
 
 ## **Screenshot**
 ![TAS Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/tas-menu.png)
+
 *(Note: Screenshot may slightly differ from the latest version).*
 
 ---
@@ -111,11 +113,15 @@ The **TAS** (Tool-Assisted Speedrun) tab in the KRX Client Ultimate version prov
 ---
 
 ## **FAQ**
-1.  **Q: Why don’t I see weapons/shields/hearts/etc. in the TAS world?**
-    **A:** You most likely forgot to enable `/showall` before starting the TAS. Use `cl_run_on_join "showall 1"` or the DDNet setting to automate this. Also ensure `Settings -> DDNet -> Antiping -> Predict weapons` is enabled.
-2.  **Q: Why can’t I continue my TAS run after a map change?**
+
+1.  **Q:** Why don’t I see weapons/shields/hearts/etc. in the TAS world?
+    **A:** You most likely forgot to enable `/showall` before starting the TAS. Use `cl_run_on_join "showall 1"` in the F1 console or the equivalent DDNet setting to automate this. Also ensure `Settings -> DDNet -> Antiping -> Predict weapons` is enabled.
+
+2.  **Q:** Why can’t I continue my TAS run after a map change?
     **A:** TAS state is not preserved across map changes. You must stop recording, save your replay, manually change to the correct map (e.g., on a local server or different online server), load the replay data, and then continue recording from the end point.
-3.  **Q: Why did my TAS replay desync or fail mid-run?**
-    **A:** Desyncs usually happen due to network lag affecting the precise timing needed for TAS playback, or complex map features not perfectly predicted by the client (e.g., random teleporters, intricate stoppers). **Solution:** Increase `cl_prediction_margin` significantly (e.g., 200+) in the F1 console before playback. If it still fails, the map might have elements inherently unreliable for TAS, or server-side checks might be interfering.
-4.  **Q: Why can’t I move when I start recording TAS?**
+
+3.  **Q:** Why did my TAS replay desync or fail mid-run?
+    **A:** Desyncs usually happen due to network lag affecting the precise timing needed for TAS playback, or complex map features not perfectly predicted by the client (e.g., random teleporters, intricate stoppers). **Solution:** Increase `cl_prediction_margin` significantly (e.g., 200+) in the F1 console before playback. This helps buffer against network jitter. If it still fails, the map might have elements inherently unreliable for TAS, or server-side checks might be interfering.
+
+4.  **Q:** Why can’t I move when I start recording TAS?
     **A:** Check if TAS is paused (toggle with the `Pause` hotkey). Also, ensure the `krx_tasrespawn` command (bound to `Clear` hotkey) is not being held down, as holding it prevents movement.

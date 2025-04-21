@@ -14,6 +14,7 @@ The **Settings** tab in the KRX Client allows you to configure hotkeys for vario
 
 ## **Screenshot**
 ![Settings Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/settings-menu.png)
+
 *(Note: Screenshot may slightly differ from the latest version).*
 
 ---

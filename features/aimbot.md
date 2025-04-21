@@ -15,6 +15,7 @@ Starting from the **Premium** tier, the Aimbot provides functionality for all we
 
 ## **Screenshot**
 ![Aimbot Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/aimbot-menu.png)
+
 *(Note: Screenshot may slightly differ from the latest version).*
 
 ---

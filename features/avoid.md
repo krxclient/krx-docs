@@ -17,6 +17,7 @@ The **Avoid** feature provides several types of Gores Bots designed to help you 
 
 ## **Screenshot**
 ![Avoid Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/avoid-menu.png)
+
 *(Note: The specific options visible below the dropdown depend on the selected Gores Bot Type).*
 
 ---
@@ -31,7 +32,7 @@ In KRX, you can select different Gores Bot agents, each with its own strategy an
 3.  **[Blatant](goresbot/blatant.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
     -   A highly effective bot focused on safety above all else. Uses more aggressive input changes (including hook) to prevent freezing, even on extremely difficult maps. Offers detailed configuration for movement, aiming, and tile avoidance.
 4.  **[Fentbot](goresbot/fentbot.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-    -   An advanced, experimental bot using pathfinding (FlowField) and potentially genetic algorithms ("Tweaker") to calculate input sequences for completing parts or entire maps, primarily KoG-style maps. Runs calculations asynchronously. Highly configurable but resource-intensive and may produce suboptimal paths.
+    -   An advanced, experimental bot using pathfinding (FlowField) and potentially genetic algorithms ("Tweaker") to calculate input sequences for completing parts or entire maps, primarily KoG (King of Gores)-style maps. Runs calculations asynchronously. Highly configurable but resource-intensive and may produce suboptimal paths.
 
 ---
 

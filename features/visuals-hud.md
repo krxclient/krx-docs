@@ -14,6 +14,7 @@ The **Visuals & HUD** tab in the KRX Client allows you to enhance the visual ele
 
 ## **Screenshot**
 ![Visuals & HUD Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/visuals-hud-menu.png)
+
 *(Note: Screenshot may slightly differ from the latest version).*
 
 ---
@@ -54,8 +55,8 @@ The **Visuals & HUD** tab in the KRX Client allows you to enhance the visual ele
 - **Player Indicator** (`cl_player_indicator`): Shows circles or small tees around your character indicating the direction and status (alive/frozen/saved) of teammates.
     - **Various Options**: Configure size, offset, opacity, team-only display, etc. (see `cl_indicator_*` variables).
 
-## **KoG Specific HUD**
-*(Options primarily useful for KoG (Keep Opponent Grounded) gameplay)*
+## **KoG (King of Gores) Specific HUD**
+*(Options primarily useful for KoG gameplay)*
 - **Show Frozen HUD** (`cl_frozen_tees_hud`): Displays a dedicated HUD element showing the status of all tees in your team.
 - **Use Skins Instead of Ninja Tees** (`cl_frozen_tees_hud_skins`): When frozen, display teammates with their actual skins (darkened) instead of the default ninja skin in the Frozen HUD.
 - **Only Show After Joining a Team** (`cl_frozen_tees_only_inteam`): The Frozen HUD only appears once you have joined a team.

@@ -7,7 +7,7 @@ description: >-
 ---
 
 # Fent Bot ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
-The **Fent Bot** in KRX Client is an advanced, experimental tool for automating map completion. It is primarily designed for KoG-style maps and requires significant computational resources.
+The **Fent Bot** in KRX Client is an advanced, experimental tool for automating map completion. It is primarily designed for KoG (King of Gores)-style maps and requires significant computational resources.
 
 - **Console Bind**: You can toggle the Avoid bot (when Fentbot is selected) using: `bind KEY toggle krx_avoidfreeze 1 0` (replace `KEY` with your desired key). Note that enabling this mainly *starts* the Fentbot's calculation process.
 - **Prediction Note**: Remember to set `cl_prediction_margin` based on your ping (e.g., `cl_prediction_margin 70` for 50ms ping) for optimal performance during calculation and potential playback (if used with TAS).
@@ -17,6 +17,8 @@ The **Fent Bot** in KRX Client is an advanced, experimental tool for automating 
 
 ## **Screenshot**
 ![Fent Bot Menu](https://raw.githubusercontent.com/Krixx1337/krxclient-docs/refs/heads/main/images/fentbot-menu.png)
+
+*(Note: Screenshot may slightly differ from the latest version).*
 
 ---
 
