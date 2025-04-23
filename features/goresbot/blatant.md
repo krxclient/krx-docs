@@ -37,7 +37,7 @@ The **Blatant** Gores bot in KRX Client is expertly designed for maximum safety 
 *   **Player Prediction**: Predicts the movements of other players for potentially better avoidance.
 *   **NSIF** (No Safe Input Found): If the bot cannot find an input sequence that guarantees survival for the full `Check Ticks` duration, NSIF allows it to use the *first* input from the previously known safest sequence, hoping it remains valid temporarily.
     {% hint style="info" %}
-    **NSIF Recommendation:** Generally recommended `ON` for better recovery when no perfectly safe path is found instantly.
+    It's generally recommended to keep NSIF `ON` for better recovery when no perfectly safe path is found instantly.
     {% endhint %}
 *   **Afk Protection**: Automatically disables the Gores bot when the user is detected as AFK after the specified **Afk Time**.
     *   **Afk Time**: Configurable in seconds.
@@ -47,9 +47,9 @@ The **Blatant** Gores bot in KRX Client is expertly designed for maximum safety 
 <summary><strong>Movement Settings</strong></summary>
 
 *   **Hook Assistance**: Activates hook inputs for the Gores bot (allows the bot to use hook/unhook actions).
-    {% hint style="info" %} Recommended `ON` for full bot capability. {% endhint %}
+    {% hint style="info" %} Recommended setting: `ON` for full bot capability. {% endhint %}
 *   **Direction Assistance**: Enables directional inputs (left/right/neutral) for the Gores bot.
-    {% hint style="info" %} Recommended `ON` for full bot capability. {% endhint %}
+    {% hint style="info" %} Recommended setting: `ON` for full bot capability. {% endhint %}
 *   **Check Ticks**: Specifies how far into the future (in ticks) the Blatant bot's primary simulation (`TestFreezeOptimal`) runs to guarantee safety for an input sequence.
     {% hint style="warning" %} Higher values provide more safety but increase CPU load. (Default/Recommended: ~26) {% endhint %}
 *   **Kick in Ticks**: The bot will *not* intervene or override your current input if that input is predicted to be safe for at least this many ticks.
@@ -74,15 +74,22 @@ The **Blatant** Gores bot in KRX Client is expertly designed for maximum safety 
 <summary><strong>Misc Features</strong></summary>
 
 *   **Drag Support**: Provides additional data to the aimbot (if used separately), helping it avoid aiming directions that could lead to freezing while Blatant Avoid is active.
+
 *   **Track Point**: If enabled, the bot identifies the last direction the player aimed at which was hookable onto a tile. It will prioritize maintaining aim towards this "track point" during its safety calculations, potentially overriding mouse aim if the tracked direction is safer.
-    {% hint style="info" %} **Hotkey:** You can toggle this using the bind set in `Settings -> Hotkeys -> Avoid Track Points` (`toggle krx_avoid_tile_track_points 1 0`). {% endhint %}
+    {% hint style="info" %}
+    **Hotkey:** You can toggle this feature using the bind set in `Settings -> Hotkeys -> Avoid Track Points`. The default command is `toggle krx_avoid_tile_track_points 1 0`.
+    {% endhint %}
+
     *   **Safe Aim Tracking**: If Track Point is enabled, this ensures the bot only locks onto the tracked direction if that direction remains valid (doesn't lead to freeze) for the *entire* `Check Ticks` scan duration.
         {% hint style="info" %}
-        *   `ON`: Maximum safety (won't track if it might lead to freeze later).
-        *   `OFF`: More persistent tracking even if slightly risky.
+        *   Setting it `ON`: Provides maximum safety (won't track if it might lead to freeze later).
+        *   Setting it `OFF`: Allows more persistent tracking even if slightly risky.
         {% endhint %}
+
 *   **Auto Drag**: Automatically aims at and hooks the closest tee *if* doing so is predicted to be safe (doesn't cause freeze). Uses aimbot logic internally for target selection and edge hooking.
-    {% hint style="info" %} **Hotkey:** You can activate this by holding the key set in `Settings -> Hotkeys -> Avoid Auto Drag` (`+toggle krx_avoid_tile_auto_drag 1 0`). Requires the internal Aimbot to be enabled and configured. {% endhint %}
+    {% hint style="info" %}
+    **Hotkey:** You can activate this feature by holding the key set in `Settings -> Hotkeys -> Avoid Auto Drag`. The default command is `+toggle krx_avoid_tile_auto_drag 1 0`. This requires the internal Aimbot to be enabled and configured.
+    {% endhint %}
 </details>
 
 <details>
@@ -124,10 +131,10 @@ The provided default/recommended settings (shown in the screenshot) are a good s
 
 {% hint style="info" %}
 **Basic Setup Steps:**
-- [ ] Ensure `cl_prediction_margin` is set correctly (See Prerequisite hint above).
-- [ ] Enable the main Avoid toggle (`krx_avoidfreeze`) via bind or the menu.
-- [ ] Enable `Hook Assistance` and `Direction Assistance` for full functionality.
-- [ ] Adjust `Check Ticks` and `Kick in Ticks` based on desired safety vs. performance/intrusiveness.
+- [x] Ensure `cl_prediction_margin` is set correctly (See Prerequisite hint above).
+- [x] Enable the main Avoid toggle (`krx_avoidfreeze`) via bind or the menu.
+- [x] Enable `Hook Assistance` and `Direction Assistance` for full functionality.
+- [x] Adjust `Check Ticks` and `Kick in Ticks` based on desired safety vs. performance/intrusiveness.
 {% endhint %}
 
 *   **NSIF**: Generally recommended `ON`.
