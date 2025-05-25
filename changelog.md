@@ -22,7 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 ### Changed
 - Improved **fake aim** for TAS — more accurate and convincing. 🎭📈
 - Optimized **watermark and HUD gradient text rendering**. 🎨🧵
-- Updated **DDNet to 19.2** for better compatibility and features. 📦🔧
+- Updated **KRX to DDNet 19.2** for better compatibility and features. 📦🔧
 - Further **prediction speed and accuracy improvements**. 🔮⚙️
 - Behind-the-scenes cleanup of legacy code. 🧹🧠
 - Smarter and safer **API and networking handling**. 🌐🛡️
