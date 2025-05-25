@@ -12,6 +12,32 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
+## [1.34] - 2025-05-25
+### Added
+- Re-added **avoid visuals** for better stealth play. 👀🚫
+- **Perfect silent aimbot** (works with autoshoot/hook, ideal for 25 TPS or low-bandwidth servers). ⚡🎯
+- Auto-send `/showall` when starting a TAS for convenience. 🤖📢
+- New feature to **remove useless moves** from TAS. 🗑️🎮
+
+### Changed
+- Improved **fake aim** for TAS — more accurate and convincing. 🎭📈
+- Optimized **watermark and HUD gradient text rendering**. 🎨🧵
+- Updated **DDNet to 19.2** for better compatibility and features. 📦🔧
+- Further **prediction speed and accuracy improvements**. 🔮⚙️
+- Behind-the-scenes cleanup of legacy code. 🧹🧠
+- Smarter and safer **API and networking handling**. 🌐🛡️
+
+### Fixed
+- Fixed issue where **aimbot wouldn’t fire** while holding shoot. 🔫🐞
+- Fixed **hammer aimbot not working on FNG servers**. 🔧🏏
+- Fixes for **freezebars and isFrozen checks** on some solo FNG servers. 🥶✔️
+- Fixed **chat issues on 0.7 servers**. 💬🔌
+- Crash fix when **Discord RPC was empty**. 💥📉
+- Various **crash fixes** (e.g., SSL errors, failed server connections). 🛠️🧯
+- Improved handling of **small bugs and overall stability**. 🧩💡
+
+---
+
 ## [1.33] - 2025-03-14
 ### Added
 - Trails from TClient. 🚀✨
