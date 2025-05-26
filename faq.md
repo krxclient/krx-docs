@@ -95,11 +95,26 @@ Legit Avoid performs complex calculations to find subtle, safe movements. This c
 
 ## Troubleshooting
 
+### **General Connection Fix (Network/SSL errors, Timeout, Could Not Resolve Host, etc.)**
+
+If you get any connection, SSL, or DNS errors when using KRX Client, try these steps first:
+
+1. **Open the [Cloudflare 1.1.1.1 app](https://one.one.one.one/)** and use **‘DNS-only’ mode** (do **NOT** enable WARP mode).
+2. If it still doesn't work, try **WARP mode** in the same app.
+3. Try turning any other VPN you have ON or OFF.
+4. Restart your computer and your router.
+
+*Cloudflare DNS-only mode usually fixes most connection problems without causing game server bans. Only use WARP mode if DNS-only doesn't help.*
+
 ### **Error: GET: SSL connect error / Failed to retrieve version / Failed to check status**
-This usually indicates a network issue blocking connection to the KRX authentication/status servers.
-1.  **Use a VPN:** Connect via a VPN (try different servers/countries like Germany) *before* launching KRX. This often resolves regional blocks or network filtering.
-2.  **Check Installation:** Ensure KRX is extracted to its own folder and *not* placed inside the official DDNet folder or overwriting DDNet files.
-3.  **Check DNS:** If you previously used a *cracked* client, it might have altered your system's DNS settings. Reset your DNS to "Automatic" or use a public DNS like Cloudflare (`1.1.1.1`, `1.0.0.1`) or Google (`8.8.8.8`, `8.8.4.4`).
+
+This usually means something is blocking your connection to the KRX authentication/status servers.
+
+**First, follow the steps in the “General Connection Fix” section above!**
+
+If you still have issues after that:
+1. **Check Installation:** Make sure KRX is in its own folder and *not* inside the official DDNet folder or overwriting DDNet files.
+2. **Check DNS:** If you previously used a *cracked* client, it might have changed your system DNS. Reset DNS to "Automatic" or use a public DNS like Cloudflare (`1.1.1.1`, `1.0.0.1`) or Google (`8.8.8.8`, `8.8.4.4`). *(Usually not needed if you use the Cloudflare app.)*
 
 ### **Error: HWID verification failed**
 This means the client is locked to a different PC hardware configuration than the one currently detected.
