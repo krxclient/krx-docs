@@ -17,7 +17,7 @@ Follow these steps to easily install **KRX Client**:
 - **RAM**: At least 8 GB for smooth performance.
 
 ## Installation Steps
-1.  Download the `.zip` file from [krxclient.xyz](https://krxclient.xyz).
+1.  Download the `.zip` file from [krxteam.com](https://krxteam.com).
 2.  **Create a new folder** (e.g., on your Desktop). **Ensure you extract KRX Client to its own new folder, not inside your existing official DDNet directory.**
 3.  Extract the contents of the `.zip` file into this new folder.
 4.  Run `KRX Client.exe` from inside the extracted folder.

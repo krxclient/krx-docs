@@ -19,10 +19,10 @@ If your question isn't listed here or the bot can't help, please check the other
 ## General Questions
 
 ### **Where can I download the KRX Client?**
-Download the official KRX Client *only* from our website: [krxclient.xyz](https://krxclient.xyz). Always extract the downloaded `.zip` file into a **new, separate folder** before running. Do **not** place KRX files inside your standard DDNet folder or overwrite existing DDNet files.
+Download the official KRX Client *only* from our website: [krxteam.com](https://krxteam.com). Always extract the downloaded `.zip` file into a **new, separate folder** before running. Do **not** place KRX files inside your standard DDNet folder or overwrite existing DDNet files.
 
 ### **Is KRX Client safe to use?**
-Yes, the official client downloaded from `krxclient.xyz` is safe. We use protection methods (like Themida) to prevent reverse-engineering, which unfortunately causes many antivirus programs (including Windows Defender) to show **false positive** warnings (detecting it as a virus, trojan, etc.). You may need to temporarily disable your antivirus or add an exception for the KRX folder/executable to install and run it. **Never download KRX from unofficial sources, as those may contain actual malware.**
+Yes, the official client downloaded from `krxteam.com` is safe. We use protection methods (like Themida) to prevent reverse-engineering, which unfortunately causes many antivirus programs (including Windows Defender) to show **false positive** warnings (detecting it as a virus, trojan, etc.). You may need to temporarily disable your antivirus or add an exception for the KRX folder/executable to install and run it. **Never download KRX from unofficial sources, as those may contain actual malware.**
 
 ### **Is KRX Client open source?**
 No, it’s a closed-source project. This helps protect its features and prevents the quick development of detection methods by servers.
@@ -35,7 +35,7 @@ We recommend Windows 10 or 11 (64-bit). While Linux might work with Wine, it's n
 ## Installation and Setup
 
 ### **How do I install the client?**
-1.  Download the `.zip` file from [krxclient.xyz](https://krxclient.xyz).
+1.  Download the `.zip` file from [krxteam.com](https://krxteam.com).
 2.  **Create a new folder** (e.g., on your Desktop).
 3.  Extract the contents of the `.zip` file into this new folder.
 4.  Run `KRX Client.exe` from inside the extracted folder.
@@ -118,7 +118,7 @@ If you still have issues after that:
 
 ### **Error: HWID verification failed**
 This means the client is locked to a different PC hardware configuration than the one currently detected.
-1.  **Use Website Reset:** Log in to `krxclient.xyz`, go to your Profile/Dashboard, and click "Reset HWID". You can do this **once every 7 days**. This is the standard solution for changing PCs or after significant hardware changes/OS reinstalls.
+1.  **Use Website Reset:** Log in to `krxteam.com`, go to your Profile/Dashboard, and click "Reset HWID". You can do this **once every 7 days**. This is the standard solution for changing PCs or after significant hardware changes/OS reinstalls.
 2.  **Wait for Cooldown:** If the button is unavailable, you must wait for the 7-day cooldown period to expire before you can reset it again.
 3.  **Avoid Frequent Changes:** Frequent OS reinstalls, using HWID spoofers for other games, or switching PCs often will trigger this. Plan your HWID resets accordingly. KRX Staff generally do not bypass the cooldown.
 
@@ -140,17 +140,17 @@ Switch to the **OpenGL** renderer in the Graphics settings. Vulkan can be less s
 ## Payment and Subscriptions
 
 ### **How do I pay? What methods are accepted?**
-You can view pricing options on our homepage [krxclient.xyz](https://krxclient.xyz/) and detailed plans after logging in at [krxclient.xyz/pricing](https://krxclient.xyz/pricing). We accept several methods:
+You can view pricing options on our homepage [krxteam.com](https://krxteam.com/) and detailed plans after logging in at [krxteam.com/pricing](https://krxteam.com/pricing). We accept several methods:
 *   **Credit/Debit Card & PayPal:** Securely processed via Paddle directly on our website.
 *   **Cryptocurrencies:** Processed via **Coinbase Commerce** or **NowPayments** on our website (accepts various cryptos like LTC, BTC, ETH, etc. - LTC often has the lowest transaction fees).
-*   **Resellers:** Authorized regional resellers may offer local payment methods. Find the current list after logging in at [krxclient.xyz/resellers](https://krxclient.xyz/resellers) or check our [Discord server](https://discord.gg/MwzsHadQAe).
+*   **Resellers:** Authorized regional resellers may offer local payment methods. Find the current list after logging in at [krxteam.com/resellers](https://krxteam.com/resellers) or check our [Discord server](https://discord.gg/MwzsHadQAe).
 
 ### **I paid but didn't receive my license key?**
 License keys are typically emailed instantly after payment confirmation.
 1.  **Check Spam/Junk Folder:** Ensure the email didn't land there.
 2.  **Wait 15-30 Minutes:** Allow for potential payment processing and email delivery delays.
 3.  **Check Payment Status:** Ensure your payment was fully completed and confirmed by the provider (Paddle, Coinbase, NowPayments, or Reseller).
-4.  **Activate Key:** Once you receive the key via email, remember to **activate it on your krxclient.xyz profile page** under "Activate License".
+4.  **Activate Key:** Once you receive the key via email, remember to **activate it on your krxteam.com profile page** under "Activate License".
 5.  **Contact Support:** If the key still hasn't arrived after a reasonable time, open a ticket on our [Discord](https://discord.gg/MwzsHadQAe) with your payment details (Order ID, email used for purchase, transaction ID if crypto).
 
 ### **Can I get a free trial or discount?**
@@ -159,7 +159,7 @@ We generally do not offer free trials outside of announced special events (like 
 ### **How do I get the Premium/Ultimate role on Discord?**
 After purchasing and activating your license:
 1.  Open a ticket on our [Discord server](https://discord.gg/MwzsHadQAe) using the appropriate "Get Role" option in `#create-a-ticket`.
-2.  Provide a **full, uncropped screenshot** of your dashboard on `krxclient.xyz` showing:
+2.  Provide a **full, uncropped screenshot** of your dashboard on `krxteam.com` showing:
     *   Your KRX Username (top right).
     *   Your active subscription (Premium or Ultimate) and its expiry date.
     *   The current date and time visible on your computer's taskbar/system clock.
@@ -195,5 +195,5 @@ KRX staff cannot lift game server bans. Bypassing IP bans typically involves cha
 ## Contact Us
 
 - **Primary Support:** Join our [Discord server](https://discord.gg/MwzsHadQAe) and open a ticket in the `#create-a-ticket` channel.
-- Email: support@krxclient.xyz (Response times may be slower)
+- Email: support@krxteam.com (Response times may be slower)
 - Telegram: [Join Here](https://t.me/joinchat/4sp4Mduuf0RiZGM0) (Community chat, less suitable for direct support)

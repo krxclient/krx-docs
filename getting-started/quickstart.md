@@ -11,7 +11,7 @@ description: >-
 This guide will help you get started with KRX Client quickly.
 
 ### Step 1: Download
-- Visit [krxclient.xyz](https://krxclient.xyz) and download the version you need.
+- Visit [krxteam.com](https://krxteam.com) and download the version you need.
 
 ### Step 2: Install
 - Follow the [installation guide](installation.md) to set up the client on your system.
