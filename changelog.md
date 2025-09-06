@@ -12,6 +12,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
+## [1.35] - 2025-09-06
+### Added
+- **Flowfield tile editor** for easier flowfield customization. 🗺️✍️
+- **KRX version** is now displayed in the start menu for easy reference. ℹ️🖥️
+
+### Changed
+- Improved **dummy fly** and added new modes: Kinta, Hook, and Hammer. 🚀🔧🔨
+- Updated **KRX to DDNet 19.3**. 📦✨
+
+### Fixed
+- Addressed several **crashes on startup** for improved stability. 🚀🛠️
+- Resolved crashes and **disappearing chat** issues in Fentbot. 🤖💬💥
+- Fixed crashes related to **flowfield rendering**. 🗺️💥
+- Fixed **bugs aimbot**. 🤝🎯
+
+---
+
 ## [1.34] - 2025-05-25
 ### Added
 - Re-added **avoid visuals** for better stealth play. 👀🚫
