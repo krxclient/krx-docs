@@ -12,6 +12,26 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
+## [1.36] - 2025-11-02
+### Added
+- **Pilot Bot** — a real-time autonomous bot capable of following players or the cursor or finish the map automatically. ✈️🤖  
+- **Song HUD** (Premium/Ultimate) — display now-playing music directly in-game. 🎵🖥️  
+- **Advanced protection settings** for power users. 🛡️⚙️  
+
+### Changed
+- Updated **KRX to DDNet 19.5**. 📦🚀  
+- Optimized **pathfinding** and improved stability. 🗺️⚡  
+- Adjusted **Fentbot’s action logic** to better manage double-jump usage. 🤖🦘  
+- Enabled **placing finish tiles inside teles** for advanced pathfinding routes. 🧩🏁  
+- Various **small improvements and optimizations** across menus and systems. 🧹✨  
+
+### Fixed
+- Fixed **flowfield rendering crashes**. 🗺️💥  
+- Resolved **datacenter verification issue** (“I’m not a datacenter!” button was added). ✅🌐  
+- Fixed **multiple random crashes** for smoother overall stability. 💻🧯  
+
+---
+
 ## [1.35] - 2025-09-06
 ### Added
 - **Flowfield tile editor** for easier flowfield customization. 🗺️✍️
