@@ -33,6 +33,8 @@ In KRX, you can select different Gores Bot agents, each with its own strategy an
     -   A highly effective bot focused on safety above all else. Uses more aggressive input changes (including hook) to prevent freezing, even on extremely difficult maps. Offers detailed configuration for movement, aiming, and tile avoidance.
 4.  **[Fentbot](goresbot/fentbot.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
     -   An advanced, experimental bot using pathfinding (FlowField) and potentially genetic algorithms ("Tweaker") to calculate input sequences for completing parts or entire maps, primarily KoG (King of Gores)-style maps. Runs calculations asynchronously. Highly configurable but resource-intensive and may produce suboptimal paths.
+5.  **[Pilot Bot](goresbot/pilotbot.md)** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square)
+    -   An advanced, experimental real-time bot using pathfinding (FlowField) and other metrics depending on the current mode. Navigates the map autonomously or follow targets (Cursor, Player). It can operate in different modes and is highly configurable for performance and behavior.
 
 ---
 

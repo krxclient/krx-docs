@@ -21,6 +21,7 @@
     * [Legit](features/goresbot/legit.md)
     * [Blatant](features/goresbot/blatant.md)
     * [Fentbot](features/goresbot/fentbot.md)
+    * [Pilot Bot](features/goresbot/pilotbot.md)
 * [TAS](features/tas.md)
 
 ## Changelog
