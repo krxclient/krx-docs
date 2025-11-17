@@ -12,6 +12,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/), and this project uses `[MAJOR.MINOR]`, inspired by [Semantic Versioning](https://semver.org/spec/v2.0.0.html), omitting `PATCH` for simplicity.
 
+## [1.36.1] - 2025-11-17
+
+### Changed
+
+* Improved **auto edge**. ⚙️
+
+### Fixed
+
+* Fixed **crash when recording TAS and the main character dies**. 🎥💥
+* **Death tiles now freeze instead of respawning** when using TAS (temporary). ❄️🧱
+* Fixed **crash when entering death tiles**. 💀💥
+* Resolved **weird tile behavior** causing unexpected interactions. 🔧🧩
+
+---
+
 ## [1.36] - 2025-11-02
 ### Added
 - **Pilot Bot** — a real-time autonomous bot capable of following players or the cursor or finish the map automatically. ✈️🤖  
