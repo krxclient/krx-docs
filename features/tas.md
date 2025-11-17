@@ -72,7 +72,10 @@ The **TAS** (Tool-Assisted Speedrun) tab in the KRX Client Ultimate version prov
 - **Reload Button**: Refreshes the list of available replays in the selection dropdown.
 - **Load Replay Data**: (Formerly "Enter" / "Continue") Loads the selected replay file's input data into the TAS buffer and initializes the TAS world to the replay's starting state. Does *not* start playback.
 - **Validate Replay**: Simulates the loaded replay internally and compares the resulting positions tick-by-tick against the positions saved within the replay file (if available). Useful for checking if a replay desyncs due to game updates or inconsistencies.
+- **Get Replay Time**: Calculates and displays the finish time of the currently loaded replay.
+- **Remove Useless**: Attempts to optimize the current replay buffer by removing unnecessary input sequences that don't affect the outcome (Prefers no hook, no jump & Aim is optimized and in result looks like Robot Fake aIM).
 - **Save Replay**: Opens a popup dialog allowing you to name and save the current replay buffer to a `.tas` file, typically within a folder named after the current map.
+- **Convert Replays to New Format**: Converts old JSON-format replay files to the new `.tas` format. This button only appears if old-format replay files are detected in the replay folders.
 - **Replay Vault Auto Sync**: (`krx_tasreplayvaultautosync`) Automatically checks for and downloads updates to the community replay vault from GitHub when the client starts.
     - **Sync Now**: Manually triggers a sync with the replay vault.
 

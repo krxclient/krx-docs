@@ -23,8 +23,6 @@ The **Legit** bot in KRX Client focuses on providing subtle assistance while mai
 ## **Avoid**
 - **Enable**: Enables the Legit avoid functionality *when the main Avoid toggle (`krx_avoidfreeze`) is active*.
 - **Player Prediction**: Predicts the movements of other players for potentially better avoidance, but can increase performance cost.
-- **Better Unhook**: Enhances unhooking mechanics by checking if the potential unhook direction is safe, not just the hook action itself.
-- **Drag Support**: Prevents aimbot (if used separately) from aiming at directions that could lead to freezing while Legit Avoid is active.
 - **Afk Protection**: Automatically disables the bot after the specified **Afk Time** if inactivity is detected.
   - **Afk Time**: Adjustable in seconds.
 

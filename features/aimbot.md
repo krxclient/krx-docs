@@ -35,6 +35,7 @@ Starting from the **Premium** tier, the Aimbot provides functionality for all we
 - **Target Glow**: Adds a "glow" effect by changing the target's tee colors. Note: This does not work effectively with tees that have a solid black color body/feet. Color settings are available if enabled.
     - **Weapon Glow Color**: Sets the glow color applied to the weapon target.
     - **Hook Glow Color**: Sets the glow color applied to the hook target.
+- **Perfect Silent** (`krx_aimbot_perfect_silent`): An option that may delay hooking/shooting by one tick to ensure no visible aim movement to others. Only works correctly on low-bandwidth servers (e.g., 25 TPS). And it is only effective when AutoHook or Auto Shoot is also enabled.
 - **Advanced Settings**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Unlocks additional per-weapon controls and advanced behavior settings.
 - **Grenade Move Prediction**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Anticipates target movements based on potential inputs to improve grenade accuracy. **Note:** This is CPU-intensive and may impact performance, especially on lower-end PCs.
 - **Edge Accuracy**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Adjusts edge hook precision:
@@ -73,3 +74,12 @@ For **Hook**, **Hammer**, **Pistol**, **Shotgun**, **Grenade**, and **Laser**:
    - **Edge Accuracy**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Set higher for consistent hooks, lower to appear more legitimate.
    - **Min/Max Shoot Delay**: ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square) Keep default (Min 1, Max 8) unless specific adjustments are needed (e.g., set both to 1 for rapid fire in HvH).
    - **Weapon Specific Settings**: Enable only the weapons/hook you intend to use the aimbot for. Adjust FOV per weapon (e.g., smaller FOV for rifle/laser, larger for shotgun/hammer) to balance effectiveness and legitimacy. Set per-weapon Silent/Ignore Friends/Target Priority as needed.
+
+---
+
+## **Hotkeys**
+The Aimbot tab also includes a section for managing hotkeys directly related to aimbot functionality. You can assign keys to the following actions:
+- **Aimbot**: Toggles the main aimbot system (`toggle krx_aimbot 1 0`).
+- **Aimbot Auto Hook**: A press-and-hold key to enable automatic hooking (`+toggle krx_aimbot_autohook_key 1 0`).
+- **Aimbot Auto Shoot**: A press-and-hold key to enable automatic firing (`+toggle krx_aimbot_autoshoot_key 1 0`).
+These can also be configured in the main **Settings** tab.

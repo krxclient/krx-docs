@@ -47,8 +47,31 @@ The **Misc** tab in KRX Client offers a range of tools and features designed to 
 - **Leave on Mod Detection** (`krx_moddetector_leave`): Automatically disconnects from the server if a player detected as a moderator joins or is present.
 - **Leave on Warn Detected** (`krx_moddetector_warnleave`): Automatically disconnects from the server if a player from the "Warn" list joins or is present.
 
-### **Auto Unfreeze** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
-*(Automatically shoots the laser rifle to break freeze)*
+### **Auto Edge** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+*(Automatically lands on edges near dangerous tiles)*
+- **Enable** (`+toggle krx_autoedge 1 0`): A press-and-hold key to enable the bot that attempts to automatically land on edges near dangerous tiles (freeze, death, tele).
+- **Detect Freeze/Death/Teleporters**: Toggles whether the bot should consider freeze, death, or teleporter tiles as dangerous edges to land on.
+- **Show Found/Locked Edges**: Visual aids to show potential edges the bot has found and the specific edge it has locked onto.
+- **Advanced Settings**:
+    - **Detection Range**: How far the bot looks for dangerous tiles.
+    - **Population Size**: Number of potential movement sequences to simulate.
+    - **Exploration Depth**: How many ticks into the future each sequence is simulated.
+    - **Top-K Candidates**: Number of best sequences to consider.
+    - **Sequence Length**: How many ticks from the best sequence to use.
+
+### **Auto Shotgun** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+*(Automatically shoots shotgun to hit yourself)*
+- **Enable** (`krx_autoshotgun`): Activates the Auto Shotgun feature.
+- **Advanced Settings** (`krx_autoshotgunadvancedsettings`): Enables more detailed configuration options.
+    - **Bounces** (`krx_autoshotgunmostbounces`): Configures bounce preference (0: Least, 1: Most).
+    - **Speed** (`krx_autoshotgunhighestvel`): Chooses a direction with the least or most speed.
+    - **Silent** (`krx_autoshotgunsilent`): Makes the aim adjustments for unfreezing invisible on your screen.
+    - **Points** (`krx_autoshotgunpoints`): Number of points considered when checking for a valid shot.
+    - **Ticks** (`krx_autoshotgunticks`): How many ticks of the laser path are used to find a direction.
+    - **FOV** (`krx_autoshotgunfov`): Field of view within which the bot scans for directions.
+ 
+ ### **Auto Unfreeze** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+ *(Automatically shoots the laser rifle to break freeze)*
 - **Enable** (`krx_unfreezebot`): Activates the Auto Unfreeze feature.
     - **Console Bind**: `bind KEY toggle krx_unfreezebot 1 0`
 - **ESP** (`krx_unfreezebotesp`): Draws the predicted path of the laser used for unfreezing.
@@ -59,6 +82,12 @@ The **Misc** tab in KRX Client offers a range of tools and features designed to 
     - **Current Dir Ticks** (`krx_unfreezebotcurdirticks`): Lookahead duration (ticks) used to check if the *current* aim direction will unfreeze.
     - **Ticks** (`krx_unfreezebotticks`): Lookahead duration (ticks) used when scanning *all* directions to find the best unfreeze angle.
     - **FOV** (`krx_unfreezebotfov`): Field of view (degrees) within which the bot scans for potential unfreeze directions.
+
+### **Prediction Benchmark**
+*(A tool to test the speed of the prediction)*
+- **Start/Stop Benchmark** (`krx_prediction_benchmark`): Toggles the benchmark test.
+- **Runs** (`krx_prediction_benchmark_runs`): The number of test runs to complete. Higher values give more accurate results.
+- **Threads** (`krx_prediction_benchmark_threads`): The number of threads to use for benchmarking (It's recommended to use the highest value possible based on your CPU).
 
 ### **Auto Vote**
 - **Auto Vote Kick** (`krx_autovotekick`): Automatically starts a vote kick when no other vote is active.

@@ -58,7 +58,19 @@ The **Settings** tab in the KRX Client allows you to configure hotkeys for vario
 
 ---
 
-## **Configuration**
+## **Discord RPC**
+- **Enable** (`krx_discordrpc`): Toggles Discord Rich Presence.
+- **Mode**: Selects the RPC profile to display.
+    - **KRX**: Default KRX Client profile.
+    - **DDNet**: Mimics the DDNet client's RPC.
+    - **TClient**: Mimics the TClient's RPC.
+    - **Custom**: Allows using a custom Discord Application ID.
+- **Custom RPC ID** (`krx_discordrpc_id_custom`): The custom application ID to use when "Custom" mode is selected.
+- ***Note***: Changes to RPC settings require a client **restart** to take full effect.
+ 
+ ---
+ 
+ ## **Configuration**
 
 1. Open the **Settings** tab in the KRX Client.
 2. **Assign Hotkeys**: Click the buttons next to each feature and press the desired key to bind it. Use the console (`F1`) for more complex binds (e.g., toggles with `bind KEY toggle COMMAND 1 0`).

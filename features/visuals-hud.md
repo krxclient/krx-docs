@@ -32,19 +32,58 @@ The **Visuals & HUD** tab in the KRX Client allows you to enhance the visual ele
 - **TAS HUD** ![Ultimate](https://img.shields.io/badge/Ultimate-%23f76d6d?style=flat-square) (`krx_tashud`): Displays an overlay with useful information for Tool-Assisted Speedruns (TAS), such as current input, reload timer, jumps remaining, grounded status, etc.
 - **Notifications** (`krx_notifications`): Enables on-screen popup notifications in the top-right corner triggered by certain bot actions or events (e.g., warnings, errors, task completion).
 
+## **Watermark** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+*(Displays a customizable KRX watermark on screen)*
+- **Enable** (`krx_watermark`): Toggles the watermark display.
+- **Segmented** (`krx_watermarksegmented`): Renders text character by character for smoother gradient effects.
+- **Gradient Speed** (`krx_watermarkgradientspeed`): Controls the speed of color transition.
+- **Start/End Color**: Sets the colors for the text gradient.
+- **Rainbow** (`krx_watermarkgradientrainbow`): Overrides colors with a cycling rainbow effect.
+
+## **Now Playing HUD** ![Premium](https://img.shields.io/badge/Premium-%23ffba00?style=flat-square)
+*(Displays the currently playing song from services like Spotify, Soundcloud, Youtube, etc.)*
+- **Enable** (`krx_nowplayinghud`): Toggles the "Now Playing" display.
+- **Segmented** (`krx_nowplayingsegmented`): Renders text character by character for smoother gradients.
+- **Gradient Speed** (`krx_nowplayinggradientspeed`): Controls the speed of color transition.
+- **Start/End Color**: Sets the colors for the text gradient.
+- **Rainbow** (`krx_nowplayinggradientrainbow`): Overrides colors with a cycling rainbow effect.
+
 ## **Miscellaneous Visuals**
 - **Rainbow Tee** (`krx_customcolortee` & `krx_customcolorteerainbow`): Applies a cycling rainbow color effect to your tee's body and feet. Requires **Custom Color Tee** to be enabled. Speed controlled by `krx_customcolorrainbowspeed`.
 - **Rainbow Hook** (`krx_customcolorhook` & `krx_customcolorhookrainbow`): Applies a cycling rainbow color effect to your hook chain and head. Requires **Custom Color Hook** to be enabled. Speed controlled by `krx_customcolorrainbowspeed`.
 - **Trail** (`krx_trail`): Enables a particle trail effect behind your tee. Type and color are configurable.
     - **Type** (`krx_trail_type`): Selects the trail effect (Smoke, Bullet, Powerup, Sparkle, Tater).
-    - **Color** (`krx_trail_color`): Sets the base color for the trail (if not Rainbow).
-    - **Rainbow** (`krx_trail_color_rainbow`): Overrides the base color with a cycling rainbow effect.
-    - **Tater Trail Options**: Additional settings specific to the "Tater" trail type appear if selected (Width, Length, Alpha, Taper, Fade, Color Mode).
+    - **Color** (`krx_trail_color`): Sets the base color for the trail (if not Rainbow and not Tater type).
+    - **Rainbow** (`krx_trail_color_rainbow`): Overrides the base color with a cycling rainbow effect (if not Tater type).
+    - **Tater Trail Options**: If "Tater" type is selected, additional options appear:
+        - **Low Taper**: Toggles tapering effect.
+        - **Fade**: Toggles fading alpha.
+        - **Color Mode**: Solid, Tee, Rainbow, Speed.
+        - **Solid Color**: Color picker for Solid mode.
+        - **Width/Length/Alpha**: Sliders to control trail appearance.
 - **Rainbow Menu** (`krx_rainbowmenu`): Applies a rainbow color effect to the KRX Client menu interface elements when **Custom Theme** is also enabled.
-- **Custom Theme** (`krx_customtheme`): Enables custom coloring for the KRX menu interface.
+
+## **Custom Menu**
+- **Enable** (`krx_customtheme`): Enables custom coloring for the KRX menu interface.
     - **Accent Color** (`krx_custom_accent_color`): Sets the primary highlight/accent color for menu elements.
     - **Background Color** (`krx_custom_bg_color`): Sets the background color for menu sections.
-- **Fall Prediction**: Displays a prediction line showing where your tee will land based on current velocity and gravity (does not account for inputs or collisions).
+
+## **Trajectory**
+*(Visualizes the predicted path of your character)*
+- **Enable** (`krx_trajectoryesp`): Toggles the trajectory display.
+- **Self only** (`krx_trajectoryespselfonly`): Limits the display to your own tee.
+- **Ticks** (`krx_trajectoryespticks`): How many ticks into the future to predict.
+- **Path thickness**: Controls the thickness of the rendered path.
+- **Path mode**: Style of the path (Full line, Dotted).
+- **Local/Frozen/Others color**: Color settings for different player states.
+
+## **Cam**
+*(Camera-related visual enhancements)*
+- **Smooth cam** (`krx_smoothcam`): Enables a smoother, cinematic camera movement.
+    - **Smoothness**: Adjusts how smooth the camera follows.
+- **Super dyncam** (`krx_superdyncam`): Unlocks unlimited zoom when using the dynamic camera (`cl_dyncam 1`).
+
+## **Tile Visuals**
 - **Tile Outlines** (`cl_outline`): Draws outlines around specific tile types (configurable).
     - **Freeze** (`cl_outline_freeze`): Outline freeze/deepfreeze tiles.
     - **Kill** (`cl_outline_kill`): Outline death tiles.
