@@ -99,7 +99,20 @@ Legit Avoid performs complex calculations to find subtle, safe movements. This c
 
 If you get any connection, SSL, or DNS errors when using KRX Client, try these steps first:
 
-1. **Open the [Cloudflare 1.1.1.1 app](https://one.one.one.one/)** and use **‘DNS-only’ mode** (do **NOT** enable WARP mode).
+1. Run these commands in Command Prompt (as Administrator):
+    ```bash
+    ipconfig /flushdns
+    
+    ipconfig /release
+    
+    ipconfig /renew
+    
+    netsh int ip reset
+    
+    netsh winsock reset
+    ```
+
+2. **Open the [Cloudflare 1.1.1.1 app](https://one.one.one.one/)** and use **‘DNS-only’ mode** (do **NOT** enable WARP mode).
 2. If it still doesn't work, try **WARP mode** in the same app.
 3. Try turning any other VPN you have ON or OFF.
 4. Restart your computer and your router.
